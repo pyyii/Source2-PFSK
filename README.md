@@ -19,6 +19,11 @@ an addon that works in both: non-VR, and VR if one wanted to. For instance:
 logic_auto supports two special outputs: OnVREnabled, and OnVRNotEnabled. These two outputs can be used to change the map depending
 on whether or not the player is in VR.
 
+However, making an addon that supports both, non-VR and VR may be challenging. It is strongly recommended that if you're going to pick
+one over the other, that you pick VR over non-VR, as opposed to making an addon that is solely non-VR.
+
+**Please do not use this to create an addon that only works outside of VR.**
+
 # Credits
 
 Credit to Dyna#9607/Dynacorp/KonqiTheKonqueror (https://twitter.com/KonqiKonqueror) for the rounded HUD corners, weapon scripts, and creating the Pancake FPS Starter Kit.
