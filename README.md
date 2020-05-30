@@ -14,7 +14,7 @@ The Source 2 Pancake FPS Starter Kit is designed to be a shared addon base that 
 
 # Credits
 
-Credit to Dyna#9607 (https://twitter.com/KonqiKonqueror) for the rounded HUD corners, weapon scripts, and creating the Pancake FPS Starter Kit.
+Credit to Dyna#9607/Dynacorp/KonqiTheKonqueror (https://twitter.com/KonqiKonqueror) for the rounded HUD corners, weapon scripts, and creating the Pancake FPS Starter Kit.
 
 Credit to https://juniez.artstation.com/ for the weapons.
 
