@@ -1,0 +1,455 @@
+<!-- dmx encoding keyvalues2_noids 4 format dmx 22 -->
+"$prefix_element$"
+{
+	"anim_frameRate" "float" "30"
+	"anim_duration" "time" "0.0000"
+}
+"DmElement"
+{
+	"name" "string" "root"
+	"model" "element" "631d5481-71d7-4032-b001-7f63795f8b87"
+	"skeleton" "element" "631d5481-71d7-4032-b001-7f63795f8b87"
+	"makefile" "DmeDCCMakefile"
+	{
+		"name" "string" "makefile"
+		"sources" "element_array" 
+		[
+		]
+	}
+	
+	"exportTags" "DmeExportTags"
+	{
+		"name" "string" "exportTags"
+		"date" "string" ""
+		"time" "string" ""
+		"user" "string" ""
+		"machine" "string" ""
+		"app" "string" ""
+		"appVersion" "string" ""
+		"vmdl" "string" "models/weapons/gravitygun/w_physics.vmdl"
+	}
+	
+	"animationList" "DmeAnimationList"
+	{
+		"name" "string" "@idle"
+		"animations" "element_array" 
+		[
+			"DmeChannelsClip"
+			{
+				"name" "string" "@idle"
+				"timeFrame" "DmeTimeFrame"
+				{
+					"start" "time" "0.0000"
+					"duration" "time" "0.0000"
+					"offset" "time" "0.0000"
+					"scale" "float" "1"
+				}
+				
+				"color" "color" "0 0 0 0"
+				"text" "string" ""
+				"mute" "bool" "0"
+				"trackGroups" "element_array" 
+				[
+				]
+				"displayScale" "float" "1"
+				"channels" "element_array" 
+				[
+					"DmeChannel"
+					{
+						"name" "string" "physgun_bone_p"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "a01a2c3b-3fe0-4c26-b7f3-e3556670978d"
+						"toAttribute" "string" "position"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array" 
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "vector3_array" 
+									[
+										"0 0 0"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "vector3" "0 0 0"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "physgun_bone_o"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "a01a2c3b-3fe0-4c26-b7f3-e3556670978d"
+						"toAttribute" "string" "orientation"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array" 
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "quaternion_array" 
+									[
+										"-0.0000863075 -0.0000863294 -0.0000863294 1"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "quaternion" "0 0 0 1"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "physgun_core_attachment_p"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "2ec74b5c-85ea-4d6a-b031-9e88469a7769"
+						"toAttribute" "string" "position"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array" 
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "vector3_array" 
+									[
+										"0.523247242 2.5106804371 23.975894928"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "vector3" "0 0 0"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "physgun_core_attachment_o"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "2ec74b5c-85ea-4d6a-b031-9e88469a7769"
+						"toAttribute" "string" "orientation"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array" 
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "quaternion_array" 
+									[
+										"0.0000000211 -0 0.7070959806 0.7071174979"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "quaternion" "0 0 0 1"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "w_physics_physics_p"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "4d339f2e-020f-426b-b6a7-c158970ce2a3"
+						"toAttribute" "string" "position"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array" 
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "vector3_array" 
+									[
+										"0 0 0"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "vector3" "0 0 0"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "w_physics_physics_o"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "4d339f2e-020f-426b-b6a7-c158970ce2a3"
+						"toAttribute" "string" "orientation"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array" 
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "quaternion_array" 
+									[
+										"0.5 0.5 0.5 -0.5"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "quaternion" "0 0 0 1"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					}
+				]
+				"frameRate" "float" "30"
+				"vbDelta" "bool" "0"
+				"vbLooping" "bool" "1"
+			}
+		]
+	}
+	
+}
+
+"DmeTransform"
+{
+	"id" "elementid" "a01a2c3b-3fe0-4c26-b7f3-e3556670978d"
+	"position" "vector3" "0 0 0"
+	"orientation" "quaternion" "-0.0000634491 -0.0000319997 -0.0000319997 1"
+}
+
+"DmeTransform"
+{
+	"id" "elementid" "2ec74b5c-85ea-4d6a-b031-9e88469a7769"
+	"position" "vector3" "0.5232504606 2.5106823444 23.9758892059"
+	"orientation" "quaternion" "-0.0000000378 -0.0000000014 0.7071065903 0.7071069479"
+}
+
+"DmeTransform"
+{
+	"id" "elementid" "4d339f2e-020f-426b-b6a7-c158970ce2a3"
+	"position" "vector3" "0 0 0"
+	"orientation" "quaternion" "0.5 0.5 0.5 -0.5"
+}
+
+"DmeModel"
+{
+	"id" "elementid" "631d5481-71d7-4032-b001-7f63795f8b87"
+	"name" "string" "w_physics"
+	"transform" "DmeTransform"
+	{
+		"position" "vector3" "0 0 0"
+		"orientation" "quaternion" "0 0 0 1"
+	}
+	
+	"shape" "element" ""
+	"visible" "bool" "1"
+	"children" "element_array" 
+	[
+		"DmeJoint"
+		{
+			"name" "string" "physgun_bone"
+			"transform" "element" "a01a2c3b-3fe0-4c26-b7f3-e3556670978d"
+			"shape" "element" ""
+			"visible" "bool" "1"
+			"children" "element_array" 
+			[
+				"DmeJoint"
+				{
+					"name" "string" "physgun_core_attachment"
+					"transform" "element" "2ec74b5c-85ea-4d6a-b031-9e88469a7769"
+					"shape" "element" ""
+					"visible" "bool" "1"
+					"children" "element_array" 
+					[
+					]
+				}
+			]
+		},
+		"DmeJoint"
+		{
+			"name" "string" "w_physics_physics"
+			"transform" "element" "4d339f2e-020f-426b-b6a7-c158970ce2a3"
+			"shape" "element" ""
+			"visible" "bool" "1"
+			"children" "element_array" 
+			[
+			]
+		}
+	]
+	"jointList" "element_array" 
+	[
+	]
+	"baseStates" "element_array" 
+	[
+		"DmeTransformList"
+		{
+			"name" "string" "bind"
+			"transforms" "element_array" 
+			[
+			]
+		}
+	]
+	"upAxis" "string" "Y"
+	"axisSystem" "DmeAxisSystem"
+	{
+		"upAxis" "int" "2"
+		"forwardParity" "int" "2"
+		"coordSys" "int" "0"
+	}
+	
+}
+

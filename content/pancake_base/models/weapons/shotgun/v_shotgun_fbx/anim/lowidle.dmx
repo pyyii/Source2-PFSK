@@ -1,0 +1,5720 @@
+<!-- dmx encoding keyvalues2_noids 4 format dmx 22 -->
+"$prefix_element$"
+{
+	"anim_frameRate" "float" "30"
+	"anim_duration" "time" "0.0000"
+}
+"DmElement"
+{
+	"name" "string" "root"
+	"model" "element" "5ee5de83-71e1-4236-ac7d-a09346495ab9"
+	"skeleton" "element" "5ee5de83-71e1-4236-ac7d-a09346495ab9"
+	"makefile" "DmeDCCMakefile"
+	{
+		"name" "string" "makefile"
+		"sources" "element_array" 
+		[
+		]
+	}
+	
+	"exportTags" "DmeExportTags"
+	{
+		"name" "string" "exportTags"
+		"date" "string" ""
+		"time" "string" ""
+		"user" "string" ""
+		"machine" "string" ""
+		"app" "string" ""
+		"appVersion" "string" ""
+		"vmdl" "string" "models/weapons/shotgun/v_shotgun.vmdl"
+	}
+	
+	"animationList" "DmeAnimationList"
+	{
+		"name" "string" "@lowidle"
+		"animations" "element_array" 
+		[
+			"DmeChannelsClip"
+			{
+				"name" "string" "@lowidle"
+				"timeFrame" "DmeTimeFrame"
+				{
+					"start" "time" "0.0000"
+					"duration" "time" "0.0000"
+					"offset" "time" "0.0000"
+					"scale" "float" "1"
+				}
+				
+				"color" "color" "0 0 0 0"
+				"text" "string" ""
+				"mute" "bool" "0"
+				"trackGroups" "element_array" 
+				[
+				]
+				"displayScale" "float" "1"
+				"channels" "element_array" 
+				[
+					"DmeChannel"
+					{
+						"name" "string" "spas_main_p"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "ff4a22af-2ace-4cc8-9342-2713af079e9f"
+						"toAttribute" "string" "position"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array" 
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "vector3_array" 
+									[
+										"-3.2128913403 -5.8828125 11.515625"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "vector3" "0 0 0"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "spas_main_o"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "ff4a22af-2ace-4cc8-9342-2713af079e9f"
+						"toAttribute" "string" "orientation"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array" 
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "quaternion_array" 
+									[
+										"0.7461394668 0.0847962424 -0.1561446041 0.6416417956"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "quaternion" "0 0 0 1"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "pump_p"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "b6975880-8531-484b-9a8a-1e4ae7cadd90"
+						"toAttribute" "string" "position"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array" 
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "vector3_array" 
+									[
+										"0.0735692978 17.5269203186 0.7772212029"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "vector3" "0 0 0"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "pump_o"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "b6975880-8531-484b-9a8a-1e4ae7cadd90"
+						"toAttribute" "string" "orientation"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array" 
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "quaternion_array" 
+									[
+										"0 0 0 1"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "quaternion" "0 0 0 1"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "slide_p"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "49c421e2-7227-4111-87ff-db7ffcb602c1"
+						"toAttribute" "string" "position"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array" 
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "vector3_array" 
+									[
+										"-0.2263870239 4.254942894 -0.6089606285"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "vector3" "0 0 0"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "slide_o"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "49c421e2-7227-4111-87ff-db7ffcb602c1"
+						"toAttribute" "string" "orientation"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array" 
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "quaternion_array" 
+									[
+										"0 0 0 1"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "quaternion" "0 0 0 1"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "12g_p"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "9157cf55-505e-49ff-8466-2a716d25387a"
+						"toAttribute" "string" "position"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array" 
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "vector3_array" 
+									[
+										"-0.2719736099 6.7968759537 -0.8144533634"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "vector3" "0 0 0"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "12g_o"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "9157cf55-505e-49ff-8466-2a716d25387a"
+						"toAttribute" "string" "orientation"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array" 
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "quaternion_array" 
+									[
+										"0 0 0 1"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "quaternion" "0 0 0 1"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "sl_ring1_p"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "98d2fdfb-8a89-4e99-bde2-caa550849416"
+						"toAttribute" "string" "position"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array" 
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "vector3_array" 
+									[
+										"-0.116150856 1.806640625 2.4648442268"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "vector3" "0 0 0"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "sl_ring1_o"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "98d2fdfb-8a89-4e99-bde2-caa550849416"
+						"toAttribute" "string" "orientation"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array" 
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "quaternion_array" 
+									[
+										"0.4397445321 0.0000000518 -0.0000000228 0.8981229067"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "quaternion" "0 0 0 1"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "sl1a_p"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "d97a17f5-a3fb-4372-948f-646e87258e47"
+						"toAttribute" "string" "position"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array" 
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "vector3_array" 
+									[
+										"0 1.0302743912 0.000002861"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "vector3" "0 0 0"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "sl1a_o"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "d97a17f5-a3fb-4372-948f-646e87258e47"
+						"toAttribute" "string" "orientation"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array" 
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "quaternion_array" 
+									[
+										"-0.0107476041 0.9713424444 -0.2373964638 -0.0046184063"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "quaternion" "0 0 0 1"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "sl_ring2_p"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "56aaac16-a395-41b4-9209-e994727392a4"
+						"toAttribute" "string" "position"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array" 
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "vector3_array" 
+									[
+										"-0.2182717323 25.7775802612 2.4870738983"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "vector3" "0 0 0"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "sl_ring2_o"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "56aaac16-a395-41b4-9209-e994727392a4"
+						"toAttribute" "string" "orientation"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array" 
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "quaternion_array" 
+									[
+										"0.9584488869 0 0.0000000253 0.2852641046"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "quaternion" "0 0 0 1"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "sl2a_p"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "d374e45a-1d0f-436d-b0cd-3ac79d0c862e"
+						"toAttribute" "string" "position"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array" 
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "vector3_array" 
+									[
+										"0 0.8701190948 0.0000076294"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "vector3" "0 0 0"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "sl2a_o"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "d374e45a-1d0f-436d-b0cd-3ac79d0c862e"
+						"toAttribute" "string" "orientation"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array" 
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "quaternion_array" 
+									[
+										"-0.0157545004 -0.0001726496 0.0009927495 0.9998754263"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "quaternion" "0 0 0 1"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "sltarget_p"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "d213a725-71a8-4b5a-ab03-eeef376771ef"
+						"toAttribute" "string" "position"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array" 
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "vector3_array" 
+									[
+										"-0.2990751266 15.695315361 7.007815361"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "vector3" "0 0 0"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "sltarget_o"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "d213a725-71a8-4b5a-ab03-eeef376771ef"
+						"toAttribute" "string" "orientation"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array" 
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "quaternion_array" 
+									[
+										"-0.7070960402 -0.0000000817 -0.0000000527 0.7071174383"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "quaternion" "0 0 0 1"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "l_wrist_p"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "061a7525-b7b9-4642-aff6-304a5964175e"
+						"toAttribute" "string" "position"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array" 
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "vector3_array" 
+									[
+										"2.2949204445 -11.7265625 22.3125"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "vector3" "0 0 0"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "l_wrist_o"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "061a7525-b7b9-4642-aff6-304a5964175e"
+						"toAttribute" "string" "orientation"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array" 
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "quaternion_array" 
+									[
+										"-0.0306914374 0.7105084062 0.5901269317 0.3820813"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "quaternion" "0 0 0 1"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "l_thumb_low_p"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "bef9969d-fe9f-44cb-b589-66825d0ad64b"
+						"toAttribute" "string" "position"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array" 
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "vector3_array" 
+									[
+										"-1.2939434052 1.4736328125 0.6401386261"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "vector3" "0 0 0"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "l_thumb_low_o"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "bef9969d-fe9f-44cb-b589-66825d0ad64b"
+						"toAttribute" "string" "orientation"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array" 
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "quaternion_array" 
+									[
+										"-0.3589866161 0.8249818683 0.2025638968 -0.3866540194"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "quaternion" "0 0 0 1"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "l_thumb_mid_p"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "1bd30c0e-f436-4e99-9772-8670d9107103"
+						"toAttribute" "string" "position"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array" 
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "vector3_array" 
+									[
+										"0.0000114441 1.8320302963 0.0000038147"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "vector3" "0 0 0"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "l_thumb_mid_o"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "1bd30c0e-f436-4e99-9772-8670d9107103"
+						"toAttribute" "string" "orientation"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array" 
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "quaternion_array" 
+									[
+										"0.0511049628 -0.1212448254 -0.0047047581 0.99129498"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "quaternion" "0 0 0 1"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "l_index_low_p"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "c01cd524-f010-4992-95a6-23c4df2e5a55"
+						"toAttribute" "string" "position"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array" 
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "vector3_array" 
+									[
+										"-1.6327400208 4.3276453018 -0.4839515686"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "vector3" "0 0 0"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "l_index_low_o"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "c01cd524-f010-4992-95a6-23c4df2e5a55"
+						"toAttribute" "string" "orientation"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array" 
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "quaternion_array" 
+									[
+										"0.181414023 0.136697188 -0.0348756835 0.9732350707"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "quaternion" "0 0 0 1"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "l_middle_low_p"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "22a6f276-0c70-4f4a-9328-573462ea4d3f"
+						"toAttribute" "string" "position"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array" 
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "vector3_array" 
+									[
+										"-0.5003261566 4.4529180527 -0.5324983597"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "vector3" "0 0 0"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "l_middle_low_o"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "22a6f276-0c70-4f4a-9328-573462ea4d3f"
+						"toAttribute" "string" "orientation"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array" 
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "quaternion_array" 
+									[
+										"0.1936722994 0.1422652006 -0.0197254904 0.9704959989"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "quaternion" "0 0 0 1"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "l_ring_low_p"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "66ca0450-887d-43fc-9a11-49e47358bbc1"
+						"toAttribute" "string" "position"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array" 
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "vector3_array" 
+									[
+										"0.5232219696 4.540312767 -0.4807138443"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "vector3" "0 0 0"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "l_ring_low_o"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "66ca0450-887d-43fc-9a11-49e47358bbc1"
+						"toAttribute" "string" "orientation"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array" 
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "quaternion_array" 
+									[
+										"0.4252417684 0.0717800558 -0.1872410327 0.8825858831"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "quaternion" "0 0 0 1"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "l_pinky_low_p"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "301b23f4-2c3c-485f-9aa8-8622b710161a"
+						"toAttribute" "string" "position"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array" 
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "vector3_array" 
+									[
+										"1.3543643951 4.1506567001 -0.5826539993"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "vector3" "0 0 0"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "l_pinky_low_o"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "301b23f4-2c3c-485f-9aa8-8622b710161a"
+						"toAttribute" "string" "orientation"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array" 
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "quaternion_array" 
+									[
+										"0.4190262258 -0.0027624313 -0.2351519465 0.8769907951"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "quaternion" "0 0 0 1"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "l_upperarm_p"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "51f086df-d1d3-4163-95ac-e2fc5002f27b"
+						"toAttribute" "string" "position"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array" 
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "vector3_array" 
+									[
+										"4.9999990463 -8.109375 8.0703125"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "vector3" "0 0 0"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "l_upperarm_o"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "51f086df-d1d3-4163-95ac-e2fc5002f27b"
+						"toAttribute" "string" "orientation"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array" 
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "quaternion_array" 
+									[
+										"0.9753400683 0.0150067601 -0.0908872858 0.2005644888"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "quaternion" "0 0 0 1"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "l_forearm_p"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "2125dec4-4c97-46ca-9f6d-b1301b25178f"
+						"toAttribute" "string" "position"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array" 
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "vector3_array" 
+									[
+										"0.0000321865 12.6953134537 -0.0000042915"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "vector3" "0 0 0"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "l_forearm_o"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "2125dec4-4c97-46ca-9f6d-b1301b25178f"
+						"toAttribute" "string" "orientation"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array" 
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "quaternion_array" 
+									[
+										"-0.7417349219 0.0181716736 0.3263122141 0.5856785774"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "quaternion" "0 0 0 1"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "r_wrist_p"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "dc754c00-b4c5-4c77-88b9-05bd469b8283"
+						"toAttribute" "string" "position"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array" 
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "vector3_array" 
+									[
+										"-6.2031259537 -8.6484375 5.9335932732"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "vector3" "0 0 0"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "r_wrist_o"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "dc754c00-b4c5-4c77-88b9-05bd469b8283"
+						"toAttribute" "string" "orientation"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array" 
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "quaternion_array" 
+									[
+										"0.4140551984 -0.3900280297 -0.6429054141 0.5129415989"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "quaternion" "0 0 0 1"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "r_thumb_low_p"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "717278f4-d0d3-403a-ab16-510d8b65111b"
+						"toAttribute" "string" "position"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array" 
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "vector3_array" 
+									[
+										"-1.3913927078 1.4765386581 -0.7006382942"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "vector3" "0 0 0"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "r_thumb_low_o"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "717278f4-d0d3-403a-ab16-510d8b65111b"
+						"toAttribute" "string" "orientation"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array" 
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "quaternion_array" 
+									[
+										"-0.0058270036 -0.7351735234 0.2863000929 0.6144250035"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "quaternion" "0 0 0 1"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "r_thumb_mid_p"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "c8cecf1c-33ea-447f-acbb-f77d9112f8fe"
+						"toAttribute" "string" "position"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array" 
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "vector3_array" 
+									[
+										"0.0000033379 1.7509770393 0.0000009537"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "vector3" "0 0 0"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "r_thumb_mid_o"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "c8cecf1c-33ea-447f-acbb-f77d9112f8fe"
+						"toAttribute" "string" "orientation"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array" 
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "quaternion_array" 
+									[
+										"-0.1967369169 -0.0799378604 -0.101217173 0.9719360471"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "quaternion" "0 0 0 1"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "r_index_low_p"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "07b49ab3-8a38-48d7-a469-d703ed8b8ca5"
+						"toAttribute" "string" "position"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array" 
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "vector3_array" 
+									[
+										"-1.5966801643 4.4414076805 0.7084965706"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "vector3" "0 0 0"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "r_index_low_o"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "07b49ab3-8a38-48d7-a469-d703ed8b8ca5"
+						"toAttribute" "string" "orientation"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array" 
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "quaternion_array" 
+									[
+										"-0.0858511925 -0.6560773849 0.0869302377 0.7447383404"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "quaternion" "0 0 0 1"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "r_middle_low_p"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "5acbb83a-3645-4959-9afb-c012cc7658df"
+						"toAttribute" "string" "position"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array" 
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "vector3_array" 
+									[
+										"-0.470703125 4.2187514305 0.9262695313"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "vector3" "0 0 0"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "r_middle_low_o"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "5acbb83a-3645-4959-9afb-c012cc7658df"
+						"toAttribute" "string" "orientation"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array" 
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "quaternion_array" 
+									[
+										"0.0050500659 0.950555563 -0.3058961034 -0.053349454"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "quaternion" "0 0 0 1"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "r_ring_low_p"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "83c64303-3796-456e-b00f-5f9e8a2ae24c"
+						"toAttribute" "string" "position"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array" 
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "vector3_array" 
+									[
+										"0.5768375397 4.2983880043 0.6394319534"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "vector3" "0 0 0"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "r_ring_low_o"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "83c64303-3796-456e-b00f-5f9e8a2ae24c"
+						"toAttribute" "string" "orientation"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array" 
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "quaternion_array" 
+									[
+										"-0.0520977192 0.8855406046 -0.4605490863 -0.0315953083"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "quaternion" "0 0 0 1"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "r_pinky_low_p"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "43532c78-97b4-4a15-9c19-3d770c2a1a12"
+						"toAttribute" "string" "position"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array" 
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "vector3_array" 
+									[
+										"1.4598846436 4.2755732536 0.2190184593"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "vector3" "0 0 0"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "r_pinky_low_o"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "43532c78-97b4-4a15-9c19-3d770c2a1a12"
+						"toAttribute" "string" "orientation"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array" 
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "quaternion_array" 
+									[
+										"-0.1200794354 0.8698449135 -0.4767351747 -0.0409185141"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "quaternion" "0 0 0 1"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "r_upperarm_p"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "1cdfcb7a-3091-4f76-b30d-f940d8f94519"
+						"toAttribute" "string" "position"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array" 
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "vector3_array" 
+									[
+										"-6.5078129768 -7.4882807732 -4.5703129768"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "vector3" "0 0 0"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "r_upperarm_o"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "1cdfcb7a-3091-4f76-b30d-f940d8f94519"
+						"toAttribute" "string" "orientation"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array" 
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "quaternion_array" 
+									[
+										"0.9523381591 -0.2080788016 -0.1829579175 0.1275997907"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "quaternion" "0 0 0 1"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "r_forearm_p"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "f36c1808-cbad-4f8c-aff3-5c0357034058"
+						"toAttribute" "string" "position"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array" 
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "vector3_array" 
+									[
+										"0.0000122786 12.7063598633 0.0000104904"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "vector3" "0 0 0"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "r_forearm_o"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "f36c1808-cbad-4f8c-aff3-5c0357034058"
+						"toAttribute" "string" "orientation"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array" 
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "quaternion_array" 
+									[
+										"0.8915578723 -0.0164882448 -0.1837448031 -0.4136308432"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "quaternion" "0 0 0 1"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "trapdoor_p"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "137ac8f9-404c-4af8-a6f1-2d6f19a66250"
+						"toAttribute" "string" "position"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array" 
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "vector3_array" 
+									[
+										"-0.0450754166 3.5664072037 0.8911132813"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "vector3" "0 0 0"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "trapdoor_o"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "137ac8f9-404c-4af8-a6f1-2d6f19a66250"
+						"toAttribute" "string" "orientation"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array" 
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "quaternion_array" 
+									[
+										"0 0 0 1"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "quaternion" "0 0 0 1"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "sl1b_p"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "9938e170-573e-45f3-a1b7-fdb4aede6ea5"
+						"toAttribute" "string" "position"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array" 
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "vector3_array" 
+									[
+										"-0.0000009537 5.1796884537 -0.0000429153"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "vector3" "0 0 0"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "sl1b_o"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "9938e170-573e-45f3-a1b7-fdb4aede6ea5"
+						"toAttribute" "string" "orientation"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array" 
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "quaternion_array" 
+									[
+										"0.1247410253 -0.0009496023 0.0078124981 0.9921580553"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "quaternion" "0 0 0 1"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "sl2b_p"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "60e8e774-5c63-4e9f-ac78-39f1849f56b1"
+						"toAttribute" "string" "position"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array" 
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "vector3_array" 
+									[
+										"0.0000004768 4.4784011841 0.0000705719"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "vector3" "0 0 0"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "sl2b_o"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "60e8e774-5c63-4e9f-ac78-39f1849f56b1"
+						"toAttribute" "string" "orientation"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array" 
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "quaternion_array" 
+									[
+										"0.1765798032 -0.0007337882 0.0050500683 0.9842731357"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "quaternion" "0 0 0 1"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "l_thumb_tip_p"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "05fa4864-ce0e-42be-a063-f6113e9ddca7"
+						"toAttribute" "string" "position"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array" 
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "vector3_array" 
+									[
+										"-0.0000004768 1.0029277802 0.0000019073"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "vector3" "0 0 0"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "l_thumb_tip_o"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "05fa4864-ce0e-42be-a063-f6113e9ddca7"
+						"toAttribute" "string" "orientation"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array" 
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "quaternion_array" 
+									[
+										"0.0771322548 -0.0130783757 -0.0854195505 0.9932689667"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "quaternion" "0 0 0 1"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "l_index_mid_p"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "b9cc4f17-d99b-4245-bdec-9f611d79c556"
+						"toAttribute" "string" "position"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array" 
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "vector3_array" 
+									[
+										"-0.0000038147 1.6367206573 0.0000038147"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "vector3" "0 0 0"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "l_index_mid_o"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "b9cc4f17-d99b-4245-bdec-9f611d79c556"
+						"toAttribute" "string" "orientation"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array" 
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "quaternion_array" 
+									[
+										"0.4799292088 -0.0195528604 -0.052140899 0.8755380511"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "quaternion" "0 0 0 1"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "l_index_tip_p"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "8d208978-fd44-462a-9daf-8f91886b895c"
+						"toAttribute" "string" "position"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array" 
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "vector3_array" 
+									[
+										"0 1.1005859375 0"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "vector3" "0 0 0"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "l_index_tip_o"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "8d208978-fd44-462a-9daf-8f91886b895c"
+						"toAttribute" "string" "orientation"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array" 
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "quaternion_array" 
+									[
+										"0.0096685104 0.0381561108 -0.034357734 0.9986341"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "quaternion" "0 0 0 1"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "l_middle_mid_p"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "071c1332-7f4d-4894-ac22-838c62b31791"
+						"toAttribute" "string" "position"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array" 
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "vector3_array" 
+									[
+										"-0.0000047684 1.4423818588 -0.0000019073"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "vector3" "0 0 0"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "l_middle_mid_o"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "071c1332-7f4d-4894-ac22-838c62b31791"
+						"toAttribute" "string" "orientation"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array" 
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "quaternion_array" 
+									[
+										"0.6161084771 0.0002158297 -0.0234375186 0.7873125076"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "quaternion" "0 0 0 1"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "l_middle_tip_p"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "17556389-bba4-498e-b61e-877059388ec6"
+						"toAttribute" "string" "position"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array" 
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "vector3_array" 
+									[
+										"-0.0000019073 1.3017578125 -0.0000019073"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "vector3" "0 0 0"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "l_middle_tip_o"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "17556389-bba4-498e-b61e-877059388ec6"
+						"toAttribute" "string" "orientation"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array" 
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "quaternion_array" 
+									[
+										"0.0022013152 -0.0209772084 0.001467541 0.999776423"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "quaternion" "0 0 0 1"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "l_ring_mid_p"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "155f5ba4-b820-4970-beab-03c871b4b26a"
+						"toAttribute" "string" "position"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array" 
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "vector3_array" 
+									[
+										"-0.000005722 1.1972663403 0.000005722"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "vector3" "0 0 0"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "l_ring_mid_o"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "155f5ba4-b820-4970-beab-03c871b4b26a"
+						"toAttribute" "string" "orientation"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array" 
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "quaternion_array" 
+									[
+										"0.3586412072 -0.0547738336 0.0439830609 0.9308285117"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "quaternion" "0 0 0 1"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "l_ring_tip_p"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "9b9b62d9-923f-42b5-b066-8422dd72f44c"
+						"toAttribute" "string" "position"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array" 
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "vector3_array" 
+									[
+										"-0.000005722 0.8696289063 0.0000009537"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "vector3" "0 0 0"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "l_ring_tip_o"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "9b9b62d9-923f-42b5-b066-8422dd72f44c"
+						"toAttribute" "string" "orientation"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array" 
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "quaternion_array" 
+									[
+										"0.109159179 0.0306457393 -0.0126899136 0.9934707284"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "quaternion" "0 0 0 1"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "l_pinky_mid_p"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "49629e16-4c3c-46c4-820e-ffc050901f9b"
+						"toAttribute" "string" "position"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array" 
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "vector3_array" 
+									[
+										"-0.0000038147 1.1572263241 -0.0000038147"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "vector3" "0 0 0"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "l_pinky_mid_o"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "49629e16-4c3c-46c4-820e-ffc050901f9b"
+						"toAttribute" "string" "orientation"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array" 
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "quaternion_array" 
+									[
+										"0.4653401077 -0.0505870134 0.0280990861 0.8832383156"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "quaternion" "0 0 0 1"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "l_pinky_tip_p"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "f2d0f542-f2f2-48c7-a0e7-b4b0e84cb255"
+						"toAttribute" "string" "position"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array" 
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "vector3_array" 
+									[
+										"0.0000038147 1.01953125 0.0000047684"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "vector3" "0 0 0"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "l_pinky_tip_o"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "f2d0f542-f2f2-48c7-a0e7-b4b0e84cb255"
+						"toAttribute" "string" "orientation"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array" 
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "quaternion_array" 
+									[
+										"-0.0604713261 -0.0069924043 -0.0132941948 0.9980569482"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "quaternion" "0 0 0 1"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "r_thumb_tip_p"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "c2f7e6c8-f4a4-4065-b37a-3ac810b97951"
+						"toAttribute" "string" "position"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array" 
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "vector3_array" 
+									[
+										"0.0000047684 1.1220712662 -0.0000019073"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "vector3" "0 0 0"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "r_thumb_tip_o"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "c2f7e6c8-f4a4-4065-b37a-3ac810b97951"
+						"toAttribute" "string" "orientation"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array" 
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "quaternion_array" 
+									[
+										"-0.178824231 -0.0156681743 -0.0507165082 0.982448101"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "quaternion" "0 0 0 1"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "r_index_mid_p"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "82be1803-045a-4e71-bc60-a25e1efbf3d7"
+						"toAttribute" "string" "position"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array" 
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "vector3_array" 
+									[
+										"0.0000009537 1.4814462662 -0.0000023842"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "vector3" "0 0 0"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "r_index_mid_o"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "82be1803-045a-4e71-bc60-a25e1efbf3d7"
+						"toAttribute" "string" "orientation"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array" 
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "quaternion_array" 
+									[
+										"0.0231353603 0.0475224443 0.0861964747 0.9948750138"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "quaternion" "0 0 0 1"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "r_index_tip_p"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "38b099bd-2d3d-4cb5-bfb2-7af3f56988c6"
+						"toAttribute" "string" "position"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array" 
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "vector3_array" 
+									[
+										"0.0000009537 1.056640625 0.0000004768"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "vector3" "0 0 0"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "r_index_tip_o"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "38b099bd-2d3d-4cb5-bfb2-7af3f56988c6"
+						"toAttribute" "string" "orientation"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array" 
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "quaternion_array" 
+									[
+										"-0.024861889 -0.0824412927 0.2462448478 0.9653749466"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "quaternion" "0 0 0 1"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "r_middle_mid_p"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "26a92d14-2d6d-492f-b784-b86ab6bff86b"
+						"toAttribute" "string" "position"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array" 
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "vector3_array" 
+									[
+										"0.0000023842 1.6093747616 -0.000005722"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "vector3" "0 0 0"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "r_middle_mid_o"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "26a92d14-2d6d-492f-b784-b86ab6bff86b"
+						"toAttribute" "string" "orientation"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array" 
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "quaternion_array" 
+									[
+										"0.6207700372 -0.0172651689 0.0700103715 0.7806696296"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "quaternion" "0 0 0 1"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "r_middle_tip_p"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "83bdb925-3128-4c03-bba6-53e838ce9cb2"
+						"toAttribute" "string" "position"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array" 
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "vector3_array" 
+									[
+										"-0.0000009537 1.5615224838 0.0000081062"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "vector3" "0 0 0"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "r_middle_tip_o"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "83bdb925-3128-4c03-bba6-53e838ce9cb2"
+						"toAttribute" "string" "orientation"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array" 
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "quaternion_array" 
+									[
+										"0.5964261889 0.0008632688 -0.0204161052 0.8024078608"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "quaternion" "0 0 0 1"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "r_ring_mid_p"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "f465dd2e-344e-4756-9308-5994a206b20c"
+						"toAttribute" "string" "position"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array" 
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "vector3_array" 
+									[
+										"0 1.5537109375 -0.0000076294"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "vector3" "0 0 0"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "r_ring_mid_o"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "f465dd2e-344e-4756-9308-5994a206b20c"
+						"toAttribute" "string" "orientation"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array" 
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "quaternion_array" 
+									[
+										"0.585980773 0.059219636 -0.0376812965 0.8072792292"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "quaternion" "0 0 0 1"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "r_ring_tip_p"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "fe56aab5-6830-4708-a26f-b1e9970c1955"
+						"toAttribute" "string" "position"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array" 
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "vector3_array" 
+									[
+										"-0.0000009537 0.8740234375 -0.0000112057"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "vector3" "0 0 0"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "r_ring_tip_o"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "fe56aab5-6830-4708-a26f-b1e9970c1955"
+						"toAttribute" "string" "orientation"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array" 
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "quaternion_array" 
+									[
+										"0.4233857393 0.0909444317 0.0672047809 0.8988644481"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "quaternion" "0 0 0 1"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "r_pinky_mid_p"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "cc797b2b-5d13-467f-98e7-e9be3a1d24f6"
+						"toAttribute" "string" "position"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array" 
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "vector3_array" 
+									[
+										"-0.0000066757 0.9726557732 -0.0000038147"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "vector3" "0 0 0"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "r_pinky_mid_o"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "cc797b2b-5d13-467f-98e7-e9be3a1d24f6"
+						"toAttribute" "string" "orientation"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array" 
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "quaternion_array" 
+									[
+										"0.4580023289 0.1221943945 -0.0003021588 0.880512476"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "quaternion" "0 0 0 1"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "r_pinky_tip_p"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "a2f19341-2634-4084-94e2-dc500767502a"
+						"toAttribute" "string" "position"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array" 
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "vector3_array" 
+									[
+										"0.0000019073 0.970703125 0"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "vector3" "0 0 0"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					},
+					"DmeChannel"
+					{
+						"name" "string" "r_pinky_tip_o"
+						"fromElement" "element" ""
+						"fromAttribute" "string" ""
+						"fromIndex" "int" "0"
+						"toElement" "element" "a2f19341-2634-4084-94e2-dc500767502a"
+						"toAttribute" "string" "orientation"
+						"toIndex" "int" "0"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array" 
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "time_array" 
+									[
+										"0.0000"
+									]
+									"curvetypes" "int_array" 
+									[
+									]
+									"values" "quaternion_array" 
+									[
+										"0.5543852448 0.0776502043 0.0386308506 0.8277288079"
+									]
+									"compressed" "binary" 
+									"
+									"
+								}
+							]
+							"curveinfo" "element" ""
+							"usedefaultvalue" "bool" "0"
+							"defaultvalue" "quaternion" "0 0 0 1"
+							"bookmarksX" "time_array" 
+							[
+							]
+							"bookmarksY" "time_array" 
+							[
+							]
+							"bookmarksZ" "time_array" 
+							[
+							]
+						}
+						
+						"channelType" "string" "skeleton"
+					}
+				]
+				"frameRate" "float" "30"
+				"vbDelta" "bool" "0"
+				"vbLooping" "bool" "1"
+			}
+		]
+	}
+	
+}
+
+"DmeTransform"
+{
+	"id" "elementid" "ff4a22af-2ace-4cc8-9342-2713af079e9f"
+	"position" "vector3" "-3.2140331268 -4.9572429657 11.5205726624"
+	"orientation" "quaternion" "0.7067440152 -0.0226994399 -0.0226519685 0.7067422271"
+}
+
+"DmeTransform"
+{
+	"id" "elementid" "b6975880-8531-484b-9a8a-1e4ae7cadd90"
+	"position" "vector3" "0.0735831261 17.5269012451 0.7772169113"
+	"orientation" "quaternion" "-0 0.0000004955 0 1"
+}
+
+"DmeTransform"
+{
+	"id" "elementid" "49c421e2-7227-4111-87ff-db7ffcb602c1"
+	"position" "vector3" "-0.2263813019 4.2549362183 -0.6089630127"
+	"orientation" "quaternion" "0 -0.0000004955 0 1"
+}
+
+"DmeTransform"
+{
+	"id" "elementid" "9157cf55-505e-49ff-8466-2a716d25387a"
+	"position" "vector3" "-0.2719666958 6.7929639816 -0.8144545555"
+	"orientation" "quaternion" "-0 0.0000004955 0 1"
+}
+
+"DmeTransform"
+{
+	"id" "elementid" "98d2fdfb-8a89-4e99-bde2-caa550849416"
+	"position" "vector3" "-0.1161811352 1.8075828552 2.4649925232"
+	"orientation" "quaternion" "0.4370955825 0.0000008558 -0.0000004151 0.8994150162"
+}
+
+"DmeTransform"
+{
+	"id" "elementid" "d97a17f5-a3fb-4372-948f-646e87258e47"
+	"position" "vector3" "0.0000033379 1.0306100845 0.0000042915"
+	"orientation" "quaternion" "-0.0104291691 0.9715729952 -0.2364722341 -0.0042455141"
+}
+
+"DmeTransform"
+{
+	"id" "elementid" "56aaac16-a395-41b4-9209-e994727392a4"
+	"position" "vector3" "-0.2182526588 25.7775611877 2.4870700836"
+	"orientation" "quaternion" "0.9589602947 0.0000002923 -0.0000009925 0.2835404277"
+}
+
+"DmeTransform"
+{
+	"id" "elementid" "d374e45a-1d0f-436d-b0cd-3ac79d0c862e"
+	"position" "vector3" "0.0000081062 0.8703556061 0.0000190735"
+	"orientation" "quaternion" "-0.0152800288 -0.0001639766 0.0009260682 0.9998828173"
+}
+
+"DmeTransform"
+{
+	"id" "elementid" "d213a725-71a8-4b5a-ab03-eeef376771ef"
+	"position" "vector3" "-0.2952115536 15.7000188828 7.0497031212"
+	"orientation" "quaternion" "-0.7071065307 0.0000007852 0.0000007823 0.7071069479"
+}
+
+"DmeTransform"
+{
+	"id" "elementid" "061a7525-b7b9-4642-aff6-304a5964175e"
+	"position" "vector3" "-1.551435709 -8.7589445114 24.3249435425"
+	"orientation" "quaternion" "-0.1729797423 0.6801196337 0.5254176259 0.4810940921"
+}
+
+"DmeTransform"
+{
+	"id" "elementid" "bef9969d-fe9f-44cb-b589-66825d0ad64b"
+	"position" "vector3" "-1.294675827 1.4736738205 0.6404633522"
+	"orientation" "quaternion" "-0.3590144813 0.8249517083 0.2025887966 -0.3866795599"
+}
+
+"DmeTransform"
+{
+	"id" "elementid" "1bd30c0e-f436-4e99-9772-8670d9107103"
+	"position" "vector3" "0.0000135899 1.8325605392 0.0000267029"
+	"orientation" "quaternion" "0.0511302836 -0.1212787852 -0.0047235456 0.9912894964"
+}
+
+"DmeTransform"
+{
+	"id" "elementid" "c01cd524-f010-4992-95a6-23c4df2e5a55"
+	"position" "vector3" "-1.6327495575 4.3276538849 -0.4839525223"
+	"orientation" "quaternion" "0.1814536452 0.1367358565 -0.0348758474 0.9732223153"
+}
+
+"DmeTransform"
+{
+	"id" "elementid" "22a6f276-0c70-4f4a-9328-573462ea4d3f"
+	"position" "vector3" "-0.5003414154 4.4529294968 -0.5324993134"
+	"orientation" "quaternion" "0.1936997622 0.1423014849 -0.019747695 0.9704847932"
+}
+
+"DmeTransform"
+{
+	"id" "elementid" "66ca0450-887d-43fc-9a11-49e47358bbc1"
+	"position" "vector3" "0.5232143402 4.5403213501 -0.4807167053"
+	"orientation" "quaternion" "0.4252842069 0.0718144923 -0.1872653514 0.8825574517"
+}
+
+"DmeTransform"
+{
+	"id" "elementid" "301b23f4-2c3c-485f-9aa8-8622b710161a"
+	"position" "vector3" "1.3543586731 4.1506643295 -0.5826568604"
+	"orientation" "quaternion" "0.4190309346 -0.0027666336 -0.2351951599 0.8769770265"
+}
+
+"DmeTransform"
+{
+	"id" "elementid" "51f086df-d1d3-4163-95ac-e2fc5002f27b"
+	"position" "vector3" "5.0032172203 -8.1165122986 8.0703144073"
+	"orientation" "quaternion" "0.9260519743 -0.0045481911 0.0325864926 0.3759589195"
+}
+
+"DmeTransform"
+{
+	"id" "elementid" "2125dec4-4c97-46ca-9f6d-b1301b25178f"
+	"position" "vector3" "0.0000348091 12.6954221725 -0.0000061989"
+	"orientation" "quaternion" "-0.6646618843 0.0213715099 0.2924259901 0.6872080564"
+}
+
+"DmeTransform"
+{
+	"id" "elementid" "dc754c00-b4c5-4c77-88b9-05bd469b8283"
+	"position" "vector3" "-4.2858934402 -8.8995742798 5.6973204613"
+	"orientation" "quaternion" "-0.4811718166 0.5123175979 0.521674931 -0.4835904539"
+}
+
+"DmeTransform"
+{
+	"id" "elementid" "717278f4-d0d3-403a-ab16-510d8b65111b"
+	"position" "vector3" "-1.3913941383 1.476539135 -0.7006387711"
+	"orientation" "quaternion" "-0.0058497177 -0.7351605296 0.2863034904 0.6144388914"
+}
+
+"DmeTransform"
+{
+	"id" "elementid" "c8cecf1c-33ea-447f-acbb-f77d9112f8fe"
+	"position" "vector3" "0.0000047684 1.7517971992 0.0000038147"
+	"orientation" "quaternion" "-0.196742937 -0.0799769908 -0.1012410745 0.9719290137"
+}
+
+"DmeTransform"
+{
+	"id" "elementid" "07b49ab3-8a38-48d7-a469-d703ed8b8ca5"
+	"position" "vector3" "-1.5968804359 4.4416232109 0.7085394859"
+	"orientation" "quaternion" "-0.0858668834 -0.6561011672 0.0869636536 0.7447117567"
+}
+
+"DmeTransform"
+{
+	"id" "elementid" "5acbb83a-3645-4959-9afb-c012cc7658df"
+	"position" "vector3" "-0.4708929062 4.2194886208 0.9265503883"
+	"orientation" "quaternion" "0.0050506243 0.9505439401 -0.3059288561 -0.0533686504"
+}
+
+"DmeTransform"
+{
+	"id" "elementid" "83c64303-3796-456e-b00f-5f9e8a2ae24c"
+	"position" "vector3" "0.5768327713 4.2983870506 0.6394305229"
+	"orientation" "quaternion" "-0.0521402024 0.885529995 -0.4605644047 -0.0315963887"
+}
+
+"DmeTransform"
+{
+	"id" "elementid" "43532c78-97b4-4a15-9c19-3d770c2a1a12"
+	"position" "vector3" "1.4598875046 4.2755742073 0.2190206051"
+	"orientation" "quaternion" "-0.1200885177 0.8698297143 -0.4767568409 -0.0409634076"
+}
+
+"DmeTransform"
+{
+	"id" "elementid" "1cdfcb7a-3091-4f76-b30d-f940d8f94519"
+	"position" "vector3" "-7.0088701248 -7.4914975166 -4.5756597519"
+	"orientation" "quaternion" "0.8985552788 -0.2751027346 -0.311671257 0.1406344175"
+}
+
+"DmeTransform"
+{
+	"id" "elementid" "f36c1808-cbad-4f8c-aff3-5c0357034058"
+	"position" "vector3" "0.0000104904 12.7063779831 0.0000209808"
+	"orientation" "quaternion" "0.8890248537 -0.0167498849 -0.1832370311 -0.419259429"
+}
+
+"DmeTransform"
+{
+	"id" "elementid" "137ac8f9-404c-4af8-a6f1-2d6f19a66250"
+	"position" "vector3" "-0.0450894833 3.5664167404 0.8915910721"
+	"orientation" "quaternion" "0 -0.0000004955 0 1"
+}
+
+"DmeTransform"
+{
+	"id" "elementid" "9938e170-573e-45f3-a1b7-fdb4aede6ea5"
+	"position" "vector3" "-0.0000076294 5.1799259186 -0.0000386238"
+	"orientation" "quaternion" "0.1191403344 -0.0010153073 0.0075163324 0.9928485155"
+}
+
+"DmeTransform"
+{
+	"id" "elementid" "60e8e774-5c63-4e9f-ac78-39f1849f56b1"
+	"position" "vector3" "0.0000071526 4.4784069061 0.0000858307"
+	"orientation" "quaternion" "0.1691886634 -0.0007658986 0.0048318258 0.9855715632"
+}
+
+"DmeTransform"
+{
+	"id" "elementid" "05fa4864-ce0e-42be-a063-f6113e9ddca7"
+	"position" "vector3" "0.0000071526 1.0033664703 0.0000209808"
+	"orientation" "quaternion" "0.0771655664 -0.013086319 -0.0854320079 0.9932650924"
+}
+
+"DmeTransform"
+{
+	"id" "elementid" "b9cc4f17-d99b-4245-bdec-9f611d79c556"
+	"position" "vector3" "-0.0000152588 1.6371383667 -0.0000019073"
+	"orientation" "quaternion" "0.4799363613 -0.0195808839 -0.0521640815 0.8755322099"
+}
+
+"DmeTransform"
+{
+	"id" "elementid" "8d208978-fd44-462a-9daf-8f91886b895c"
+	"position" "vector3" "-0.0000133514 1.1009645462 -0.0000076294"
+	"orientation" "quaternion" "0.009683596 0.0381622352 -0.034358006 0.9986338019"
+}
+
+"DmeTransform"
+{
+	"id" "elementid" "071c1332-7f4d-4894-ac22-838c62b31791"
+	"position" "vector3" "-0.0000095367 1.4426288605 -0.000005722"
+	"orientation" "quaternion" "0.6161381602 0.0002479096 -0.0234670676 0.7872883677"
+}
+
+"DmeTransform"
+{
+	"id" "elementid" "17556389-bba4-498e-b61e-877059388ec6"
+	"position" "vector3" "-0.0000133514 1.3024463654 -0.0000076294"
+	"orientation" "quaternion" "0.0022401672 -0.0209789295 0.0014810594 0.9997762442"
+}
+
+"DmeTransform"
+{
+	"id" "elementid" "155f5ba4-b820-4970-beab-03c871b4b26a"
+	"position" "vector3" "-0.0000114441 1.1982374191 0"
+	"orientation" "quaternion" "0.3586576581 -0.054778114 0.0440139398 0.9308204651"
+}
+
+"DmeTransform"
+{
+	"id" "elementid" "9b9b62d9-923f-42b5-b066-8422dd72f44c"
+	"position" "vector3" "-0.0000171661 0.8697719574 -0.000002861"
+	"orientation" "quaternion" "0.1092118844 0.0306691974 -0.012723919 0.9934638143"
+}
+
+"DmeTransform"
+{
+	"id" "elementid" "49629e16-4c3c-46c4-820e-ffc050901f9b"
+	"position" "vector3" "-0.0000171661 1.1574230194 -0.0000095367"
+	"orientation" "quaternion" "0.4653804898 -0.0505876653 0.0281085577 0.8832167387"
+}
+
+"DmeTransform"
+{
+	"id" "elementid" "f2d0f542-f2f2-48c7-a0e7-b4b0e84cb255"
+	"position" "vector3" "-0.000005722 1.0200538635 0.0000033379"
+	"orientation" "quaternion" "-0.0604972355 -0.0070342952 -0.0133314095 0.998054564"
+}
+
+"DmeTransform"
+{
+	"id" "elementid" "c2f7e6c8-f4a4-4065-b37a-3ac810b97951"
+	"position" "vector3" "0.0000052452 1.1229791641 0"
+	"orientation" "quaternion" "-0.1788309962 -0.0157051049 -0.0507383049 0.9824451208"
+}
+
+"DmeTransform"
+{
+	"id" "elementid" "82be1803-045a-4e71-bc60-a25e1efbf3d7"
+	"position" "vector3" "0.0000066757 1.4819641113 -0.0000042915"
+	"orientation" "quaternion" "0.0231532995 0.0475349091 0.0862302333 0.9948711991"
+}
+
+"DmeTransform"
+{
+	"id" "elementid" "38b099bd-2d3d-4cb5-bfb2-7af3f56988c6"
+	"position" "vector3" "0.0000038147 1.0566530228 0"
+	"orientation" "quaternion" "-0.0248803943 -0.0824537426 0.2462500781 0.9653720856"
+}
+
+"DmeTransform"
+{
+	"id" "elementid" "26a92d14-2d6d-492f-b784-b86ab6bff86b"
+	"position" "vector3" "0 1.6098165512 -0.0000104904"
+	"orientation" "quaternion" "0.6208111644 -0.0172873028 0.0700273588 0.7806349397"
+}
+
+"DmeTransform"
+{
+	"id" "elementid" "83bdb925-3128-4c03-bba6-53e838ce9cb2"
+	"position" "vector3" "-0.0000019073 1.5623102188 0.0000104904"
+	"orientation" "quaternion" "0.5964668393 0.000906945 -0.0204591341 0.8023765087"
+}
+
+"DmeTransform"
+{
+	"id" "elementid" "f465dd2e-344e-4756-9308-5994a206b20c"
+	"position" "vector3" "0.0000076294 1.5537614822 -0.000002861"
+	"orientation" "quaternion" "0.5860171914 0.0592593439 -0.0376862846 0.8072495461"
+}
+
+"DmeTransform"
+{
+	"id" "elementid" "fe56aab5-6830-4708-a26f-b1e9970c1955"
+	"position" "vector3" "0.0000038147 0.8744335175 -0.0000095367"
+	"orientation" "quaternion" "0.4233873487 0.0909480602 0.067233108 0.8988611102"
+}
+
+"DmeTransform"
+{
+	"id" "elementid" "cc797b2b-5d13-467f-98e7-e9be3a1d24f6"
+	"position" "vector3" "-0.0000076294 0.9730499983 -0.0000066757"
+	"orientation" "quaternion" "0.4580399692 0.1222361922 -0.0003261253 0.8804870844"
+}
+
+"DmeTransform"
+{
+	"id" "elementid" "a2f19341-2634-4084-94e2-dc500767502a"
+	"position" "vector3" "0.0000009537 0.9708900452 -0.0000019073"
+	"orientation" "quaternion" "0.5543925762 0.0776605234 0.038661994 0.8277215958"
+}
+
+"DmeModel"
+{
+	"id" "elementid" "5ee5de83-71e1-4236-ac7d-a09346495ab9"
+	"name" "string" "v_shotgun"
+	"transform" "DmeTransform"
+	{
+		"position" "vector3" "0 0 0"
+		"orientation" "quaternion" "0 0 0 1"
+	}
+	
+	"shape" "element" ""
+	"visible" "bool" "1"
+	"children" "element_array" 
+	[
+		"DmeJoint"
+		{
+			"name" "string" "spas_main"
+			"transform" "element" "ff4a22af-2ace-4cc8-9342-2713af079e9f"
+			"shape" "element" ""
+			"visible" "bool" "1"
+			"children" "element_array" 
+			[
+				"DmeJoint"
+				{
+					"name" "string" "pump"
+					"transform" "element" "b6975880-8531-484b-9a8a-1e4ae7cadd90"
+					"shape" "element" ""
+					"visible" "bool" "1"
+					"children" "element_array" 
+					[
+					]
+				},
+				"DmeJoint"
+				{
+					"name" "string" "slide"
+					"transform" "element" "49c421e2-7227-4111-87ff-db7ffcb602c1"
+					"shape" "element" ""
+					"visible" "bool" "1"
+					"children" "element_array" 
+					[
+					]
+				},
+				"DmeJoint"
+				{
+					"name" "string" "12g"
+					"transform" "element" "9157cf55-505e-49ff-8466-2a716d25387a"
+					"shape" "element" ""
+					"visible" "bool" "1"
+					"children" "element_array" 
+					[
+					]
+				},
+				"DmeJoint"
+				{
+					"name" "string" "sl_ring1"
+					"transform" "element" "98d2fdfb-8a89-4e99-bde2-caa550849416"
+					"shape" "element" ""
+					"visible" "bool" "1"
+					"children" "element_array" 
+					[
+						"DmeJoint"
+						{
+							"name" "string" "sl1a"
+							"transform" "element" "d97a17f5-a3fb-4372-948f-646e87258e47"
+							"shape" "element" ""
+							"visible" "bool" "1"
+							"children" "element_array" 
+							[
+								"DmeJoint"
+								{
+									"name" "string" "sl1b"
+									"transform" "element" "9938e170-573e-45f3-a1b7-fdb4aede6ea5"
+									"shape" "element" ""
+									"visible" "bool" "1"
+									"children" "element_array" 
+									[
+									]
+								}
+							]
+						}
+					]
+				},
+				"DmeJoint"
+				{
+					"name" "string" "sl_ring2"
+					"transform" "element" "56aaac16-a395-41b4-9209-e994727392a4"
+					"shape" "element" ""
+					"visible" "bool" "1"
+					"children" "element_array" 
+					[
+						"DmeJoint"
+						{
+							"name" "string" "sl2a"
+							"transform" "element" "d374e45a-1d0f-436d-b0cd-3ac79d0c862e"
+							"shape" "element" ""
+							"visible" "bool" "1"
+							"children" "element_array" 
+							[
+								"DmeJoint"
+								{
+									"name" "string" "sl2b"
+									"transform" "element" "60e8e774-5c63-4e9f-ac78-39f1849f56b1"
+									"shape" "element" ""
+									"visible" "bool" "1"
+									"children" "element_array" 
+									[
+									]
+								}
+							]
+						}
+					]
+				},
+				"DmeJoint"
+				{
+					"name" "string" "sltarget"
+					"transform" "element" "d213a725-71a8-4b5a-ab03-eeef376771ef"
+					"shape" "element" ""
+					"visible" "bool" "1"
+					"children" "element_array" 
+					[
+					]
+				},
+				"DmeJoint"
+				{
+					"name" "string" "trapdoor"
+					"transform" "element" "137ac8f9-404c-4af8-a6f1-2d6f19a66250"
+					"shape" "element" ""
+					"visible" "bool" "1"
+					"children" "element_array" 
+					[
+					]
+				}
+			]
+		},
+		"DmeJoint"
+		{
+			"name" "string" "l_wrist"
+			"transform" "element" "061a7525-b7b9-4642-aff6-304a5964175e"
+			"shape" "element" ""
+			"visible" "bool" "1"
+			"children" "element_array" 
+			[
+				"DmeJoint"
+				{
+					"name" "string" "l_thumb_low"
+					"transform" "element" "bef9969d-fe9f-44cb-b589-66825d0ad64b"
+					"shape" "element" ""
+					"visible" "bool" "1"
+					"children" "element_array" 
+					[
+						"DmeJoint"
+						{
+							"name" "string" "l_thumb_mid"
+							"transform" "element" "1bd30c0e-f436-4e99-9772-8670d9107103"
+							"shape" "element" ""
+							"visible" "bool" "1"
+							"children" "element_array" 
+							[
+								"DmeJoint"
+								{
+									"name" "string" "l_thumb_tip"
+									"transform" "element" "05fa4864-ce0e-42be-a063-f6113e9ddca7"
+									"shape" "element" ""
+									"visible" "bool" "1"
+									"children" "element_array" 
+									[
+									]
+								}
+							]
+						}
+					]
+				},
+				"DmeJoint"
+				{
+					"name" "string" "l_index_low"
+					"transform" "element" "c01cd524-f010-4992-95a6-23c4df2e5a55"
+					"shape" "element" ""
+					"visible" "bool" "1"
+					"children" "element_array" 
+					[
+						"DmeJoint"
+						{
+							"name" "string" "l_index_mid"
+							"transform" "element" "b9cc4f17-d99b-4245-bdec-9f611d79c556"
+							"shape" "element" ""
+							"visible" "bool" "1"
+							"children" "element_array" 
+							[
+								"DmeJoint"
+								{
+									"name" "string" "l_index_tip"
+									"transform" "element" "8d208978-fd44-462a-9daf-8f91886b895c"
+									"shape" "element" ""
+									"visible" "bool" "1"
+									"children" "element_array" 
+									[
+									]
+								}
+							]
+						}
+					]
+				},
+				"DmeJoint"
+				{
+					"name" "string" "l_middle_low"
+					"transform" "element" "22a6f276-0c70-4f4a-9328-573462ea4d3f"
+					"shape" "element" ""
+					"visible" "bool" "1"
+					"children" "element_array" 
+					[
+						"DmeJoint"
+						{
+							"name" "string" "l_middle_mid"
+							"transform" "element" "071c1332-7f4d-4894-ac22-838c62b31791"
+							"shape" "element" ""
+							"visible" "bool" "1"
+							"children" "element_array" 
+							[
+								"DmeJoint"
+								{
+									"name" "string" "l_middle_tip"
+									"transform" "element" "17556389-bba4-498e-b61e-877059388ec6"
+									"shape" "element" ""
+									"visible" "bool" "1"
+									"children" "element_array" 
+									[
+									]
+								}
+							]
+						}
+					]
+				},
+				"DmeJoint"
+				{
+					"name" "string" "l_ring_low"
+					"transform" "element" "66ca0450-887d-43fc-9a11-49e47358bbc1"
+					"shape" "element" ""
+					"visible" "bool" "1"
+					"children" "element_array" 
+					[
+						"DmeJoint"
+						{
+							"name" "string" "l_ring_mid"
+							"transform" "element" "155f5ba4-b820-4970-beab-03c871b4b26a"
+							"shape" "element" ""
+							"visible" "bool" "1"
+							"children" "element_array" 
+							[
+								"DmeJoint"
+								{
+									"name" "string" "l_ring_tip"
+									"transform" "element" "9b9b62d9-923f-42b5-b066-8422dd72f44c"
+									"shape" "element" ""
+									"visible" "bool" "1"
+									"children" "element_array" 
+									[
+									]
+								}
+							]
+						}
+					]
+				},
+				"DmeJoint"
+				{
+					"name" "string" "l_pinky_low"
+					"transform" "element" "301b23f4-2c3c-485f-9aa8-8622b710161a"
+					"shape" "element" ""
+					"visible" "bool" "1"
+					"children" "element_array" 
+					[
+						"DmeJoint"
+						{
+							"name" "string" "l_pinky_mid"
+							"transform" "element" "49629e16-4c3c-46c4-820e-ffc050901f9b"
+							"shape" "element" ""
+							"visible" "bool" "1"
+							"children" "element_array" 
+							[
+								"DmeJoint"
+								{
+									"name" "string" "l_pinky_tip"
+									"transform" "element" "f2d0f542-f2f2-48c7-a0e7-b4b0e84cb255"
+									"shape" "element" ""
+									"visible" "bool" "1"
+									"children" "element_array" 
+									[
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		"DmeJoint"
+		{
+			"name" "string" "l_upperarm"
+			"transform" "element" "51f086df-d1d3-4163-95ac-e2fc5002f27b"
+			"shape" "element" ""
+			"visible" "bool" "1"
+			"children" "element_array" 
+			[
+				"DmeJoint"
+				{
+					"name" "string" "l_forearm"
+					"transform" "element" "2125dec4-4c97-46ca-9f6d-b1301b25178f"
+					"shape" "element" ""
+					"visible" "bool" "1"
+					"children" "element_array" 
+					[
+					]
+				}
+			]
+		},
+		"DmeJoint"
+		{
+			"name" "string" "r_wrist"
+			"transform" "element" "dc754c00-b4c5-4c77-88b9-05bd469b8283"
+			"shape" "element" ""
+			"visible" "bool" "1"
+			"children" "element_array" 
+			[
+				"DmeJoint"
+				{
+					"name" "string" "r_thumb_low"
+					"transform" "element" "717278f4-d0d3-403a-ab16-510d8b65111b"
+					"shape" "element" ""
+					"visible" "bool" "1"
+					"children" "element_array" 
+					[
+						"DmeJoint"
+						{
+							"name" "string" "r_thumb_mid"
+							"transform" "element" "c8cecf1c-33ea-447f-acbb-f77d9112f8fe"
+							"shape" "element" ""
+							"visible" "bool" "1"
+							"children" "element_array" 
+							[
+								"DmeJoint"
+								{
+									"name" "string" "r_thumb_tip"
+									"transform" "element" "c2f7e6c8-f4a4-4065-b37a-3ac810b97951"
+									"shape" "element" ""
+									"visible" "bool" "1"
+									"children" "element_array" 
+									[
+									]
+								}
+							]
+						}
+					]
+				},
+				"DmeJoint"
+				{
+					"name" "string" "r_index_low"
+					"transform" "element" "07b49ab3-8a38-48d7-a469-d703ed8b8ca5"
+					"shape" "element" ""
+					"visible" "bool" "1"
+					"children" "element_array" 
+					[
+						"DmeJoint"
+						{
+							"name" "string" "r_index_mid"
+							"transform" "element" "82be1803-045a-4e71-bc60-a25e1efbf3d7"
+							"shape" "element" ""
+							"visible" "bool" "1"
+							"children" "element_array" 
+							[
+								"DmeJoint"
+								{
+									"name" "string" "r_index_tip"
+									"transform" "element" "38b099bd-2d3d-4cb5-bfb2-7af3f56988c6"
+									"shape" "element" ""
+									"visible" "bool" "1"
+									"children" "element_array" 
+									[
+									]
+								}
+							]
+						}
+					]
+				},
+				"DmeJoint"
+				{
+					"name" "string" "r_middle_low"
+					"transform" "element" "5acbb83a-3645-4959-9afb-c012cc7658df"
+					"shape" "element" ""
+					"visible" "bool" "1"
+					"children" "element_array" 
+					[
+						"DmeJoint"
+						{
+							"name" "string" "r_middle_mid"
+							"transform" "element" "26a92d14-2d6d-492f-b784-b86ab6bff86b"
+							"shape" "element" ""
+							"visible" "bool" "1"
+							"children" "element_array" 
+							[
+								"DmeJoint"
+								{
+									"name" "string" "r_middle_tip"
+									"transform" "element" "83bdb925-3128-4c03-bba6-53e838ce9cb2"
+									"shape" "element" ""
+									"visible" "bool" "1"
+									"children" "element_array" 
+									[
+									]
+								}
+							]
+						}
+					]
+				},
+				"DmeJoint"
+				{
+					"name" "string" "r_ring_low"
+					"transform" "element" "83c64303-3796-456e-b00f-5f9e8a2ae24c"
+					"shape" "element" ""
+					"visible" "bool" "1"
+					"children" "element_array" 
+					[
+						"DmeJoint"
+						{
+							"name" "string" "r_ring_mid"
+							"transform" "element" "f465dd2e-344e-4756-9308-5994a206b20c"
+							"shape" "element" ""
+							"visible" "bool" "1"
+							"children" "element_array" 
+							[
+								"DmeJoint"
+								{
+									"name" "string" "r_ring_tip"
+									"transform" "element" "fe56aab5-6830-4708-a26f-b1e9970c1955"
+									"shape" "element" ""
+									"visible" "bool" "1"
+									"children" "element_array" 
+									[
+									]
+								}
+							]
+						}
+					]
+				},
+				"DmeJoint"
+				{
+					"name" "string" "r_pinky_low"
+					"transform" "element" "43532c78-97b4-4a15-9c19-3d770c2a1a12"
+					"shape" "element" ""
+					"visible" "bool" "1"
+					"children" "element_array" 
+					[
+						"DmeJoint"
+						{
+							"name" "string" "r_pinky_mid"
+							"transform" "element" "cc797b2b-5d13-467f-98e7-e9be3a1d24f6"
+							"shape" "element" ""
+							"visible" "bool" "1"
+							"children" "element_array" 
+							[
+								"DmeJoint"
+								{
+									"name" "string" "r_pinky_tip"
+									"transform" "element" "a2f19341-2634-4084-94e2-dc500767502a"
+									"shape" "element" ""
+									"visible" "bool" "1"
+									"children" "element_array" 
+									[
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		"DmeJoint"
+		{
+			"name" "string" "r_upperarm"
+			"transform" "element" "1cdfcb7a-3091-4f76-b30d-f940d8f94519"
+			"shape" "element" ""
+			"visible" "bool" "1"
+			"children" "element_array" 
+			[
+				"DmeJoint"
+				{
+					"name" "string" "r_forearm"
+					"transform" "element" "f36c1808-cbad-4f8c-aff3-5c0357034058"
+					"shape" "element" ""
+					"visible" "bool" "1"
+					"children" "element_array" 
+					[
+					]
+				}
+			]
+		}
+	]
+	"jointList" "element_array" 
+	[
+	]
+	"baseStates" "element_array" 
+	[
+		"DmeTransformList"
+		{
+			"name" "string" "bind"
+			"transforms" "element_array" 
+			[
+			]
+		}
+	]
+	"upAxis" "string" "Y"
+	"axisSystem" "DmeAxisSystem"
+	{
+		"upAxis" "int" "2"
+		"forwardParity" "int" "2"
+		"coordSys" "int" "0"
+	}
+	
+}
+

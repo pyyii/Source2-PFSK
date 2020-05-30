@@ -1,0 +1,1230 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc28:version{fb63b6ca-f435-4aa0-a2c7-c66ddc651dca} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = 
+						[
+							{
+								from = "materials/models/weapons/v_hand/v_crossbow_body.vmat"
+								to = "models/weapons/crossbow/materials/v_crossbow_body.vmat"
+							},
+							{
+								from = "materials/models/weapons/v_hand/v_crossbow_lens.vmat"
+								to = "models/weapons/crossbow/materials/v_crossbow_lens.vmat"
+							},
+							{
+								from = "materials/models/weapons/v_hand/v_crossbow_wire.vmat"
+								to = "models/weapons/crossbow/materials/v_crossbow_wire.vmat"
+							},
+							{
+								from = "materials/models/weapons/v_hand/v_hand_sheet.vmat"
+								to = "models/weapons/hands/materials/v_hand_sheet.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = ""
+					},
+				]
+			},
+			{
+				_class = "AttachmentList"
+				children = 
+				[
+					{
+						_class = "Attachment"
+						name = "spark"
+						parent_bone = "crossbow_model_spark2"
+						relative_origin = [ 44.5, -65.0, -35.400005 ]
+						relative_angles = [ 0.0, 0.0, -0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "bolt_start"
+						parent_bone = "crossbow_model_bolt"
+						relative_origin = [ -6.000002, 0.0, 0.0 ]
+						relative_angles = [ -0.0, 180.0, 90.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "bolt_end"
+						parent_bone = "crossbow_model_bolt"
+						relative_origin = [ 8.0, 0.0, 0.0 ]
+						relative_angles = [ -0.0, 180.0, 90.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "muzzle"
+						parent_bone = "crossbow_model_weapon_base"
+						relative_origin = [ 3.0, 16.5, 0.0 ]
+						relative_angles = [ -0.0, 90.0, 90.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "boltcenter"
+						parent_bone = "crossbow_model_weapon_base"
+						relative_origin = [ 2.3, 9.0, 0.0 ]
+						relative_angles = [ -0.0, 90.0, 90.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+				]
+			},
+			{
+				_class = "HitboxSetList"
+				children = 
+				[
+					{
+						_class = "HitboxSet"
+						name = "default"
+						children = 
+						[
+							{
+								_class = "Hitbox"
+								parent_bone = "crossbow_model_weapon_base"
+								hitbox_mins = [ -3.824401, -19.330116, -4.239069 ]
+								hitbox_maxs = [ 6.672101, 17.584646, 3.92803 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "crossbow_model_bowr6"
+								hitbox_mins = [ -0.223961, -4.629161, -1.129259 ]
+								hitbox_maxs = [ 3.461436, 0.799299, 1.210776 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "crossbow_model_bowr_wheel"
+								hitbox_mins = [ -0.50103, -0.946344, -0.662054 ]
+								hitbox_maxs = [ 2.054475, 0.973061, 1.257354 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "crossbow_model_bowl6"
+								hitbox_mins = [ -0.028412, -0.825274, -1.128501 ]
+								hitbox_maxs = [ 3.723429, 4.567426, 1.211654 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "crossbow_model_bowl_wheel"
+								hitbox_mins = [ -0.500988, -1.01247, -0.986596 ]
+								hitbox_maxs = [ 2.054514, 0.906932, 0.932785 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "crossbow_model_wire"
+								hitbox_mins = [ -0.260725, -1.260621, -0.879878 ]
+								hitbox_maxs = [ 2.495152, 0.0, 0.274997 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_wrist"
+								hitbox_mins = [ -0.64864, -1.397385, -2.068012 ]
+								hitbox_maxs = [ 5.479637, 1.322954, 1.813259 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_thumb_low"
+								hitbox_mins = [ -0.619838, -0.886691, -1.04747 ]
+								hitbox_maxs = [ 1.832615, 0.800829, 1.196559 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_thumb_mid"
+								hitbox_mins = [ -0.637324, -0.748491, -0.763147 ]
+								hitbox_maxs = [ 1.418372, 0.691474, 0.578228 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_index_low"
+								hitbox_mins = [ -0.123739, -0.627765, -0.606563 ]
+								hitbox_maxs = [ 2.546235, 0.923812, 0.555142 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_middle_low"
+								hitbox_mins = [ 0.0, -0.681754, -0.813642 ]
+								hitbox_maxs = [ 2.282871, 0.766078, 0.664851 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_ring_low"
+								hitbox_mins = [ -0.101012, -0.705244, -0.799684 ]
+								hitbox_maxs = [ 1.924371, 0.734577, 0.435337 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_pinky_low"
+								hitbox_mins = [ -0.699506, -0.507649, -0.610714 ]
+								hitbox_maxs = [ 1.222022, 1.001204, 0.657648 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_upperarm"
+								hitbox_mins = [ 0.0, -2.529706, -3.077862 ]
+								hitbox_maxs = [ 14.011744, 3.454244, 3.0169 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_forearm"
+								hitbox_mins = [ -0.993229, -2.857574, -3.096564 ]
+								hitbox_maxs = [ 13.747366, 2.892531, 2.8791 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_wrist"
+								hitbox_mins = [ -0.537885, -1.142825, -2.068431 ]
+								hitbox_maxs = [ 5.562272, 1.35473, 1.804911 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_thumb_low"
+								hitbox_mins = [ -0.682068, -0.836724, -1.486132 ]
+								hitbox_maxs = [ 1.832172, 0.964488, 0.925915 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_thumb_mid"
+								hitbox_mins = [ -1.522125, -1.143596, -0.591652 ]
+								hitbox_maxs = [ 1.323485, 0.679133, 0.805898 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_index_low"
+								hitbox_mins = [ -0.229796, -0.878453, -0.635784 ]
+								hitbox_maxs = [ 2.390242, 0.644933, 0.830863 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_middle_low"
+								hitbox_mins = [ 0.0, -0.980311, -0.84625 ]
+								hitbox_maxs = [ 2.271867, 0.624914, 0.563691 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_pinky_low"
+								hitbox_mins = [ -0.782059, -0.86174, -0.592997 ]
+								hitbox_maxs = [ 1.455408, 0.702021, 0.489265 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_upperarm"
+								hitbox_mins = [ 0.0, -2.558553, -3.079708 ]
+								hitbox_maxs = [ 13.9996, 3.43307, 3.034484 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_forearm"
+								hitbox_mins = [ -1.091864, -2.83738, -3.144031 ]
+								hitbox_maxs = [ 13.879997, 2.8827, 2.941664 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "crossbow_model_weapon_base"
+								hitbox_mins = [ -3.824401, -19.330116, -4.239069 ]
+								hitbox_maxs = [ 6.672101, 17.584646, 3.92803 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "crossbow_model_bowr6"
+								hitbox_mins = [ -0.223961, -4.629161, -1.129259 ]
+								hitbox_maxs = [ 3.461436, 0.799299, 1.210776 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "crossbow_model_bowr_wheel"
+								hitbox_mins = [ -0.50103, -0.946344, -0.662054 ]
+								hitbox_maxs = [ 2.054475, 0.973061, 1.257354 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "crossbow_model_bowl6"
+								hitbox_mins = [ -0.028412, -0.825274, -1.128501 ]
+								hitbox_maxs = [ 3.723429, 4.567426, 1.211654 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "crossbow_model_bowl_wheel"
+								hitbox_mins = [ -0.500988, -1.01247, -0.986596 ]
+								hitbox_maxs = [ 2.054514, 0.906932, 0.932785 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "crossbow_model_wire"
+								hitbox_mins = [ -0.260725, -1.260621, -0.879878 ]
+								hitbox_maxs = [ 2.495152, 0.0, 0.274997 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_wrist"
+								hitbox_mins = [ -0.64864, -1.397385, -2.068012 ]
+								hitbox_maxs = [ 5.479637, 1.322954, 1.813259 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_thumb_low"
+								hitbox_mins = [ -0.619838, -0.886691, -1.04747 ]
+								hitbox_maxs = [ 1.832615, 0.800829, 1.196559 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_thumb_mid"
+								hitbox_mins = [ -0.637324, -0.748491, -0.763147 ]
+								hitbox_maxs = [ 1.418372, 0.691474, 0.578228 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_index_low"
+								hitbox_mins = [ -0.123739, -0.627765, -0.606563 ]
+								hitbox_maxs = [ 2.546235, 0.923812, 0.555142 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_middle_low"
+								hitbox_mins = [ 0.0, -0.681754, -0.813642 ]
+								hitbox_maxs = [ 2.282871, 0.766078, 0.664851 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_ring_low"
+								hitbox_mins = [ -0.101012, -0.705244, -0.799684 ]
+								hitbox_maxs = [ 1.924371, 0.734577, 0.435337 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_pinky_low"
+								hitbox_mins = [ -0.699506, -0.507649, -0.610714 ]
+								hitbox_maxs = [ 1.222022, 1.001204, 0.657648 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_upperarm"
+								hitbox_mins = [ 0.0, -2.529706, -3.077862 ]
+								hitbox_maxs = [ 14.011744, 3.454244, 3.0169 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_forearm"
+								hitbox_mins = [ -0.993229, -2.857574, -3.096564 ]
+								hitbox_maxs = [ 13.747366, 2.892531, 2.8791 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_wrist"
+								hitbox_mins = [ -0.537885, -1.142825, -2.068431 ]
+								hitbox_maxs = [ 5.562272, 1.35473, 1.804911 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_thumb_low"
+								hitbox_mins = [ -0.682068, -0.836724, -1.486132 ]
+								hitbox_maxs = [ 1.832172, 0.964488, 0.925915 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_thumb_mid"
+								hitbox_mins = [ -1.522125, -1.143596, -0.591652 ]
+								hitbox_maxs = [ 1.323485, 0.679133, 0.805898 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_index_low"
+								hitbox_mins = [ -0.229796, -0.878453, -0.635784 ]
+								hitbox_maxs = [ 2.390242, 0.644933, 0.830863 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_middle_low"
+								hitbox_mins = [ 0.0, -0.980311, -0.84625 ]
+								hitbox_maxs = [ 2.271867, 0.624914, 0.563691 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_pinky_low"
+								hitbox_mins = [ -0.782059, -0.86174, -0.592997 ]
+								hitbox_maxs = [ 1.455408, 0.702021, 0.489265 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_upperarm"
+								hitbox_mins = [ 0.0, -2.558553, -3.079708 ]
+								hitbox_maxs = [ 13.9996, 3.43307, 3.034484 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_forearm"
+								hitbox_mins = [ -1.091864, -2.83738, -3.144031 ]
+								hitbox_maxs = [ 13.879997, 2.8827, 2.941664 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+						]
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						name = "v_crossbow_bg_studio_lod0"
+						filename = "models/weapons/crossbow/v_crossbow_fbx/mesh/v_crossbow_bg_studio_lod0.fbx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "v_crossbow_bg_studiohands_lod0"
+						filename = "models/weapons/crossbow/v_crossbow_fbx/mesh/v_crossbow_bg_studiohands_lod0.fbx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+			{
+				_class = "AnimationList"
+				children = 
+				[
+					{
+						_class = "AnimFile"
+						name = "idle"
+						activity_name = "ACT_VM_IDLE"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/crossbow/v_crossbow_fbx/anim/idle.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "idle_empty"
+						activity_name = "ACT_VM_FIDGET"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/crossbow/v_crossbow_fbx/anim/idle_empty.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "draw"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 0
+								event_keys = 
+								{
+									name = "Weapon_Crossbow.Draw"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_WEAPON_THROW2"
+								event_frame = 14
+								event_keys = null
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_WEAPON_THROW3"
+								event_frame = 28
+								event_keys = null
+							},
+						]
+						activity_name = "ACT_VM_DRAW"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.0
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/crossbow/v_crossbow_fbx/anim/draw.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 45.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "draw_empty"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 0
+								event_keys = 
+								{
+									name = "Weapon_Crossbow.Draw"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_WEAPON_THROW2"
+								event_frame = 14
+								event_keys = null
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_WEAPON_THROW3"
+								event_frame = 28
+								event_keys = null
+							},
+						]
+						activity_name = "ACT_CROSSBOW_DRAW_UNLOADED"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.0
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/crossbow/v_crossbow_fbx/anim/draw_empty.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 45.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "fire"
+						activity_name = "ACT_VM_PRIMARYATTACK"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/crossbow/v_crossbow_fbx/anim/fire.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "reload"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_WEAPON_THROW"
+								event_frame = 122
+								event_keys = null
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_WEAPON_THROW2"
+								event_frame = 127
+								event_keys = null
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_WEAPON_THROW3"
+								event_frame = 135
+								event_keys = null
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 40
+								event_keys = 
+								{
+									name = "Weapon_Crossbow.DrawBack"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 8
+								event_keys = 
+								{
+									name = "Weapon_Generic.Movement2"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 37
+								event_keys = 
+								{
+									name = "Weapon_Generic.Movement5"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 84
+								event_keys = 
+								{
+									name = "Weapon_Generic.Movement1"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 147
+								event_keys = 
+								{
+									name = "Weapon_Generic.Movement4"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+						]
+						activity_name = "ACT_VM_RELOAD"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/crossbow/v_crossbow_fbx/anim/reload.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 65.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "reload_zoomed"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_WEAPON_THROW"
+								event_frame = 122
+								event_keys = null
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_WEAPON_THROW2"
+								event_frame = 127
+								event_keys = null
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_WEAPON_THROW3"
+								event_frame = 135
+								event_keys = null
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 40
+								event_keys = 
+								{
+									name = "Weapon_Crossbow.DrawBack"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 8
+								event_keys = 
+								{
+									name = "Weapon_Generic.Movement2"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 37
+								event_keys = 
+								{
+									name = "Weapon_Generic.Movement5"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 84
+								event_keys = 
+								{
+									name = "Weapon_Generic.Movement1"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 147
+								event_keys = 
+								{
+									name = "Weapon_Generic.Movement4"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+						]
+						activity_name = "ACT_VM_RELOAD_FINISH"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/crossbow/v_crossbow_fbx/anim/reload_zoomed.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 65.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "holster"
+						activity_name = "ACT_VM_HOLSTER"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/crossbow/v_crossbow_fbx/anim/holster.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 37.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "holster_empty"
+						activity_name = "ACT_VM_HOLSTER_SPECIAL"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/crossbow/v_crossbow_fbx/anim/holster_empty.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 37.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "idletolow"
+						activity_name = "ACT_VM_LOWERED_TO_IDLE"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/crossbow/v_crossbow_fbx/anim/idletolow.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "lowidle"
+						activity_name = "ACT_VM_IDLE_LOWERED"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/crossbow/v_crossbow_fbx/anim/lowidle.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "lowtoidle"
+						activity_name = "ACT_VM_IDLE_TO_LOWERED"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/crossbow/v_crossbow_fbx/anim/lowtoidle.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "Sprint"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 0
+								event_keys = 
+								{
+									name = "Weapon_Generic.Sprint1"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 9
+								event_keys = 
+								{
+									name = "Weapon_Generic.Sprint2"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+						]
+						activity_name = "ACT_VM_SPRINT"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.5
+						fade_out_time = 0.35
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/crossbow/v_crossbow_fbx/anim/sprint.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 31.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "Walk"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 0
+								event_keys = 
+								{
+									name = "Weapon_Generic.Walk1"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 10
+								event_keys = 
+								{
+									name = "Weapon_Generic.Walk2"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+						]
+						activity_name = "ACT_VM_WALK"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.5
+						fade_out_time = 0.35
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/crossbow/v_crossbow_fbx/anim/walk.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 24.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "inspect1"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 22
+								event_keys = 
+								{
+									name = "Weapon_Crossbow.String"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 3
+								event_keys = 
+								{
+									name = "Weapon_Generic.Movement4"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 19
+								event_keys = 
+								{
+									name = "Weapon_Generic.Movement6"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+						]
+						activity_name = "ACT_VM_INSPECT"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.6
+						fade_out_time = 0.6
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/crossbow/v_crossbow_fbx/anim/inspect1.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "inspect2"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 16
+								event_keys = 
+								{
+									name = "Weapon_Crossbow.Lens"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 0
+								event_keys = 
+								{
+									name = "Weapon_Generic.Movement1"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 44
+								event_keys = 
+								{
+									name = "Weapon_Generic.Movement5"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+						]
+						activity_name = "ACT_VM_INSPECT_ALT"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.6
+						fade_out_time = 0.6
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/crossbow/v_crossbow_fbx/anim/inspect2.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+				]
+				default_root_bone_name = ""
+			},
+		]
+		model_archetype = "animated_model"
+		primary_associated_entity = "weapon_crossbow"
+		anim_graph_name = ""
+		importer_notes = """
+Imported from compiled VMDL_C
+==Warnings==
+Cannot import non-trivial meshgroup: studioHands
+
+"""
+	}
+}

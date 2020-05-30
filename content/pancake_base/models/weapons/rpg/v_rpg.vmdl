@@ -1,0 +1,886 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc28:version{fb63b6ca-f435-4aa0-a2c7-c66ddc651dca} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = 
+						[
+							{
+								from = "materials/models/weapons/v_hand/v_hand_sheet.vmat"
+								to = "models/weapons/hands/materials/v_hand_sheet.vmat"
+							},
+							{
+								from = "materials/models/weapons/v_hand/v_rpg_body.vmat"
+								to = "models/weapons/rpg/materials/v_rpg_body.vmat"
+							},
+							{
+								from = "materials/models/weapons/v_hand/v_rpg_plastic.vmat"
+								to = "models/weapons/rpg/materials/v_rpg_plastic.vmat"
+							},
+							{
+								from = "materials/models/weapons/v_hand/v_rpg_wires.vmat"
+								to = "models/weapons/rpg/materials/v_rpg_wires.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = ""
+					},
+				]
+			},
+			{
+				_class = "AttachmentList"
+				children = 
+				[
+					{
+						_class = "Attachment"
+						name = "muzzle"
+						parent_bone = "rpg_base"
+						relative_origin = [ -10.000001, 0.0, -0.000001 ]
+						relative_angles = [ -0.0, -180.0, -180.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "0"
+						parent_bone = "rpg_base"
+						relative_origin = [ 0.0, 0.0, -0.000001 ]
+						relative_angles = [ -0.0, 0.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "laser"
+						parent_bone = "rpg_base"
+						relative_origin = [ -4.25, -5.600001, -0.05 ]
+						relative_angles = [ -0.0, 180.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "laser_end"
+						parent_bone = "rpg_base"
+						relative_origin = [ -139.999985, 0.199999, -5.000001 ]
+						relative_angles = [ -0.0, 0.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+				]
+			},
+			{
+				_class = "HitboxSetList"
+				children = 
+				[
+					{
+						_class = "HitboxSet"
+						name = "default"
+						children = 
+						[
+							{
+								_class = "Hitbox"
+								parent_bone = "rpg_base"
+								hitbox_mins = [ -9.717266, -12.091477, -5.174542 ]
+								hitbox_maxs = [ 30.964849, 5.153124, 5.097525 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "base"
+								hitbox_mins = [ 0.0, -8.255474, 0.0 ]
+								hitbox_maxs = [ 1.26345, 0.0, 7.260773 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "rocket_base"
+								hitbox_mins = [ -9.091572, -1.480307, -1.515076 ]
+								hitbox_maxs = [ 15.703164, 1.510872, 1.476102 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_wrist"
+								hitbox_mins = [ -0.537834, -1.228649, -2.059642 ]
+								hitbox_maxs = [ 7.829741, 1.355113, 1.863809 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_thumb_low"
+								hitbox_mins = [ -0.515496, -0.867559, -1.33839 ]
+								hitbox_maxs = [ 1.832174, 0.964407, 0.919184 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_thumb_mid"
+								hitbox_mins = [ -1.503218, -1.14618, -0.601555 ]
+								hitbox_maxs = [ 1.324214, 0.675856, 0.730063 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_index_low"
+								hitbox_mins = [ -0.162364, -0.878872, -0.603804 ]
+								hitbox_maxs = [ 2.372591, 0.669159, 0.820496 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_wrist"
+								hitbox_mins = [ 0.0, -1.32773, -2.031437 ]
+								hitbox_maxs = [ 5.150558, 1.213961, 1.771294 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_thumb_low"
+								hitbox_mins = [ -0.577784, -0.934498, -0.962348 ]
+								hitbox_maxs = [ 2.020348, 1.499646, 1.224569 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_thumb_mid"
+								hitbox_mins = [ -0.757523, -1.527845, -0.799195 ]
+								hitbox_maxs = [ 1.356165, 0.534227, 0.606362 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_index_low"
+								hitbox_mins = [ -0.265594, -0.627738, -0.543823 ]
+								hitbox_maxs = [ 2.370002, 0.962442, 0.663635 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_middle_low"
+								hitbox_mins = [ 0.0, -0.905696, -0.921121 ]
+								hitbox_maxs = [ 2.160775, 0.70579, 0.696164 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_ring_low"
+								hitbox_mins = [ -0.024715, -0.712751, -0.817733 ]
+								hitbox_maxs = [ 1.849167, 1.217274, 0.504669 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_pinky_low"
+								hitbox_mins = [ -0.814846, -0.507612, -0.612232 ]
+								hitbox_maxs = [ 1.222044, 1.11832, 0.657641 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_upperarm"
+								hitbox_mins = [ 0.0, -2.529683, -3.077814 ]
+								hitbox_maxs = [ 13.207108, 3.454201, 3.016867 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_forearm"
+								hitbox_mins = [ 0.0, -2.857684, -3.096594 ]
+								hitbox_maxs = [ 13.747379, 2.8925, 2.879129 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_upperarm"
+								hitbox_mins = [ 0.0, -2.558599, -3.079656 ]
+								hitbox_maxs = [ 13.306124, 3.43306, 3.034456 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_forearm"
+								hitbox_mins = [ 0.0, -2.83744, -3.144027 ]
+								hitbox_maxs = [ 13.879989, 2.882632, 2.941662 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "rpg_base"
+								hitbox_mins = [ -9.717266, -12.091477, -5.174542 ]
+								hitbox_maxs = [ 30.964849, 5.153124, 5.097525 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "base"
+								hitbox_mins = [ 0.0, -8.255474, 0.0 ]
+								hitbox_maxs = [ 1.26345, 0.0, 7.260773 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "rocket_base"
+								hitbox_mins = [ -9.091572, -1.480307, -1.515076 ]
+								hitbox_maxs = [ 15.703164, 1.510872, 1.476102 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_wrist"
+								hitbox_mins = [ -0.537834, -1.228649, -2.059642 ]
+								hitbox_maxs = [ 7.829741, 1.355113, 1.863809 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_thumb_low"
+								hitbox_mins = [ -0.515496, -0.867559, -1.33839 ]
+								hitbox_maxs = [ 1.832174, 0.964407, 0.919184 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_thumb_mid"
+								hitbox_mins = [ -1.503218, -1.14618, -0.601555 ]
+								hitbox_maxs = [ 1.324214, 0.675856, 0.730063 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_index_low"
+								hitbox_mins = [ -0.162364, -0.878872, -0.603804 ]
+								hitbox_maxs = [ 2.372591, 0.669159, 0.820496 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_wrist"
+								hitbox_mins = [ 0.0, -1.32773, -2.031437 ]
+								hitbox_maxs = [ 5.150558, 1.213961, 1.771294 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_thumb_low"
+								hitbox_mins = [ -0.577784, -0.934498, -0.962348 ]
+								hitbox_maxs = [ 2.020348, 1.499646, 1.224569 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_thumb_mid"
+								hitbox_mins = [ -0.757523, -1.527845, -0.799195 ]
+								hitbox_maxs = [ 1.356165, 0.534227, 0.606362 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_index_low"
+								hitbox_mins = [ -0.265594, -0.627738, -0.543823 ]
+								hitbox_maxs = [ 2.370002, 0.962442, 0.663635 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_middle_low"
+								hitbox_mins = [ 0.0, -0.905696, -0.921121 ]
+								hitbox_maxs = [ 2.160775, 0.70579, 0.696164 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_ring_low"
+								hitbox_mins = [ -0.024715, -0.712751, -0.817733 ]
+								hitbox_maxs = [ 1.849167, 1.217274, 0.504669 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_pinky_low"
+								hitbox_mins = [ -0.814846, -0.507612, -0.612232 ]
+								hitbox_maxs = [ 1.222044, 1.11832, 0.657641 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_upperarm"
+								hitbox_mins = [ 0.0, -2.529683, -3.077814 ]
+								hitbox_maxs = [ 13.207108, 3.454201, 3.016867 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_forearm"
+								hitbox_mins = [ 0.0, -2.857684, -3.096594 ]
+								hitbox_maxs = [ 13.747379, 2.8925, 2.879129 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_upperarm"
+								hitbox_mins = [ 0.0, -2.558599, -3.079656 ]
+								hitbox_maxs = [ 13.306124, 3.43306, 3.034456 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_forearm"
+								hitbox_mins = [ 0.0, -2.83744, -3.144027 ]
+								hitbox_maxs = [ 13.879989, 2.882632, 2.941662 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+						]
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						name = "v_rpg_bg_studio_lod0"
+						filename = "models/weapons/rpg/v_rpg_fbx/mesh/v_rpg_bg_studio_lod0.fbx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "v_rpg_bg_hev_lod0"
+						filename = "models/weapons/rpg/v_rpg_fbx/mesh/v_rpg_bg_hev_lod0.fbx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+			{
+				_class = "AnimationList"
+				children = 
+				[
+					{
+						_class = "AnimFile"
+						name = "idle1"
+						activity_name = "ACT_VM_IDLE"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/rpg/v_rpg_fbx/anim/idle1.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "draw"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 0
+								event_keys = 
+								{
+									name = "Weapon_RPG.Draw"
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 21
+								event_keys = 
+								{
+									name = "Weapon_RPG.Button"
+								}
+							},
+						]
+						activity_name = "ACT_VM_DRAW"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.0
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/rpg/v_rpg_fbx/anim/draw.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "fire"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_MUZZLEFLASH0"
+								event_frame = 0
+								event_keys = null
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_MUZZLEFLASH"
+								event_frame = 0
+								event_keys = 
+								{
+									weaponType = "357"
+								}
+							},
+						]
+						activity_name = "ACT_VM_PRIMARYATTACK"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.0
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/rpg/v_rpg_fbx/anim/fire.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "reload"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_WEAPON_THROW"
+								event_frame = 37
+								event_keys = null
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_WEAPON_THROW2"
+								event_frame = 38
+								event_keys = null
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 1
+								event_keys = 
+								{
+									name = "Weapon_Generic.Movement1"
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 27
+								event_keys = 
+								{
+									name = "Weapon_Generic.Movement6"
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 50
+								event_keys = 
+								{
+									name = "Weapon_Generic.Movement5"
+								}
+							},
+						]
+						activity_name = "ACT_VM_RELOAD"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/rpg/v_rpg_fbx/anim/reload.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "up_to_down"
+						activity_name = "ACT_VM_IDLE_TO_LOWERED"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/rpg/v_rpg_fbx/anim/up_to_down.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "down_to_up"
+						activity_name = "ACT_VM_LOWERED_TO_IDLE"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/rpg/v_rpg_fbx/anim/down_to_up.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "down_idle"
+						activity_name = "ACT_VM_IDLE_LOWERED"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/rpg/v_rpg_fbx/anim/down_idle.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "Sprint"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 2
+								event_keys = 
+								{
+									name = "Weapon_Generic.Sprint1"
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 21
+								event_keys = 
+								{
+									name = "Weapon_Generic.Sprint2"
+								}
+							},
+						]
+						activity_name = "ACT_VM_SPRINT"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.6
+						fade_out_time = 0.6
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/rpg/v_rpg_fbx/anim/sprint.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 50.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "holster"
+						activity_name = "ACT_VM_HOLSTER"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/rpg/v_rpg_fbx/anim/holster.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "walk"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 1
+								event_keys = 
+								{
+									name = "Weapon_Generic.Walk1"
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 15
+								event_keys = 
+								{
+									name = "Weapon_Generic.Walk2"
+								}
+							},
+						]
+						activity_name = "ACT_VM_WALK"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.6
+						fade_out_time = 0.6
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/rpg/v_rpg_fbx/anim/walk.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "fidget1"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 18
+								event_keys = 
+								{
+									name = "Weapon_RPG.Pet1"
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 37
+								event_keys = 
+								{
+									name = "Weapon_RPG.Pet2"
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 1
+								event_keys = 
+								{
+									name = "Weapon_Generic.Movement3"
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 45
+								event_keys = 
+								{
+									name = "Weapon_Generic.Movement2"
+								}
+							},
+						]
+						activity_name = "ACT_VM_INSPECT_ALT"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.6
+						fade_out_time = 0.6
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/rpg/v_rpg_fbx/anim/fidget1.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "fidget2"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 1
+								event_keys = 
+								{
+									name = "Weapon_RPG.Inspect"
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 1
+								event_keys = 
+								{
+									name = "Weapon_Generic.Movement1"
+								}
+							},
+						]
+						activity_name = "ACT_VM_INSPECT"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.6
+						fade_out_time = 0.6
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/rpg/v_rpg_fbx/anim/fidget2.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+				]
+				default_root_bone_name = ""
+			},
+		]
+		model_archetype = "animated_model"
+		primary_associated_entity = "weapon_rpg"
+		anim_graph_name = ""
+		importer_notes = """
+Imported from compiled VMDL_C
+==Warnings==
+Cannot import non-trivial meshgroup: HEV
+
+"""
+	}
+}

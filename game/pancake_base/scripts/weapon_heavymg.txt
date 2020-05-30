@@ -1,0 +1,38 @@
+// Heavy MG
+
+GameFileWeaponInfo_t
+{
+	// Weapon data is loaded by both the Game and Client DLLs.
+	"printname"				"#HL2_Pulse_Rifle"
+	"playermodel"			"models/weapons/w_suppressor/suppressor_weapon.vmdl"
+	"anim_prefix"			"heavymg"
+	"muzzleflash_particle"	"particles/weapon_fx/muzzleflash_suppressor_fire.vpcf"
+	"tracer_particle"		"particles/tracer_fx/mg_heavy_tracer.vpcf"
+
+	"clip_size"				"120"
+	"default_clip"			"120"
+
+	"clip2_size"			"-1"
+	"default_clip2"			"-1"
+
+	"primary_ammo"			"HeavyMG"
+	"secondary_ammo"		"None"
+
+	"weight"				"5"
+	"rumble"				"4"
+	"item_flags"			"0"
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+		"empty"				"Weapon_IRifle.Empty"
+		"double_shot"		"CombineMG.Fire"
+		"reload"			"Weapon_AR2.Reload"
+		"single_shot"		"CombineMG.Fire"
+
+		// NPC SECTION
+		"single_shot_npc"	"CombineMG.FireLp"			// This isn't used, the NPC handles weapon sounds for this due to the windup/down
+		"reload_npc"		"Weapon_AR2.NPC_Reload"
+		"double_shot_npc"	"CombineMG.FireLp"			// This isn't used, the NPC handles weapon sounds for this due to the windup/down
+	}
+}

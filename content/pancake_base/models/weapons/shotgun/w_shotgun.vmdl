@@ -1,0 +1,312 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc28:version{fb63b6ca-f435-4aa0-a2c7-c66ddc651dca} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = 
+						[
+							{
+								from = "materials/models/weapons/v_shotgun_new/v_shotgun_m.vmat"
+								to = "models/weapons/shotgun/materials/v_shotgun_m.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = ""
+					},
+				]
+			},
+			{
+				_class = "PhysicsBodyMarkupList"
+				children = 
+				[
+					{
+						_class = "PhysicsBodyMarkup"
+						target_body = "w_shotgun_physics"
+						mass_override = 10.0
+						inertia_scale = 1.0
+						linear_damping = 0.0
+						angular_damping = 0.0
+						use_mass_center_override = false
+						mass_center_override = [ 0.0, 0.0, 0.0 ]
+					},
+				]
+			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsHullFile"
+						name = "w_shotgun_physics_0_mesh"
+						parent_bone = "w_shotgun_physics"
+						surface_prop = "default"
+						collision_prop = "default"
+						recenter_on_parent_bone = true
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/weapons/shotgun/w_shotgun_fbx/physics/physmesh.dmx"
+						import_scale = 1.0
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "SingleHull"
+						optimization_algorithm = "QEM"
+						import_filter = 
+						{
+							exclude_by_default = true
+							exception_list = 
+							[
+								"w_shotgun_physics_0_mesh",
+							]
+						}
+					},
+					{
+						_class = "PhysicsHullFile"
+						name = "w_shotgun_physics_1_mesh"
+						parent_bone = "w_shotgun_physics"
+						surface_prop = "default"
+						collision_prop = "default"
+						recenter_on_parent_bone = true
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/weapons/shotgun/w_shotgun_fbx/physics/physmesh.dmx"
+						import_scale = 1.0
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "SingleHull"
+						optimization_algorithm = "QEM"
+						import_filter = 
+						{
+							exclude_by_default = true
+							exception_list = 
+							[
+								"w_shotgun_physics_1_mesh",
+							]
+						}
+					},
+					{
+						_class = "PhysicsHullFile"
+						name = "w_shotgun_physics_2_mesh"
+						parent_bone = "w_shotgun_physics"
+						surface_prop = "default"
+						collision_prop = "default"
+						recenter_on_parent_bone = true
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/weapons/shotgun/w_shotgun_fbx/physics/physmesh.dmx"
+						import_scale = 1.0
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "SingleHull"
+						optimization_algorithm = "QEM"
+						import_filter = 
+						{
+							exclude_by_default = true
+							exception_list = 
+							[
+								"w_shotgun_physics_2_mesh",
+							]
+						}
+					},
+				]
+			},
+			{
+				_class = "AttachmentList"
+				children = 
+				[
+					{
+						_class = "Attachment"
+						name = "muzzle"
+						parent_bone = "weapon_bone"
+						relative_origin = [ 26.15, 0.69, -2.57 ]
+						relative_angles = [ 3.959999, -0.39, -91.969994 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "1"
+						parent_bone = "weapon_bone"
+						relative_origin = [ 5.19, 1.39, -0.1 ]
+						relative_angles = [ 2.17, 88.949997, -77.080002 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+				]
+			},
+			{
+				_class = "HitboxSetList"
+				children = 
+				[
+					{
+						_class = "HitboxSet"
+						name = "default"
+						children = 
+						[
+							{
+								_class = "Hitbox"
+								parent_bone = "bip01_r_hand"
+								hitbox_mins = [ 0.0, -1.5, -5.0 ]
+								hitbox_maxs = [ 5.000002, 0.0, 0.0 ]
+								surface_property = "weapon"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "weapon_bone"
+								hitbox_mins = [ -3.918172, -0.858514, -3.962458 ]
+								hitbox_maxs = [ 29.570824, 1.787184, 7.104224 ]
+								surface_property = "weapon"
+								translation_only = false
+								group_id = 0
+							},
+						]
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						name = "w_shotgun_bg_studio_lod0"
+						filename = "models/weapons/shotgun/w_shotgun_fbx/mesh/w_shotgun_bg_studio_lod0.fbx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+			{
+				_class = "AnimationList"
+				children = 
+				[
+					{
+						_class = "AnimFile"
+						name = "idle1"
+						activity_name = "ACT_VM_IDLE"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/shotgun/w_shotgun_fbx/anim/idle1.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "fire"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_NPC_MUZZLEFLASH"
+								event_frame = 0
+								event_keys = 
+								{
+									weaponType = "SHOTGUN"
+									attachment = "MUZZLE"
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_EJECTBRASS1"
+								event_frame = 0
+								event_keys = null
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_WEAPON_SHOTGUN_FIRE"
+								event_frame = 0
+								event_keys = null
+							},
+						]
+						activity_name = "ACT_RANGE_ATTACK_SHOTGUN"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/shotgun/w_shotgun_fbx/anim/fire.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 5.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "draw"
+						activity_name = "ACT_VM_DRAW"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/shotgun/w_shotgun_fbx/anim/draw.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "holster"
+						activity_name = "ACT_VM_HOLSTER"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/shotgun/w_shotgun_fbx/anim/holster.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+				]
+				default_root_bone_name = ""
+			},
+		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		anim_graph_name = ""
+		importer_notes = """
+Imported from compiled VMDL_C
+"""
+	}
+}

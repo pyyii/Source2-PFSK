@@ -1,0 +1,13 @@
+// Converted with vmt_to_vmat.py
+
+Layer0
+{
+	shader "vr_complex.vfx"
+
+	TextureColor "models\weapons\revolver\materials\ak47_color.tga"
+	TextureNormal "models\weapons\revolver\materials\ak47_normal.tga"
+	TextureAmbientOcclusion "models\weapons\revolver\materials\ak47_ao.tga"
+	g_flAmbientOcclusionDirectSpecular "0.000"
+	F_SPECULAR 1
+	TextureRoughness "models\weapons\revolver\materials\ak47_rough.tga"
+}

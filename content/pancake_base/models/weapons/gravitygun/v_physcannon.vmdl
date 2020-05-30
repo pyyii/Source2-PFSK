@@ -1,0 +1,865 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc28:version{fb63b6ca-f435-4aa0-a2c7-c66ddc651dca} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "PoseParamList"
+				children = 
+				[
+					{
+						_class = "PoseParam"
+						name = "active"
+						poseparam_min = 0.0
+						poseparam_max = 1.0
+						poseparam_looping = true
+						poseparam_loop = 0.0
+					},
+				]
+			},
+			{
+				_class = "WeightListList"
+				children = 
+				[
+					{
+						_class = "WeightList"
+						name = "weightlist_1"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "base"
+								weight = 0.0
+							},
+							{
+								bone = "base_a"
+								weight = 0.0
+							},
+							{
+								bone = "base_b"
+								weight = 0.0
+							},
+							{
+								bone = "doodad_1"
+								weight = 0.0
+							},
+							{
+								bone = "doodad_2"
+								weight = 0.0
+							},
+							{
+								bone = "doodad_3"
+								weight = 0.0
+							},
+							{
+								bone = "doodad_4"
+								weight = 0.0
+							},
+							{
+								bone = "handle"
+								weight = 0.0
+							},
+							{
+								bone = "muzzle"
+								weight = 0.0
+							},
+							{
+								bone = "prong_a"
+								weight = 0.0
+							},
+							{
+								bone = "prong_b"
+								weight = 0.0
+							},
+							{
+								bone = "prong_back"
+								weight = 1.0
+							},
+							{
+								bone = "prong_back001"
+								weight = 1.0
+							},
+							{
+								bone = "prong_back002"
+								weight = 1.0
+							},
+							{
+								bone = "prong_back003"
+								weight = 0.0
+							},
+							{
+								bone = "prong_base"
+								weight = 1.0
+							},
+							{
+								bone = "prong_base001"
+								weight = 1.0
+							},
+							{
+								bone = "prong_base002"
+								weight = 1.0
+							},
+							{
+								bone = "prong_front_strut"
+								weight = 1.0
+							},
+							{
+								bone = "prong_front_strut001"
+								weight = 1.0
+							},
+							{
+								bone = "prong_front_strut002"
+								weight = 1.0
+							},
+							{
+								bone = "prong_mesh"
+								weight = 0.0
+							},
+							{
+								bone = "prong_mesh001"
+								weight = 0.0
+							},
+							{
+								bone = "prong_tip"
+								weight = 1.0
+							},
+							{
+								bone = "prong_tip001"
+								weight = 1.0
+							},
+							{
+								bone = "prong_tip002"
+								weight = 1.0
+							},
+							{
+								bone = "prong_tip003"
+								weight = 0.0
+							},
+							{
+								bone = "prong_tip_light"
+								weight = 1.0
+							},
+							{
+								bone = "prong_tip_light001"
+								weight = 1.0
+							},
+							{
+								bone = "prong_tip_light002"
+								weight = 1.0
+							},
+							{
+								bone = "square"
+								weight = 0.0
+							},
+							{
+								bone = "strut"
+								weight = 1.0
+							},
+							{
+								bone = "strut001"
+								weight = 1.0
+							},
+							{
+								bone = "strut002"
+								weight = 1.0
+							},
+							{
+								bone = "strut_bottom"
+								weight = 1.0
+							},
+							{
+								bone = "strut_bottom001"
+								weight = 1.0
+							},
+							{
+								bone = "strut_bottom002"
+								weight = 1.0
+							},
+							{
+								bone = "strut_mid"
+								weight = 1.0
+							},
+							{
+								bone = "strut_mid001"
+								weight = 1.0
+							},
+							{
+								bone = "strut_mid002"
+								weight = 1.0
+							},
+							{
+								bone = "strut_top"
+								weight = 1.0
+							},
+							{
+								bone = "strut_top001"
+								weight = 1.0
+							},
+							{
+								bone = "strut_top002"
+								weight = 1.0
+							},
+							{
+								bone = "tip_a"
+								weight = 0.0
+							},
+							{
+								bone = "tip_b"
+								weight = 0.0
+							},
+						]
+						master_morph_weight = -1.0
+						morph_weights = [  ]
+					},
+				]
+			},
+			{
+				_class = "AttachmentList"
+				children = 
+				[
+					{
+						_class = "Attachment"
+						name = "muzzle"
+						parent_bone = "muzzle"
+						relative_origin = [ 0.0, 0.250001, -2.0 ]
+						relative_angles = [ 0.0, 0.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "fork1b"
+						parent_bone = "prong_tip"
+						relative_origin = [ 0.000002, 0.0, 0.0 ]
+						relative_angles = [ -0.0, 0.0, -0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "fork1m"
+						parent_bone = "prong_base"
+						relative_origin = [ 0.0, 0.0, 0.0 ]
+						relative_angles = [ -0.0, 0.0, -0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "fork1t"
+						parent_bone = "prong_tip_light"
+						relative_origin = [ 0.0, 0.0, 0.000001 ]
+						relative_angles = [ 0.0, -180.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "fork2b"
+						parent_bone = "prong_tip001"
+						relative_origin = [ 0.000008, 0.0, 0.000004 ]
+						relative_angles = [ -0.0, 0.000003, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "fork2m"
+						parent_bone = "prong_base001"
+						relative_origin = [ 0.0, 0.0, 0.0 ]
+						relative_angles = [ 0.0, 0.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "fork2t"
+						parent_bone = "prong_tip_light001"
+						relative_origin = [ 0.0, 0.0, 0.0 ]
+						relative_angles = [ -0.000002, -180.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+				]
+			},
+			{
+				_class = "HitboxSetList"
+				children = 
+				[
+					{
+						_class = "HitboxSet"
+						name = "default"
+						children = 
+						[
+							{
+								_class = "Hitbox"
+								parent_bone = "base"
+								hitbox_mins = [ -7.148785, -8.982257, -17.532347 ]
+								hitbox_maxs = [ 14.132966, 5.897995, 18.31628 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "prong_b"
+								hitbox_mins = [ 0.0, -5.125229, 0.0 ]
+								hitbox_maxs = [ 4.433215, 0.0, 11.821243 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "handle"
+								hitbox_mins = [ -3.115694, -3.526265, -10.561888 ]
+								hitbox_maxs = [ 3.400256, 1.96183, 2.144013 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "square"
+								hitbox_mins = [ -0.019247, -5.23221, -7.111629 ]
+								hitbox_maxs = [ 5.406463, 0.581676, 0.564881 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "prong_base002"
+								hitbox_mins = [ -4.620453, 0.0, -0.715529 ]
+								hitbox_maxs = [ 1.006311, 5.787685, 0.716033 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "strut_top002"
+								hitbox_mins = [ -0.138551, -1.551935, -0.945608 ]
+								hitbox_maxs = [ 6.732507, 0.112583, 0.9461 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "strut_mid002"
+								hitbox_mins = [ -0.268774, -1.275543, -0.765429 ]
+								hitbox_maxs = [ 4.180335, 0.185356, 0.765903 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "prong_base001"
+								hitbox_mins = [ -4.620457, 0.0, -0.715699 ]
+								hitbox_maxs = [ 1.006303, 5.788278, 0.715876 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "strut_mid001"
+								hitbox_mins = [ -0.268765, -1.274885, -0.765564 ]
+								hitbox_maxs = [ 4.180339, 0.185948, 0.76573 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "strut_top001"
+								hitbox_mins = [ -0.138453, -1.5513, -0.94581 ]
+								hitbox_maxs = [ 6.7326, 0.113194, 0.94594 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "prong_base"
+								hitbox_mins = [ -4.620461, 0.0, -0.716083 ]
+								hitbox_maxs = [ 1.006312, 5.787829, 0.715418 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "strut_top"
+								hitbox_mins = [ -0.138513, -1.551705, -0.946274 ]
+								hitbox_maxs = [ 6.732536, 0.112747, 0.945526 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "strut_mid"
+								hitbox_mins = [ -0.268761, -1.275288, -0.765985 ]
+								hitbox_maxs = [ 4.180346, 0.185505, 0.765316 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+						]
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						name = "v_physcannon_bg_studio_lod0"
+						filename = "models/weapons/gravitygun/v_physcannon_fbx/mesh/v_physcannon_bg_studio_lod0.fbx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+			{
+				_class = "AnimationList"
+				children = 
+				[
+					{
+						_class = "AnimFile"
+						name = "idle"
+						activity_name = "ACT_VM_IDLE"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/gravitygun/v_physcannon_fbx/anim/idle.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "hold_idle"
+						activity_name = "ACT_VM_RELOAD"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/gravitygun/v_physcannon_fbx/anim/hold_idle.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "draw"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 0
+								event_keys = 
+								{
+									name = "Weapon_Physcannon.Draw"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+						]
+						activity_name = "ACT_VM_DRAW"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.0
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/gravitygun/v_physcannon_fbx/anim/draw.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "holster"
+						activity_name = "ACT_VM_HOLSTER"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/gravitygun/v_physcannon_fbx/anim/holster.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "fire"
+						activity_name = "ACT_VM_PRIMARYATTACK"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/gravitygun/v_physcannon_fbx/anim/fire.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "altfire"
+						activity_name = "ACT_VM_SECONDARYATTACK"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/gravitygun/v_physcannon_fbx/anim/altfire.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "chargeup"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/gravitygun/v_physcannon_fbx/anim/chargeup.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "1DBlend"
+						name = "prong_blend"
+						children = 
+						[
+							{
+								_class = "AnimAutoLayer"
+							},
+						]
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = "weightlist_1"
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						poseParam = "active"
+						blendList = 
+						[
+							{
+								name = "ProngsShut"
+								weight = 0.0
+							},
+							{
+								name = "ProngsOpen"
+								weight = 1.0
+							},
+						]
+					},
+					{
+						_class = "AnimFile"
+						name = "Sprint"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 1
+								event_keys = 
+								{
+									name = "Weapon_Generic.Sprint1"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 11
+								event_keys = 
+								{
+									name = "Weapon_Generic.Sprint2"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+						]
+						activity_name = "ACT_VM_SPRINT"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.35
+						fade_out_time = 0.35
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/gravitygun/v_physcannon_fbx/anim/sprint.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "walk"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 0
+								event_keys = 
+								{
+									name = "Weapon_Generic.Walk1"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 13
+								event_keys = 
+								{
+									name = "Weapon_Generic.Walk2"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+						]
+						activity_name = "ACT_VM_WALK"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.35
+						fade_out_time = 0.35
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/gravitygun/v_physcannon_fbx/anim/walk.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "idletolow"
+						activity_name = "ACT_VM_LOWERED_TO_IDLE"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.3
+						fade_out_time = 0.3
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/gravitygun/v_physcannon_fbx/anim/idletolow.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "lowtoidle"
+						activity_name = "ACT_VM_IDLE_TO_LOWERED"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.3
+						fade_out_time = 0.3
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/gravitygun/v_physcannon_fbx/anim/lowtoidle.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "lowidle"
+						activity_name = "ACT_VM_IDLE_LOWERED"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.3
+						fade_out_time = 0.3
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/gravitygun/v_physcannon_fbx/anim/lowidle.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 3.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "ProngsShut"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/gravitygun/v_physcannon_fbx/anim/prongsshut.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "ProngsOpen"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/gravitygun/v_physcannon_fbx/anim/prongsopen.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+				]
+				default_root_bone_name = ""
+			},
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = 
+						[
+							{
+								from = "materials/models/weapons/v_hand/v_hand_sheet.vmat"
+								to = "models/weapons/hands/materials/v_hand_sheet.vmat"
+							},
+							{
+								from = "materials/models/weapons/v_hand/v_physcannon_body.vmat"
+								to = "models/weapons/gravitygun/materials/v_physcannon_body.vmat"
+							},
+							{
+								from = "materials/models/weapons/v_hand/v_physcannon_copper.vmat"
+								to = "models/weapons/gravitygun/materials/v_physcannon_copper.vmat"
+							},
+							{
+								from = "materials/models/weapons/v_hand/v_physcannon_crystal.vmat"
+								to = "models/weapons/gravitygun/materials/v_physcannon_crystal.vmat"
+							},
+							{
+								from = "materials/models/weapons/v_hand/v_physcannon_glass.vmat"
+								to = "models/weapons/gravitygun/materials/v_physcannon_glass.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = ""
+					},
+				]
+			},
+		]
+		model_archetype = "animated_model"
+		primary_associated_entity = "weapon_physcannon"
+		anim_graph_name = ""
+		importer_notes = """
+Imported from compiled VMDL_C
+"""
+	}
+}

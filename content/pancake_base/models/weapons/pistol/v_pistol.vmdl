@@ -1,0 +1,1249 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc28:version{fb63b6ca-f435-4aa0-a2c7-c66ddc651dca} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "AttachmentList"
+				children = 
+				[
+					{
+						_class = "Attachment"
+						name = "muzzle"
+						parent_bone = "usp"
+						relative_origin = [ -6.700001, 0.6, -0.03 ]
+						relative_angles = [ -0.0, 180.0, 90.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "1"
+						parent_bone = "usp"
+						relative_origin = [ -1.0, 0.75, -0.05 ]
+						relative_angles = [ 25.0, 90.0, 24.999996 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+				]
+			},
+			{
+				_class = "HitboxSetList"
+				children = 
+				[
+					{
+						_class = "HitboxSet"
+						name = "default"
+						children = 
+						[
+							{
+								_class = "Hitbox"
+								parent_bone = "usp"
+								hitbox_mins = [ -6.498259, -4.847768, -0.870857 ]
+								hitbox_maxs = [ 3.646185, 1.180865, 0.851957 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_wrist"
+								hitbox_mins = [ -0.409414, -1.361942, -2.261818 ]
+								hitbox_maxs = [ 4.730936, 1.597516, 1.843593 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_thumb_low"
+								hitbox_mins = [ -1.541703, -1.606235, -1.241973 ]
+								hitbox_maxs = [ 2.222897, 1.192542, 1.598363 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_thumb_mid"
+								hitbox_mins = [ -1.14736, -2.256183, -0.994823 ]
+								hitbox_maxs = [ 1.621824, 0.53421, 0.753742 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_index_low"
+								hitbox_mins = [ -0.54417, -0.643989, -0.75128 ]
+								hitbox_maxs = [ 2.767043, 0.957259, 0.79307 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_middle_low"
+								hitbox_mins = [ -0.327187, -0.905661, -1.34383 ]
+								hitbox_maxs = [ 2.611135, 0.93147, 1.074386 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_ring_low"
+								hitbox_mins = [ -0.497012, -0.746341, -1.240098 ]
+								hitbox_maxs = [ 2.097591, 0.989525, 0.657828 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_pinky_low"
+								hitbox_mins = [ -1.272367, -0.537987, -0.758917 ]
+								hitbox_maxs = [ 1.369395, 1.56791, 0.923766 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_upperarm"
+								hitbox_mins = [ 0.0, -2.475179, -3.062223 ]
+								hitbox_maxs = [ 13.121429, 3.730187, 3.032981 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_forearm"
+								hitbox_mins = [ 0.0, -2.68755, -3.038874 ]
+								hitbox_maxs = [ 13.870716, 3.158054, 2.93754 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_wrist"
+								hitbox_mins = [ -0.260235, -1.535107, -2.185614 ]
+								hitbox_maxs = [ 4.777867, 1.39036, 1.856684 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_thumb_low"
+								hitbox_mins = [ -0.843364, -0.867505, -1.500879 ]
+								hitbox_maxs = [ 1.955062, 1.287748, 0.931683 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_thumb_mid"
+								hitbox_mins = [ -1.381129, -1.589825, -0.601442 ]
+								hitbox_maxs = [ 1.666793, 0.675815, 1.204741 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_index_low"
+								hitbox_mins = [ -0.544449, -0.788909, -0.704766 ]
+								hitbox_maxs = [ 2.779301, 0.751622, 1.147658 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_middle_low"
+								hitbox_mins = [ -0.186519, -1.143901, -1.205763 ]
+								hitbox_maxs = [ 2.701456, 0.620659, 0.759383 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_middle_mid"
+								hitbox_mins = [ -0.572044, -0.764079, -0.468857 ]
+								hitbox_maxs = [ 1.912793, 0.425973, 0.624742 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_ring_low"
+								hitbox_mins = [ -0.538359, -1.868285, -0.966515 ]
+								hitbox_maxs = [ 2.182716, 0.612663, 0.497068 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_pinky_low"
+								hitbox_mins = [ -1.152817, -1.671276, -1.024514 ]
+								hitbox_maxs = [ 1.762953, 0.659195, 0.778536 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_upperarm"
+								hitbox_mins = [ 0.0, -2.500104, -3.065757 ]
+								hitbox_maxs = [ 13.229992, 3.711741, 3.045985 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_forearm"
+								hitbox_mins = [ 0.0, -2.675244, -3.11912 ]
+								hitbox_maxs = [ 13.954473, 3.141466, 2.961502 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "usp_slide"
+								hitbox_mins = [ -0.969229, -1.088377, -0.673972 ]
+								hitbox_maxs = [ 7.381521, 1.056887, 0.690302 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "usp_mag"
+								hitbox_mins = [ -1.324384, -0.721819, -0.565054 ]
+								hitbox_maxs = [ 4.126009, 1.506753, 0.610548 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "usp"
+								hitbox_mins = [ -6.498259, -4.847768, -0.870857 ]
+								hitbox_maxs = [ 3.646185, 1.180865, 0.851957 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_wrist"
+								hitbox_mins = [ -0.409414, -1.361942, -2.261818 ]
+								hitbox_maxs = [ 4.730936, 1.597516, 1.843593 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_thumb_low"
+								hitbox_mins = [ -1.541703, -1.606235, -1.241973 ]
+								hitbox_maxs = [ 2.222897, 1.192542, 1.598363 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_thumb_mid"
+								hitbox_mins = [ -1.14736, -2.256183, -0.994823 ]
+								hitbox_maxs = [ 1.621824, 0.53421, 0.753742 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_index_low"
+								hitbox_mins = [ -0.54417, -0.643989, -0.75128 ]
+								hitbox_maxs = [ 2.767043, 0.957259, 0.79307 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_middle_low"
+								hitbox_mins = [ -0.327187, -0.905661, -1.34383 ]
+								hitbox_maxs = [ 2.611135, 0.93147, 1.074386 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_ring_low"
+								hitbox_mins = [ -0.497012, -0.746341, -1.240098 ]
+								hitbox_maxs = [ 2.097591, 0.989525, 0.657828 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_pinky_low"
+								hitbox_mins = [ -1.272367, -0.537987, -0.758917 ]
+								hitbox_maxs = [ 1.369395, 1.56791, 0.923766 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_upperarm"
+								hitbox_mins = [ 0.0, -2.475179, -3.062223 ]
+								hitbox_maxs = [ 13.121429, 3.730187, 3.032981 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_forearm"
+								hitbox_mins = [ 0.0, -2.68755, -3.038874 ]
+								hitbox_maxs = [ 13.870716, 3.158054, 2.93754 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_wrist"
+								hitbox_mins = [ -0.260235, -1.535107, -2.185614 ]
+								hitbox_maxs = [ 4.777867, 1.39036, 1.856684 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_thumb_low"
+								hitbox_mins = [ -0.843364, -0.867505, -1.500879 ]
+								hitbox_maxs = [ 1.955062, 1.287748, 0.931683 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_thumb_mid"
+								hitbox_mins = [ -1.381129, -1.589825, -0.601442 ]
+								hitbox_maxs = [ 1.666793, 0.675815, 1.204741 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_index_low"
+								hitbox_mins = [ -0.544449, -0.788909, -0.704766 ]
+								hitbox_maxs = [ 2.779301, 0.751622, 1.147658 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_middle_low"
+								hitbox_mins = [ -0.186519, -1.143901, -1.205763 ]
+								hitbox_maxs = [ 2.701456, 0.620659, 0.759383 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_middle_mid"
+								hitbox_mins = [ -0.572044, -0.764079, -0.468857 ]
+								hitbox_maxs = [ 1.912793, 0.425973, 0.624742 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_ring_low"
+								hitbox_mins = [ -0.538359, -1.868285, -0.966515 ]
+								hitbox_maxs = [ 2.182716, 0.612663, 0.497068 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_pinky_low"
+								hitbox_mins = [ -1.152817, -1.671276, -1.024514 ]
+								hitbox_maxs = [ 1.762953, 0.659195, 0.778536 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_upperarm"
+								hitbox_mins = [ 0.0, -2.500104, -3.065757 ]
+								hitbox_maxs = [ 13.229992, 3.711741, 3.045985 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_forearm"
+								hitbox_mins = [ 0.0, -2.675244, -3.11912 ]
+								hitbox_maxs = [ 13.954473, 3.141466, 2.961502 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "usp_slide"
+								hitbox_mins = [ -0.969229, -1.088377, -0.673972 ]
+								hitbox_maxs = [ 7.381521, 1.056887, 0.690302 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "usp_mag"
+								hitbox_mins = [ -1.324384, -0.721819, -0.565054 ]
+								hitbox_maxs = [ 4.126009, 1.506753, 0.610548 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+						]
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						name = "v_pistol_bg_studio_lod0"
+						filename = "models/weapons/pistol/v_pistol_fbx/mesh/v_pistol_bg_studio_lod0.fbx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "v_pistol_bg_hands_lod0"
+						filename = "models/weapons/pistol/v_pistol_fbx/mesh/v_pistol_bg_hands_lod0.fbx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+			{
+				_class = "AnimationList"
+				children = 
+				[
+					{
+						_class = "AnimFile"
+						name = "idle"
+						activity_name = "ACT_VM_IDLE"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.0
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/pistol/v_pistol_fbx/anim/idle.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "idle_is"
+						activity_name = "ACT_VM_IDLE_SILENCED"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.0
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/pistol/v_pistol_fbx/anim/idle_is.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "holster"
+						activity_name = "ACT_VM_HOLSTER"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.0
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/pistol/v_pistol_fbx/anim/holster.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "fire1"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_EJECTBRASS1"
+								event_frame = 0
+								event_keys = null
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 0
+								event_keys = 
+								{
+									name = resource:"particles/weapon_fx/muzzleflash_mg_heavy.vpcf"
+									detach_from_owner = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = ""
+									attachment_point = "muzzle"
+									attachment_type = "point_follow"
+									attachment_point_cp1 = ""
+									attachment_type_cp1 = "point_follow"
+								}
+							},
+						]
+						activity_name = "ACT_VM_PRIMARYATTACK"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.0
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = true
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/pistol/v_pistol_fbx/anim/fire1.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "fire2"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_EJECTBRASS1"
+								event_frame = 0
+								event_keys = null
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 0
+								event_keys = 
+								{
+									name = resource:"particles/weapon_fx/muzzleflash_mg_heavy.vpcf"
+									detach_from_owner = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = ""
+									attachment_point = "muzzle"
+									attachment_type = "point_follow"
+									attachment_point_cp1 = ""
+									attachment_type_cp1 = "point_follow"
+								}
+							},
+						]
+						activity_name = "ACT_VM_RECOIL1"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.0
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = true
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/pistol/v_pistol_fbx/anim/fire2.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "fire3"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_EJECTBRASS1"
+								event_frame = 0
+								event_keys = null
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 0
+								event_keys = 
+								{
+									name = resource:"particles/weapon_fx/muzzleflash_mg_heavy.vpcf"
+									detach_from_owner = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = ""
+									attachment_point = "muzzle"
+									attachment_type = "point_follow"
+									attachment_point_cp1 = ""
+									attachment_type_cp1 = "point_follow"
+								}
+							},
+						]
+						activity_name = "ACT_VM_RECOIL2"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.0
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = true
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/pistol/v_pistol_fbx/anim/fire3.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "fire4"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_EJECTBRASS1"
+								event_frame = 0
+								event_keys = null
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 0
+								event_keys = 
+								{
+									name = resource:"particles/weapon_fx/muzzleflash_mg_heavy.vpcf"
+									detach_from_owner = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = ""
+									attachment_point = "muzzle"
+									attachment_type = "point_follow"
+									attachment_point_cp1 = ""
+									attachment_type_cp1 = "point_follow"
+								}
+							},
+						]
+						activity_name = "ACT_VM_RECOIL3"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.0
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = true
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/pistol/v_pistol_fbx/anim/fire4.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "fire_last"
+						activity_name = "ACT_VM_DRYFIRE"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.0
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/pistol/v_pistol_fbx/anim/fire_last.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "shoot_last"
+						activity_name = "ACT_VM_SHOOTLAST"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.0
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/pistol/v_pistol_fbx/anim/shoot_last.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "draw"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 0
+								event_keys = 
+								{
+									name = "Weapon_Pistol.Draw"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 14
+								event_keys = 
+								{
+									name = "Weapon_USP.SlideRelease"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+						]
+						activity_name = "ACT_VM_DRAW"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.0
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/pistol/v_pistol_fbx/anim/draw.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "reload"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_WEAPON_RELOAD"
+								event_frame = 10
+								event_keys = null
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 3
+								event_keys = 
+								{
+									name = "Weapon_USP.SlidePull"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 9
+								event_keys = 
+								{
+									name = "Weapon_USP.ClipOut"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 25
+								event_keys = 
+								{
+									name = "Weapon_USP.ClipIn"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 36
+								event_keys = 
+								{
+									name = "Weapon_USP.SlideRelease"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 1
+								event_keys = 
+								{
+									name = "Weapon_Generic.Movement5"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 22
+								event_keys = 
+								{
+									name = "Weapon_Generic.Movement2"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 32
+								event_keys = 
+								{
+									name = "Weapon_Generic.Movement4"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+						]
+						activity_name = "ACT_VM_RELOAD"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = true
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/pistol/v_pistol_fbx/anim/reload.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "idletolow"
+						activity_name = "ACT_VM_LOWERED_TO_IDLE"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.0
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/pistol/v_pistol_fbx/anim/idletolow.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 40.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "lowtoidle"
+						activity_name = "ACT_VM_IDLE_TO_LOWERED"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.0
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/pistol/v_pistol_fbx/anim/lowtoidle.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 40.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "lowidle"
+						activity_name = "ACT_VM_IDLE_LOWERED"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.0
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/pistol/v_pistol_fbx/anim/lowidle.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "Walk"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 0
+								event_keys = 
+								{
+									name = "Weapon_Generic.Walk1"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 15
+								event_keys = 
+								{
+									name = "Weapon_Generic.Walk2"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+						]
+						activity_name = "ACT_VM_WALK"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.0
+						fade_out_time = 0.35
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/pistol/v_pistol_fbx/anim/walk.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "Sprint"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 1
+								event_keys = 
+								{
+									name = "Weapon_Generic.Sprint1"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 13
+								event_keys = 
+								{
+									name = "Weapon_Generic.Sprint2"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+						]
+						activity_name = "ACT_VM_SPRINT"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.0
+						fade_out_time = 0.35
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/pistol/v_pistol_fbx/anim/sprint.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 34.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "inspect1"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 3
+								event_keys = 
+								{
+									name = "Weapon_Generic.Movement1"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 31
+								event_keys = 
+								{
+									name = "Weapon_Generic.Movement2"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 56
+								event_keys = 
+								{
+									name = "Weapon_Generic.Movement5"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+						]
+						activity_name = "ACT_VM_INSPECT"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.0
+						fade_out_time = 0.4
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/pistol/v_pistol_fbx/anim/inspect1.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "inspect2"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 1
+								event_keys = 
+								{
+									name = "Weapon_Generic.Movement2"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 24
+								event_keys = 
+								{
+									name = "Weapon_USP.SlidePull"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 52
+								event_keys = 
+								{
+									name = "Weapon_USP.SlideRelease"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 53
+								event_keys = 
+								{
+									name = "Weapon_Generic.Movement5"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+						]
+						activity_name = "ACT_VM_INSPECT_ALT"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.0
+						fade_out_time = 0.4
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/pistol/v_pistol_fbx/anim/inspect2.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+				]
+				default_root_bone_name = ""
+			},
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = 
+						[
+							{
+								from = "materials/models/weapons/v_pistol_new/v_pistol_body.vmat"
+								to = "models/weapons/pistol/materials/v_pistol_body.vmat"
+							},
+							{
+								from = "materials/models/weapons/v_hand/v_hand_sheet.vmat"
+								to = "models/weapons/hands/materials/v_hand_sheet.vmat"
+							},
+							{
+								from = "materials/models/weapons/v_pistol_new/v_pistol_brass.vmat"
+								to = "models/weapons/pistol/materials/v_pistol_brass.vmat"
+							},
+							{
+								from = "materials/models/weapons/v_pistol_new/v_pistol_chrome.vmat"
+								to = "models/weapons/pistol/materials/v_pistol_chrome.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = ""
+					},
+				]
+			},
+		]
+		model_archetype = "animated_model"
+		primary_associated_entity = "weapon_pistol"
+		anim_graph_name = ""
+		importer_notes = """
+Imported from compiled VMDL_C
+==Warnings==
+Cannot import non-trivial meshgroup: hands
+
+"""
+	}
+}

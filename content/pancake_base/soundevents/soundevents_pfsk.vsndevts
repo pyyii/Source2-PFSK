@@ -1,0 +1,1350 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+{
+	// Pistol Sounds
+	Weapon_USP.SlidePull = 
+	{
+		type = "src1_3d"
+		volume = 0.699707
+		mixgroup = "PlayerWeapons"
+		pitch = 1.000000
+		soundlevel = 75.000000
+		event_type = 2
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/pistol/pistol_slidepull.vsnd",
+		]
+	}
+	Weapon_USP.SlideRelease = 
+	{
+		type = "src1_3d"
+		volume = 0.699707
+		mixgroup = "PlayerWeapons"
+		pitch = 1.000000
+		soundlevel = 75.000000
+		event_type = 2
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/pistol/pistol_sliderelease.vsnd",
+		]
+	}
+	Weapon_USP.Inspect = 
+	{
+		type = "src1_3d"
+		volume = 0.699707
+		mixgroup = "PlayerWeapons"
+		pitch = 1.000000
+		soundlevel = 75.000000
+		event_type = 2
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/pistol/pistol_fidget.vsnd",
+		]
+	}
+	Weapon_USP.ClipOut = 
+	{
+		type = "src1_3d"
+		volume = 0.699707
+		mixgroup = "PlayerWeapons"
+		pitch = 1.000000
+		soundlevel = 75.000000
+		event_type = 2
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/pistol/pistol_clipout.vsnd",
+		]
+	}
+	Weapon_USP.ClipIn = 
+	{
+		type = "src1_3d"
+		volume = 0.699707
+		mixgroup = "PlayerWeapons"
+		pitch = 1.000000
+		soundlevel = 75.000000
+		event_type = 2
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/pistol/pistol_clipin.vsnd",
+		]
+	}
+	Weapon_Pistol.Draw = 
+	{
+		type = "src1_3d"
+		volume = 1
+		mixgroup = "PlayerWeapons"
+		pitch = 1.000000
+		soundlevel = 75.000000
+		event_type = 2
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/pistol/pistol_deploy.vsnd",
+		]
+	}
+	Weapon_Pistol.Single = 
+	{
+		type = "hlvr_default_3d"
+		volume = 1
+		mixgroup = "PlayerWeaponFire"
+		pitch = 1.000000
+		soundlevel = 135
+		event_type = 3
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/pistol/player_pistol_fire1.vsnd",
+			"sounds/weapons/pistol/player_pistol_fire2.vsnd",
+			"sounds/weapons/pistol/player_pistol_fire3.vsnd",
+		]
+	}
+
+	// Crowbar Sounds
+	Weapon_Crowbar.Draw = 
+	{
+		type = "src1_3d"
+		volume = 1
+		mixgroup = "PlayerWeapons"
+		pitch = 1.000000
+		soundlevel = 75.000000
+		event_type = 2
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/crowbar/crowbar_deploy.vsnd",
+		]
+	}
+	Weapon_Crowbar.Single = 
+	{
+		type = "src1_3d"
+		volume = 1
+		mixgroup = "PlayerWeapons"
+		pitch = 1.000000
+		soundlevel = 75.000000
+		event_type = 3
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/crowbar/crowbar_swing1.vsnd",
+			"sounds/weapons/crowbar/crowbar_swing2.vsnd",
+			"sounds/weapons/crowbar/crowbar_swing3.vsnd",
+		]
+	}
+
+	// AR2 Sounds
+	Weapon_AR2.Reload_Rotate = 
+	{
+		type = "src1_3d"
+		volume = 0.699707
+		mixgroup = "PlayerWeapons"
+		pitch = 1.000000
+		soundlevel = 75.000000
+		event_type = 2
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/ar2/ar2_reload_rotate.vsnd",
+		]
+	}
+
+	Weapon_AR2.Reload_Push = 
+	{
+		type = "src1_3d"
+		volume = 0.699707
+		mixgroup = "PlayerWeapons"
+		pitch = 1.000000
+		soundlevel = 75.000000
+		event_type = 2
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/ar2/ar2_reload_push.vsnd",
+		]
+	}
+
+	Weapon_AR2.MagOut = 
+	{
+		type = "src1_3d"
+		volume = 0.699707
+		mixgroup = "PlayerWeapons"
+		pitch = 1.000000
+		soundlevel = 75.000000
+		event_type = 2
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/ar2/ar2_magout.vsnd",
+		]
+	}
+
+	Weapon_AR2.MagIn = 
+	{
+		type = "src1_3d"
+		volume = 0.699707
+		mixgroup = "PlayerWeapons"
+		pitch = 1.000000
+		soundlevel = 75.000000
+		event_type = 2
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/ar2/ar2_magin.vsnd",
+		]
+	}
+
+	Weapon_AR2.FidgetRotate = 
+	{
+		type = "src1_3d"
+		volume = 0.699707
+		mixgroup = "PlayerWeapons"
+		pitch = 1.000000
+		soundlevel = 75.000000
+		event_type = 2
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/ar2/ar2_rotate.vsnd",
+		]
+	}
+
+	Weapon_AR2.FidgetPush = 
+	{
+		type = "src1_3d"
+		volume = 0.699707
+		mixgroup = "PlayerWeapons"
+		pitch = 1.000000
+		soundlevel = 75.000000
+		event_type = 2
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/ar2/ar2_push.vsnd",
+		]
+	}
+
+	Weapon_AR2.BoltPull = 
+	{
+		type = "src1_3d"
+		volume = 0.699707
+		mixgroup = "PlayerWeapons"
+		pitch = 1.000000
+		soundlevel = 75.000000
+		event_type = 2
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/ar2/ar2_boltpull.vsnd",
+		]
+	}
+
+	Weapon_Irifle.Draw = 
+	{
+		type = "src1_3d"
+		volume = 1
+		mixgroup = "PlayerWeapons"
+		pitch = 1.000000
+		soundlevel = 75.000000
+		event_type = 2
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/ar2/ar2_deploy.vsnd",
+		]
+	}
+
+	Weapon_AR2.Single = 
+	{
+		type = "src1_3d"
+		volume = 0.8
+		mixgroup = "PlayerWeaponFire"
+		pitch = 1.000000
+		soundlevel = 135
+		event_type = 2
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/ar2/fire1.vsnd",
+			"sounds/weapons/ar2/fire2.vsnd",
+			"sounds/weapons/ar2/fire3.vsnd",
+		]
+	}
+
+	// SMG Sounds
+	Weapon_SMG1.Draw = 
+	{
+		type = "src1_3d"
+		volume = 1
+		mixgroup = "PlayerWeapons"
+		pitch = 1.000000
+		soundlevel = 75.000000
+		event_type = 2
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/smg1/smg1_deploy.vsnd",
+		]
+	}
+
+	Weapon_SMG1.ClipOut = 
+	{
+		type = "src1_3d"
+		volume = 0.699707
+		mixgroup = "PlayerWeapons"
+		pitch = 1.000000
+		soundlevel = 75.000000
+		event_type = 2
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/smg1/smg1_clipout.vsnd",
+		]
+	}
+
+	Weapon_SMG1.ClipIn = 
+	{
+		type = "src1_3d"
+		volume = 0.699707
+		mixgroup = "PlayerWeapons"
+		pitch = 1.000000
+		soundlevel = 75.000000
+		event_type = 2
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/smg1/smg1_clipin.vsnd",
+		]
+	}
+
+	Weapon_SMG1.BRelease = 
+	{
+		type = "src1_3d"
+		volume = 0.699707
+		mixgroup = "PlayerWeapons"
+		pitch = 1.000000
+		soundlevel = 75.000000
+		event_type = 2
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/smg1/smg1_release.vsnd",
+		]
+	}
+
+	Weapon_SMG1.GLBack = 
+	{
+		type = "src1_3d"
+		volume = 0.699707
+		mixgroup = "PlayerWeapons"
+		pitch = 1.000000
+		soundlevel = 75.000000
+		event_type = 2
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/smg1/smg1_cockback.vsnd",
+		]
+	}
+
+	Weapon_SMG1.GLForward = 
+	{
+		type = "src1_3d"
+		volume = 0.699707
+		mixgroup = "PlayerWeapons"
+		pitch = 1.000000
+		soundlevel = 75.000000
+		event_type = 2
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/smg1/smg1_cockforward.vsnd",
+		]
+	}
+
+	Weapon_SMG1.Single = 
+	{
+		type = "hlvr_default_3d"
+		volume = 0.8
+		mixgroup = "PlayerWeaponFire"
+		pitch = 1.000000
+		soundlevel = 135
+		event_type = 2
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/smg1/smg1_fire1.vsnd",
+			"sounds/weapons/smg1/smg1_fire2.vsnd",
+			"sounds/weapons/smg1/smg1_fire3.vsnd",
+		]
+	}
+
+	// Shotgun sounds
+	Weapon_Shotgun.Draw = 
+	{
+		type = "src1_3d"
+		volume = 1
+		mixgroup = "PlayerWeapons"
+		pitch = 1.000000
+		soundlevel = 75.000000
+		event_type = 2
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/shotgun/shotgun_deploy.vsnd",
+		]
+	}
+
+	Weapon_Shotgun.Special1 = 
+	{
+		type = "src1_3d"
+		volume = 0.7
+		mixgroup = "PlayerWeapons"
+		pitch = 1.000000
+		soundlevel = 75.000000
+		event_type = 2
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/shotgun/shotgun_cock.vsnd",
+		]
+	}
+
+	Weapon_Shotgun.Cock_Back = 
+	{
+		type = "src1_3d"
+		volume = 0.6
+		mixgroup = "PlayerWeapons"
+		pitch = 1.000000
+		soundlevel = 75.000000
+		event_type = 2
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/shotgun/shotgun_cock_back1.vsnd",
+			"sounds/weapons/shotgun/shotgun_cock_back2.vsnd",
+			"sounds/weapons/shotgun/shotgun_cock_back3.vsnd",
+		]
+	}
+
+	Weapon_Shotgun.Cock_Forward = 
+	{
+		type = "src1_3d"
+		volume = 0.6
+		mixgroup = "PlayerWeapons"
+		pitch = 1.000000
+		soundlevel = 75.000000
+		event_type = 2
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/shotgun/shotgun_cock_forward1.vsnd",
+			"sounds/weapons/shotgun/shotgun_cock_forward2.vsnd",
+			"sounds/weapons/shotgun/shotgun_cock_forward3.vsnd",
+		]
+	}
+
+	Weapon_Shotgun.Reload = 
+	{
+		type = "src1_3d"
+		volume = 0.7
+		mixgroup = "PlayerWeapons"
+		pitch = 1.000000
+		soundlevel = 75.000000
+		event_type = 2
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/shotgun/shotgun_reload1.vsnd",
+			"sounds/weapons/shotgun/shotgun_reload2.vsnd",
+			"sounds/weapons/shotgun/shotgun_reload3.vsnd",
+			"sounds/weapons/shotgun/shotgun_reload4.vsnd",
+			"sounds/weapons/shotgun/shotgun_reload5.vsnd",
+			"sounds/weapons/shotgun/shotgun_reload6.vsnd",
+		]
+	}
+
+	Weapon_Shotgun.Single = 
+	{
+		type = "hlvr_default_3d"
+		volume = 1.0
+		mixgroup = "PlayerWeaponFire"
+		pitch = 1.000000
+		soundlevel = 135
+		limiter_on = true
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/shotgun/shotgun_fire1.vsnd",
+			"sounds/weapons/shotgun/shotgun_fire2.vsnd",
+			"sounds/weapons/shotgun/shotgun_fire3.vsnd",
+		]
+	}
+
+	// Shotgun Sling Noises
+	Weapon_Shotgun.Sling1 = 
+	{
+		type = "src1_3d"
+		volume = 0.2
+		mixgroup = "PlayerWeapons"
+		pitch = 1.000000
+		soundlevel = 75.000000
+		event_type = 2
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/shotgun/spas_sling1.vsnd",
+		]
+	}
+
+	Weapon_Shotgun.Sling2 = 
+	{
+		type = "src1_3d"
+		volume = 0.2
+		mixgroup = "PlayerWeapons"
+		pitch = 1.000000
+		soundlevel = 75.000000
+		event_type = 2
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/shotgun/spas_sling2.vsnd",
+		]
+	}
+
+	Weapon_Shotgun.Sling3 = 
+	{
+		type = "src1_3d"
+		volume = 0.2
+		mixgroup = "PlayerWeapons"
+		pitch = 1.000000
+		soundlevel = 75.000000
+		event_type = 2
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/shotgun/spas_sling3.vsnd",
+		]
+	}
+
+	Weapon_Shotgun.Sling4 = 
+	{
+		type = "src1_3d"
+		volume = 0.2
+		mixgroup = "PlayerWeapons"
+		pitch = 1.000000
+		soundlevel = 75.000000
+		event_type = 2
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/shotgun/spas_sling4.vsnd",
+		]
+	}
+
+	// Gravity Gun Sounds
+	Weapon_Physcannon.Draw = 
+	{
+		type = "src1_3d"
+		volume = 1
+		mixgroup = "PlayerWeapons"
+		pitch = 1.000000
+		soundlevel = 75.000000
+		event_type = 2
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/physcanon/gravgun_deploy.vsnd",
+		]
+	}
+
+	Weapon_PhysCannon.HoldSound = 
+	{
+		type = "src1_3d"
+		volume = 0.4
+		mixgroup = "PlayerWeapons"
+		pitch = 1.000000
+		soundlevel = 75.000000
+		event_type = 2
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/physcanon/hold_loop.vsnd",
+		]
+	}
+
+	// Revolver sounds
+	Weapon_357.Draw = 
+	{
+		type = "src1_3d"
+		volume = 1.0
+		mixgroup = "PlayerWeapons"
+		pitch = 1.000000
+		soundlevel = 75.000000
+		event_type = 2
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/357/357_deploy.vsnd"
+		]
+	}
+
+	Weapon_357.Hammer_Pull = 
+	{
+		type = "src1_3d"
+		volume = 0.7
+		mixgroup = "PlayerWeapons"
+		pitch = 1.000000
+		soundlevel = 75.000000
+		event_type = 2
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/357/357_hammerpull.vsnd"
+		]
+	}
+
+	Weapon_357.Hammer_Release = 
+	{
+		type = "src1_3d"
+		volume = 0.7
+		mixgroup = "PlayerWeapons"
+		pitch = 1.000000
+		soundlevel = 75.000000
+		event_type = 2
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/357/357_hammerrelease.vsnd"
+		]
+	}
+
+	Weapon_357.Fidget_Spinner = 
+	{
+		type = "src1_3d"
+		volume = 0.7
+		mixgroup = "PlayerWeapons"
+		pitch = 1.000000
+		soundlevel = 75.000000
+		event_type = 2
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/357/357_spin2.vsnd"
+		]
+	}
+
+	Weapon_357.Single = 
+	{
+		type = "hlvr_default_3d"
+		volume = 1.0
+		mixgroup = "PlayerWeaponFire"
+		pitch = 1.000000
+		soundlevel = 135
+		limiter_on = true
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/357/357_fire1.vsnd",
+			"sounds/weapons/357/357_fire2.vsnd",
+			"sounds/weapons/357/357_fire3.vsnd",
+		]
+	}
+
+	Weapon_357.Reload = 
+	{
+		type = "hlvr_default_3d"
+		volume = 0.7
+		mixgroup = "PlayerWeapons"
+		pitch = 1.000000
+		soundlevel = 75.000000
+		limiter_on = true
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/357/reload1.vsnd"
+		]
+	}
+
+	Weapon_357.OpenLoader = 
+	{
+		type = "hlvr_default_3d"
+		volume = 0.7
+		mixgroup = "PlayerWeapons"
+		pitch = 1.000000
+		soundlevel = 75.000000
+		limiter_on = true
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/357/357_reload1.vsnd"
+		]
+	}
+
+	Weapon_357.RemoveLoader = 
+	{
+		type = "hlvr_default_3d"
+		volume = 0.7
+		mixgroup = "PlayerWeapons"
+		pitch = 1.000000
+		soundlevel = 75.000000
+		limiter_on = true
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/357/357_reload2.vsnd"
+		]
+	}
+
+	Weapon_357.ReplaceLoader = 
+	{
+		type = "hlvr_default_3d"
+		volume = 0.7
+		mixgroup = "PlayerWeapons"
+		pitch = 1.000000
+		soundlevel = 75.000000
+		limiter_on = true
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/357/357_reload3.vsnd"
+		]
+	}
+
+	Weapon_357.CloseLoader = 
+	{
+		type = "hlvr_default_3d"
+		volume = 0.7
+		mixgroup = "PlayerWeapons"
+		pitch = 1.000000
+		soundlevel = 75.000000
+		limiter_on = true
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/357/357_reload4.vsnd"
+		]
+	}
+
+	Weapon_357.Spin = 
+	{
+		type = "hlvr_default_3d"
+		volume = 0.7
+		mixgroup = "PlayerWeapons"
+		pitch = 1.000000
+		soundlevel = 75.000000
+		limiter_on = true
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/357/357_spin1.vsnd"
+		]
+	}
+
+	// Crossbow sounds
+	Weapon_Crossbow.Draw = 
+	{
+		type = "hlvr_default_3d"
+		volume = 1.0
+		mixgroup = "PlayerWeapons"
+		pitch = 1.000000
+		limiter_on = true
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/crossbow/crossbow_deploy.vsnd"
+		]
+	}
+
+	Weapon_Crossbow.String = 
+	{
+		type = "hlvr_default_3d"
+		volume = 1.0
+		mixgroup = "PlayerWeapons"
+		pitch = 1.000000
+		limiter_on = true
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/crossbow/crossbow_string.vsnd"
+		]
+	}
+
+	Weapon_Crossbow.DrawBack = 
+	{
+		type = "hlvr_default_3d"
+		volume = 1.0
+		mixgroup = "PlayerWeapons"
+		pitch = 1.000000
+		limiter_on = true
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/crossbow/crossbow_draw.vsnd"
+		]
+	}
+
+	Weapon_Crossbow.Lens = 
+	{
+		type = "hlvr_default_3d"
+		volume = 1.0
+		mixgroup = "PlayerWeapons"
+		pitch = 1.000000
+		limiter_on = true
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/crossbow/crossbow_lens.vsnd"
+		]
+	}
+
+	// Grenade sounds
+	Weapon_Grenade.Draw = 
+	{
+		type = "hlvr_default_3d"
+		volume = 1.0
+		mixgroup = "PlayerWeapons"
+		pitch = 1.000000
+		limiter_on = true
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/draw_grenade.vsnd"
+		]
+	}
+
+	Weapon_Grenade.Pull = 
+	{
+		type = "hlvr_default_3d"
+		volume = 1.0
+		mixgroup = "PlayerWeapons"
+		pitch = 1.000000
+		limiter_on = true
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/grenade/pin_pull.vsnd"
+		]
+	}
+
+	Weapon_Grenade.Throw = 
+	{
+		type = "hlvr_default_3d"
+		volume = 1.0
+		mixgroup = "PlayerWeapons"
+		pitch = 1.000000
+		limiter_on = true
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/grenade/grenade_throw.vsnd"
+		]
+	}
+
+	Weapon_Grenade.Roll = 
+	{
+		type = "hlvr_default_3d"
+		volume = 1.0
+		mixgroup = "PlayerWeapons"
+		pitch = 1.000000
+		limiter_on = true
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/grenade/grenade_lob.vsnd"
+		]
+	}
+
+	Weapon_Grenade.Ready = 
+	{
+		type = "hlvr_default_3d"
+		volume = 1.0
+		mixgroup = "PlayerWeapons"
+		pitch = 1.000000
+		limiter_on = true
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/grenade/grenade_ready.vsnd"
+		]
+	}
+
+	// RPG Sounds
+	Weapon_RPG.Draw = 
+	{
+		type = "hlvr_default_3d"
+		volume = 1.0
+		mixgroup = "PlayerWeapons"
+		pitch = 1.000000
+		limiter_on = true
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/rpg/rpg_deploy.vsnd"
+		]
+	}
+
+	Weapon_RPG.Button = 
+	{
+		type = "hlvr_default_3d"
+		volume = 1.0
+		mixgroup = "PlayerWeapons"
+		pitch = 1.000000
+		limiter_on = true
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/rpg/rpg_button.vsnd"
+		]
+	}
+
+	Weapon_RPG.LaserOn = 
+	{
+		type = "hlvr_default_3d"
+		volume = 0.7
+		mixgroup = "PlayerWeapons"
+		pitch = 1.000000
+		limiter_on = true
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/sniper/sniper_zoomin.vsnd"
+		]
+	}
+
+	Weapon_RPG.LaserOff = 
+	{
+		type = "hlvr_default_3d"
+		volume = 0.7
+		mixgroup = "PlayerWeapons"
+		pitch = 1.000000
+		limiter_on = true
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/sniper/sniper_zoomout.vsnd"
+		]
+	}
+
+	Weapon_RPG.Single = 
+	{
+		type = "hlvr_default_3d"
+		volume = 0.55
+		mixgroup = "PlayerWeaponFire"
+		pitch = 1.000000
+		limiter_on = true
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/rpg/rocketfire1.vsnd"
+		]
+	}
+
+	// Used by multiple weapons
+	Weapon_Generic.Movement1 = 
+	{
+		type = "src1_3d"
+		volume = 0.699707
+		mixgroup = "PlayerWeapons"
+		pitch = 1.000000
+		soundlevel = 75.000000
+		event_type = 2
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/movement/Weapon_Movement1.vsnd",
+		]
+	}
+
+	Weapon_Generic.Movement2 = 
+	{
+		type = "src1_3d"
+		volume = 0.699707
+		mixgroup = "PlayerWeapons"
+		pitch = 1.000000
+		soundlevel = 75.000000
+		event_type = 2
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/movement/Weapon_Movement2.vsnd",
+		]
+	}
+
+	Weapon_Generic.Movement3 = 
+	{
+		type = "src1_3d"
+		volume = 0.699707
+		mixgroup = "PlayerWeapons"
+		pitch = 1.000000
+		soundlevel = 75.000000
+		event_type = 2
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/movement/Weapon_Movement3.vsnd",
+		]
+	}
+
+	Weapon_Generic.Movement4 = 
+	{
+		type = "src1_3d"
+		volume = 0.699707
+		mixgroup = "PlayerWeapons"
+		pitch = 1.000000
+		soundlevel = 75.000000
+		event_type = 2
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/movement/Weapon_Movement4.vsnd",
+		]
+	}
+
+	Weapon_Generic.Movement5 = 
+	{
+		type = "src1_3d"
+		volume = 0.699707
+		mixgroup = "PlayerWeapons"
+		pitch = 1.000000
+		soundlevel = 75.000000
+		event_type = 2
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/movement/Weapon_Movement5.vsnd",
+		]
+	}
+
+	Weapon_Generic.Movement6 = 
+	{
+		type = "src1_3d"
+		volume = 0.699707
+		mixgroup = "PlayerWeapons"
+		pitch = 1.000000
+		soundlevel = 75.000000
+		event_type = 2
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/movement/Weapon_Movement6.vsnd",
+		]
+	}
+
+	// Player Sounds
+	HL2Player.TrainUse = 
+	{
+		type = "hlvr_default_3d"
+		volume = 0.798000
+		pitch = 1.000000
+		event_type = 2
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		mixgroup = "Player"
+		vsnd_files = 
+		[
+			"sounds/plats/train_use1.vsnd",
+		]
+	}
+	HL2Player.Use = 
+	{
+		type = "hlvr_default_3d"
+		volume = 0.798000
+		pitch = 1.000000
+		event_type = 2
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		mixgroup = "Player"
+		vsnd_files = 
+		[
+			"sounds/common/wpn_select.vsnd",
+		]
+	}
+	HL2Player.UseNPC = 
+	{
+		type = "hlvr_default_3d"
+		volume = 0.798000
+		pitch = 1.000000
+		event_type = 2
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		mixgroup = "Player"
+		vsnd_files = 
+		[
+			"sounds/common/wpn_select.vsnd",
+		]
+	}
+	HL2Player.UseDeny = 
+	{
+		type = "hlvr_default_3d"
+		volume = 0.798000
+		pitch = 1.000000
+		event_type = 2
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		mixgroup = "Player"
+		vsnd_files = 
+		[
+			"sounds/common/wpn_denyselect.vsnd",
+		]
+	}
+}

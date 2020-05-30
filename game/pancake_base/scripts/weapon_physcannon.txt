@@ -1,0 +1,69 @@
+// Physics Gun
+
+GameFileWeaponInfo_t
+{
+	// Weapon data is loaded by both the Game and Client DLLs.
+	"printname"				"#HL2_GravityGun"
+	"viewmodel"				"models/weapons/gravitygun/v_physcannon.vmdl"
+	"playermodel"			"models/weapons/gravitygun/w_physics.vmdl"
+	"anim_prefix"			"gauss"
+
+	"bucket"				"0"
+	"bucket_position"		"1"
+	"bucket_360"			"2"
+	"bucket_position_360"	"1"
+
+	"clip_size"				"1"
+	"default_clip"			"0"
+
+	"clip2_size"			"0"
+	"default_clip2"			"0"
+
+	"primary_ammo"			"None"
+	"secondary_ammo"		"None"
+	"autoswitchto"			"0"
+	
+	"weight"				"0"
+	"autoswitchfrom"		"0"
+	"item_flags"			"2"
+
+	SoundData
+	{
+		"single_shot"		"Weapon_PhysCannon.Launch"
+		"reload"			"Weapon_PhysCannon.Charge"
+		"empty"				"Weapon_PhysCannon.DryFire"
+		"special1"			"Weapon_PhysCannon.Pickup"
+		"special2"			"Weapon_PhysCannon.OpenClaws"
+		"melee_hit"			"Weapon_PhysCannon.CloseClaws"
+		"melee_miss"		"Weapon_PhysCannon.Drop"
+		"special3"			"Weapon_PhysCannon.TooHeavy"
+	}
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+		"weapon"
+		{
+				"font"		"WeaponIcons"
+				"character"	"m"
+		}
+		"weapon_s"
+		{	
+				"font"		"WeaponIconsSelected"
+				"character"	"m"
+		}
+		"crosshair"
+		{
+				"font"		"Crosshairs"
+				"character"	"Q"
+		}
+		"autoaim"
+		{
+			"file"		"materials/sprites/crosshairs.vmat"
+			"x"			"48"
+			"y"			"72"
+			"width"		"24"
+			"height"	"24"
+		}
+	}
+}

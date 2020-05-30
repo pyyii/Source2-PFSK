@@ -1,0 +1,12 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "ui.vfx"
+
+	F_ALPHA_TEXTURE 1
+	F_STENCIL_MASKING 1
+
+	//---- Color ----
+	Texture "materials/vgui/hud/800corner1.png"
+}

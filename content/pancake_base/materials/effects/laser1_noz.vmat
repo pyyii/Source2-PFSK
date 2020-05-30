@@ -1,0 +1,9 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "error.vfx"
+
+	//---- Color ----
+	g_vErrorColorTint "[1.000000 0.000000 0.000000 0.000000]"
+}

@@ -1,0 +1,1317 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc28:version{fb63b6ca-f435-4aa0-a2c7-c66ddc651dca} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = 
+						[
+							{
+								from = "materials/models/weapons/v_smg1_new/v_hand_sheet.vmat"
+								to = "models/weapons/hands/materials/v_hand_sheet.vmat"
+							},
+							{
+								from = "materials/models/weapons/v_smg1_new/v_smg1_body.vmat"
+								to = "models/weapons/smg/materials/v_smg1_body.vmat"
+							},
+							{
+								from = "materials/models/weapons/v_smg1_new/v_smg1_chrome.vmat"
+								to = "models/weapons/smg/materials/v_smg1_chrome.vmat"
+							},
+							{
+								from = "materials/models/weapons/v_smg1_new/v_smg1_glass.vmat"
+								to = "models/weapons/smg/materials/v_smg1_glass.vmat"
+							},
+							{
+								from = "materials/models/weapons/v_smg1_new/v_smg1_sheet.vmat"
+								to = "models/weapons/smg/materials/v_smg1_body.vmat"
+							},
+							{
+								from = "materials/models/weapons/v_smg1_new/v_smg1_plus.vmat"
+								to = "models/weapons/smg/materials/v_smg1_chrome.vmat"
+							},
+							{
+								from = "materials/models/weapons/v_smg1_new/texture5.vmat"
+								to = "models/weapons/smg/materials/v_smg1_aiming_reticle.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = ""
+					},
+				]
+			},
+			{
+				_class = "AttachmentList"
+				children = 
+				[
+					{
+						_class = "Attachment"
+						name = "muzzle"
+						parent_bone = "smg"
+						relative_origin = [ 17.149998, -1.05, 0.0 ]
+						relative_angles = [ -0.0, 0.0, 90.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "1"
+						parent_bone = "smg"
+						relative_origin = [ 1.799999, 0.3, -0.5 ]
+						relative_angles = [ 80.0, -90.000015, -90.000023 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "grenade"
+						parent_bone = "smg"
+						relative_origin = [ 17.100002, -0.35, 0.0 ]
+						relative_angles = [ -0.0, 0.0, 90.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+				]
+			},
+			{
+				_class = "HitboxSetList"
+				children = 
+				[
+					{
+						_class = "HitboxSet"
+						name = "default"
+						children = 
+						[
+							{
+								_class = "Hitbox"
+								parent_bone = "smg"
+								hitbox_mins = [ -9.087198, -3.65358, -1.256308 ]
+								hitbox_maxs = [ 17.095661, 6.237392, 1.120177 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "smg_mag"
+								hitbox_mins = [ -0.559352, -0.760628, -0.597604 ]
+								hitbox_maxs = [ 6.587842, 1.346253, 0.519584 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "smg_grip"
+								hitbox_mins = [ -0.824704, -0.546511, -0.884227 ]
+								hitbox_maxs = [ 4.885515, 0.549943, 0.773464 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_wrist"
+								hitbox_mins = [ -0.409411, -1.357473, -2.261822 ]
+								hitbox_maxs = [ 4.730931, 1.597517, 1.843586 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_thumb_low"
+								hitbox_mins = [ -1.541707, -1.606238, -1.241965 ]
+								hitbox_maxs = [ 2.222904, 1.192536, 1.598378 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_thumb_mid"
+								hitbox_mins = [ -1.14736, -2.256179, -0.994815 ]
+								hitbox_maxs = [ 1.621822, 0.534217, 0.753752 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_index_low"
+								hitbox_mins = [ -0.544173, -0.643982, -0.751278 ]
+								hitbox_maxs = [ 2.767043, 0.957245, 0.793077 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_middle_low"
+								hitbox_mins = [ -0.327183, -0.905646, -1.343826 ]
+								hitbox_maxs = [ 2.611145, 0.931458, 1.074382 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_ring_low"
+								hitbox_mins = [ -0.497015, -0.746328, -1.240088 ]
+								hitbox_maxs = [ 2.097596, 0.989527, 0.657825 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_pinky_low"
+								hitbox_mins = [ -1.27236, -0.537991, -0.75891 ]
+								hitbox_maxs = [ 1.369392, 1.567915, 0.923773 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_upperarm"
+								hitbox_mins = [ 0.0, -2.475185, -3.062225 ]
+								hitbox_maxs = [ 13.121442, 3.730164, 3.03298 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_forearm"
+								hitbox_mins = [ 0.0, -2.687578, -3.038878 ]
+								hitbox_maxs = [ 13.867717, 3.15804, 2.937536 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_wrist"
+								hitbox_mins = [ -0.260239, -1.535425, -2.185649 ]
+								hitbox_maxs = [ 4.777858, 1.390383, 1.856587 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_thumb_low"
+								hitbox_mins = [ -0.843172, -0.867552, -1.501275 ]
+								hitbox_maxs = [ 1.955183, 1.287529, 0.93141 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_thumb_mid"
+								hitbox_mins = [ -1.381145, -1.589537, -0.601444 ]
+								hitbox_maxs = [ 1.666807, 0.675821, 1.205026 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_index_low"
+								hitbox_mins = [ -0.544662, -0.787894, -0.704533 ]
+								hitbox_maxs = [ 2.779325, 0.752548, 1.1474 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_middle_low"
+								hitbox_mins = [ -0.186559, -1.143862, -1.205521 ]
+								hitbox_maxs = [ 2.701471, 0.62127, 0.759465 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_middle_mid"
+								hitbox_mins = [ -0.572099, -0.76411, -0.468873 ]
+								hitbox_maxs = [ 1.912778, 0.425948, 0.624701 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_ring_low"
+								hitbox_mins = [ -0.538351, -1.868351, -0.966697 ]
+								hitbox_maxs = [ 2.182722, 0.612508, 0.497077 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_pinky_low"
+								hitbox_mins = [ -1.152284, -1.671774, -1.024349 ]
+								hitbox_maxs = [ 1.762966, 0.659192, 0.779149 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_upperarm"
+								hitbox_mins = [ 0.0, -2.50011, -3.065759 ]
+								hitbox_maxs = [ 13.230003, 3.711706, 3.045985 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_forearm"
+								hitbox_mins = [ 0.0, -2.675357, -3.119122 ]
+								hitbox_maxs = [ 13.954026, 3.141425, 2.961501 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "smg"
+								hitbox_mins = [ -9.087198, -3.65358, -1.256308 ]
+								hitbox_maxs = [ 17.095661, 6.237392, 1.120177 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "smg_mag"
+								hitbox_mins = [ -0.559352, -0.760628, -0.597604 ]
+								hitbox_maxs = [ 6.587842, 1.346253, 0.519584 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "smg_grip"
+								hitbox_mins = [ -0.824704, -0.546511, -0.884227 ]
+								hitbox_maxs = [ 4.885515, 0.549943, 0.773464 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_wrist"
+								hitbox_mins = [ -0.409411, -1.357473, -2.261822 ]
+								hitbox_maxs = [ 4.730931, 1.597517, 1.843586 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_thumb_low"
+								hitbox_mins = [ -1.541707, -1.606238, -1.241965 ]
+								hitbox_maxs = [ 2.222904, 1.192536, 1.598378 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_thumb_mid"
+								hitbox_mins = [ -1.14736, -2.256179, -0.994815 ]
+								hitbox_maxs = [ 1.621822, 0.534217, 0.753752 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_index_low"
+								hitbox_mins = [ -0.544173, -0.643982, -0.751278 ]
+								hitbox_maxs = [ 2.767043, 0.957245, 0.793077 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_middle_low"
+								hitbox_mins = [ -0.327183, -0.905646, -1.343826 ]
+								hitbox_maxs = [ 2.611145, 0.931458, 1.074382 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_ring_low"
+								hitbox_mins = [ -0.497015, -0.746328, -1.240088 ]
+								hitbox_maxs = [ 2.097596, 0.989527, 0.657825 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_pinky_low"
+								hitbox_mins = [ -1.27236, -0.537991, -0.75891 ]
+								hitbox_maxs = [ 1.369392, 1.567915, 0.923773 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_upperarm"
+								hitbox_mins = [ 0.0, -2.475185, -3.062225 ]
+								hitbox_maxs = [ 13.121442, 3.730164, 3.03298 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_forearm"
+								hitbox_mins = [ 0.0, -2.687578, -3.038878 ]
+								hitbox_maxs = [ 13.867717, 3.15804, 2.937536 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_wrist"
+								hitbox_mins = [ -0.260239, -1.535425, -2.185649 ]
+								hitbox_maxs = [ 4.777858, 1.390383, 1.856587 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_thumb_low"
+								hitbox_mins = [ -0.843172, -0.867552, -1.501275 ]
+								hitbox_maxs = [ 1.955183, 1.287529, 0.93141 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_thumb_mid"
+								hitbox_mins = [ -1.381145, -1.589537, -0.601444 ]
+								hitbox_maxs = [ 1.666807, 0.675821, 1.205026 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_index_low"
+								hitbox_mins = [ -0.544662, -0.787894, -0.704533 ]
+								hitbox_maxs = [ 2.779325, 0.752548, 1.1474 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_middle_low"
+								hitbox_mins = [ -0.186559, -1.143862, -1.205521 ]
+								hitbox_maxs = [ 2.701471, 0.62127, 0.759465 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_middle_mid"
+								hitbox_mins = [ -0.572099, -0.76411, -0.468873 ]
+								hitbox_maxs = [ 1.912778, 0.425948, 0.624701 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_ring_low"
+								hitbox_mins = [ -0.538351, -1.868351, -0.966697 ]
+								hitbox_maxs = [ 2.182722, 0.612508, 0.497077 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_pinky_low"
+								hitbox_mins = [ -1.152284, -1.671774, -1.024349 ]
+								hitbox_maxs = [ 1.762966, 0.659192, 0.779149 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_upperarm"
+								hitbox_mins = [ 0.0, -2.50011, -3.065759 ]
+								hitbox_maxs = [ 13.230003, 3.711706, 3.045985 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_forearm"
+								hitbox_mins = [ 0.0, -2.675357, -3.119122 ]
+								hitbox_maxs = [ 13.954026, 3.141425, 2.961501 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+						]
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						name = "SMG"
+						filename = "models/weapons/smg/v_smg1_fbx/mesh/v_smg1_bg_studio_lod0.fbx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "Hands"
+						filename = "models/weapons/smg/v_smg1_fbx/mesh/v_smg1_bg_hands_lod0.fbx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+			{
+				_class = "AnimationList"
+				children = 
+				[
+					{
+						_class = "AnimFile"
+						name = "idle01"
+						activity_name = "ACT_VM_IDLE"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/smg/v_smg1_fbx/anim/idle01.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 14.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "fire1"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_EJECTBRASS1"
+								event_frame = 0
+								event_keys = null
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 0
+								event_keys = 
+								{
+									name = resource:"particles/weapon_fx/muzzleflash_smgs.vpcf"
+									detach_from_owner = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = ""
+									attachment_point = "muzzle"
+									attachment_type = "point_follow"
+									attachment_point_cp1 = ""
+									attachment_type_cp1 = "point_follow"
+								}
+							},
+						]
+						activity_name = "ACT_VM_PRIMARYATTACK"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.0
+						fade_out_time = 0.4
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/smg/v_smg1_fbx/anim/fire1.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "fire2"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_EJECTBRASS1"
+								event_frame = 0
+								event_keys = null
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 0
+								event_keys = 
+								{
+									name = resource:"particles/weapon_fx/muzzleflash_smgs.vpcf"
+									detach_from_owner = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = ""
+									attachment_point = "muzzle"
+									attachment_type = "point_follow"
+									attachment_point_cp1 = ""
+									attachment_type_cp1 = "point_follow"
+								}
+							},
+						]
+						activity_name = "ACT_VM_RECOIL1"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.0
+						fade_out_time = 0.4
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/smg/v_smg1_fbx/anim/fire2.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "fire3"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_EJECTBRASS1"
+								event_frame = 0
+								event_keys = null
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 0
+								event_keys = 
+								{
+									name = resource:"particles/weapon_fx/muzzleflash_smgs.vpcf"
+									detach_from_owner = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = ""
+									attachment_point = "muzzle"
+									attachment_type = "point_follow"
+									attachment_point_cp1 = ""
+									attachment_type_cp1 = "point_follow"
+								}
+							},
+						]
+						activity_name = "ACT_VM_RECOIL2"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.0
+						fade_out_time = 0.4
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/smg/v_smg1_fbx/anim/fire3.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "fire4"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_EJECTBRASS1"
+								event_frame = 0
+								event_keys = null
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 0
+								event_keys = 
+								{
+									name = resource:"particles/weapon_fx/muzzleflash_smgs.vpcf"
+									detach_from_owner = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = ""
+									attachment_point = "muzzle"
+									attachment_type = "point_follow"
+									attachment_point_cp1 = ""
+									attachment_type_cp1 = "point_follow"
+								}
+							},
+						]
+						activity_name = "ACT_VM_RECOIL3"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.0
+						fade_out_time = 0.4
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/smg/v_smg1_fbx/anim/fire4.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "altfire"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 9
+								event_keys = 
+								{
+									name = "Weapon_SMG1.GLBack"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 15
+								event_keys = 
+								{
+									name = "Weapon_SMG1.GLForward"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+						]
+						activity_name = "ACT_VM_SECONDARYATTACK"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.0
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/smg/v_smg1_fbx/anim/altfire.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "draw"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 1
+								event_keys = 
+								{
+									name = "Weapon_SMG1.Draw"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 1
+								event_keys = 
+								{
+									name = "Weapon_Generic.Movement1"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+						]
+						activity_name = "ACT_VM_DRAW"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.0
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/smg/v_smg1_fbx/anim/draw.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "reload"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_WEAPON_RELOAD"
+								event_frame = 7
+								event_keys = null
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 10
+								event_keys = 
+								{
+									name = "Weapon_SMG1.ClipOut"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 25
+								event_keys = 
+								{
+									name = "Weapon_SMG1.ClipIn"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 39
+								event_keys = 
+								{
+									name = "Weapon_SMG1.BRelease"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 1
+								event_keys = 
+								{
+									name = "Weapon_Generic.Movement1"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 22
+								event_keys = 
+								{
+									name = "Weapon_Generic.Movement5"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 33
+								event_keys = 
+								{
+									name = "Weapon_Generic.Movement2"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 44
+								event_keys = 
+								{
+									name = "Weapon_Generic.Movement4"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+						]
+						activity_name = "ACT_VM_RELOAD"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/smg/v_smg1_fbx/anim/reload.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 28.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "idletolow"
+						activity_name = "ACT_VM_LOWERED_TO_IDLE"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/smg/v_smg1_fbx/anim/idletolow.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "lowtoidle"
+						activity_name = "ACT_VM_IDLE_TO_LOWERED"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/smg/v_smg1_fbx/anim/lowtoidle.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "lowidle"
+						activity_name = "ACT_VM_IDLE_LOWERED"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/smg/v_smg1_fbx/anim/lowidle.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "holster"
+						activity_name = "ACT_VM_HOLSTER"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/smg/v_smg1_fbx/anim/holster.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 35.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "Walk"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 1
+								event_keys = 
+								{
+									name = "Weapon_Generic.Walk1"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 17
+								event_keys = 
+								{
+									name = "Weapon_Generic.Walk2"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+						]
+						activity_name = "ACT_VM_WALK"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.5
+						fade_out_time = 0.35
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/smg/v_smg1_fbx/anim/walk.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "Sprint"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 1
+								event_keys = 
+								{
+									name = "Weapon_Generic.Sprint1"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 18
+								event_keys = 
+								{
+									name = "Weapon_Generic.Sprint2"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+						]
+						activity_name = "ACT_VM_SPRINT"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.5
+						fade_out_time = 0.35
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/smg/v_smg1_fbx/anim/sprint.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 48.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "inspect"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 17
+								event_keys = 
+								{
+									name = "Weapon_SMG1.GripFold"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 153
+								event_keys = 
+								{
+									name = "Weapon_SMG1.GripUnfold"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 1
+								event_keys = 
+								{
+									name = "Weapon_Generic.Movement2"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 25
+								event_keys = 
+								{
+									name = "Weapon_Generic.Movement1"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 85
+								event_keys = 
+								{
+									name = "Weapon_Generic.Movement2"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 146
+								event_keys = 
+								{
+									name = "Weapon_Generic.Movement5"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+						]
+						activity_name = "ACT_VM_INSPECT"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/smg/v_smg1_fbx/anim/inspect.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "inspect2"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 23
+								event_keys = 
+								{
+									name = "Weapon_SMG1.BoltBack"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 30
+								event_keys = 
+								{
+									name = "Weapon_SMG1.BoltForward"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 66
+								event_keys = 
+								{
+									name = "Weapon_SMG1.BRelease"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 1
+								event_keys = 
+								{
+									name = "Weapon_Generic.Movement1"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 34
+								event_keys = 
+								{
+									name = "Weapon_Generic.Movement5"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 70
+								event_keys = 
+								{
+									name = "Weapon_Generic.Movement4"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+						]
+						activity_name = "ACT_VM_INSPECT_ALT"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/smg/v_smg1_fbx/anim/inspect2.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+				]
+				default_root_bone_name = ""
+			},
+		]
+		model_archetype = "animated_model"
+		primary_associated_entity = "weapon_smg1"
+		anim_graph_name = ""
+		importer_notes = """
+Imported from compiled VMDL_C
+==Warnings==
+Cannot import non-trivial meshgroup: hands
+
+"""
+	}
+}

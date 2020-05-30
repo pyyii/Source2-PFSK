@@ -1,0 +1,15 @@
+// Converted with vmt_to_vmat.py
+
+Layer0
+{
+	shader "vr_complex.vfx"
+
+	TextureColor "materials\models\weapons\v_shotgun\shotgun_spas_color.tga"
+	TextureNormal "materials\models\weapons\v_shotgun\shotgun_spas_normal.tga"
+	TextureAmbientOcclusion "materials\models\weapons\v_shotgun\shotgun_spas_ao.tga"
+	g_flAmbientOcclusionDirectSpecular "0.000"
+	F_SPECULAR 1
+	TextureRoughness "materials\models\weapons\v_shotgun\shotgun_spas_rough.tga"
+	F_SELF_ILLUM 1
+	TextureSelfIllumMask "materials\models\weapons\v_shotgun\shotgun_spas_selfillum.tga"
+}

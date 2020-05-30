@@ -1,0 +1,236 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc28:version{fb63b6ca-f435-4aa0-a2c7-c66ddc651dca} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = 
+						[
+							{
+								from = "materials/models/weapons/v_rpg_new/v_rpg_body.vmat"
+								to = "models/weapons/rpg/materials/v_rpg_body.vmat"
+							},
+							{
+								from = "materials/models/weapons/v_rpg_new/v_rpg_plastic.vmat"
+								to = "models/weapons/rpg/materials/v_rpg_plastic.vmat"
+							},
+							{
+								from = "materials/models/weapons/v_rpg_new/v_rpg_wires.vmat"
+								to = "models/weapons/rpg/materials/v_rpg_wires.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = ""
+					},
+				]
+			},
+			{
+				_class = "PhysicsBodyMarkupList"
+				children = 
+				[
+					{
+						_class = "PhysicsBodyMarkup"
+						target_body = "w_rocket_launcher_physics"
+						mass_override = 20.0
+						inertia_scale = 1.0
+						linear_damping = 0.0
+						angular_damping = 0.0
+						use_mass_center_override = false
+						mass_center_override = [ 0.0, 0.0, 0.0 ]
+					},
+				]
+			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsHullFile"
+						name = "w_rocket_launcher_physics_0_mesh"
+						parent_bone = "w_rocket_launcher_physics"
+						surface_prop = "default"
+						collision_prop = "default"
+						recenter_on_parent_bone = true
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/weapons/rpg/w_rocket_launcher_fbx/physics/physmesh.dmx"
+						import_scale = 1.0
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "SingleHull"
+						optimization_algorithm = "QEM"
+						import_filter = 
+						{
+							exclude_by_default = true
+							exception_list = 
+							[
+								"w_rocket_launcher_physics_0_mesh",
+							]
+						}
+					},
+				]
+			},
+			{
+				_class = "AttachmentList"
+				children = 
+				[
+					{
+						_class = "Attachment"
+						name = "muzzle"
+						parent_bone = "anim_attachment_rh"
+						relative_origin = [ -0.7, 9.400002, 13.1 ]
+						relative_angles = [ -77.0, 87.999992, -180.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "missile"
+						parent_bone = "anim_attachment_rh"
+						relative_origin = [ -0.7, 11.200001, 21.950001 ]
+						relative_angles = [ -77.000008, 88.000023, 179.999985 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "exhaust"
+						parent_bone = "anim_attachment_rh"
+						relative_origin = [ -1.55, -0.36, -30.550003 ]
+						relative_angles = [ 77.0, -92.0, 180.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+				]
+			},
+			{
+				_class = "HitboxSetList"
+				children = 
+				[
+					{
+						_class = "HitboxSet"
+						name = "default"
+						children = 
+						[
+							{
+								_class = "Hitbox"
+								parent_bone = "anim_attachment_rh"
+								hitbox_mins = [ -5.413999, -3.871725, -31.030661 ]
+								hitbox_maxs = [ 3.702264, 13.679594, 14.086074 ]
+								surface_property = "weapon"
+								translation_only = false
+								group_id = 0
+							},
+						]
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						name = "w_rocket_launcher_bg_studio_lod0"
+						filename = "models/weapons/rpg/w_rocket_launcher_fbx/mesh/w_rocket_launcher_bg_studio_lod0.fbx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+			{
+				_class = "AnimationList"
+				children = 
+				[
+					{
+						_class = "AnimFile"
+						name = "idle"
+						activity_name = "ACT_VM_IDLE"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/rpg/w_rocket_launcher_fbx/anim/idle.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "attack1"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_NPC_MUZZLEFLASH"
+								event_frame = 0
+								event_keys = 
+								{
+									weaponType = "RPG"
+									attachment = "MUZZLE"
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_WEAPON_SMG1"
+								event_frame = 0
+								event_keys = null
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_NPC_MUZZLEFLASH"
+								event_frame = 0
+								event_keys = 
+								{
+									weaponType = "RPG"
+									attachment = "EXHAUST"
+								}
+							},
+						]
+						activity_name = "ACT_RANGE_ATTACK_RPG"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/rpg/w_rocket_launcher_fbx/anim/attack1.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+				]
+				default_root_bone_name = ""
+			},
+		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		anim_graph_name = ""
+		importer_notes = """
+Imported from compiled VMDL_C
+"""
+	}
+}

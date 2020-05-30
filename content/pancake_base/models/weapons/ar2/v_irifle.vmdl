@@ -1,0 +1,2531 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc28:version{fb63b6ca-f435-4aa0-a2c7-c66ddc651dca} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = 
+						[
+							{
+								from = "materials/models/weapons/v_ar2_new/v_hand_sheet.vmat"
+								to = "models/weapons/hands/materials/v_hand_sheet.vmat"
+							},
+							{
+								from = "materials/models/weapons/v_ar2_new/v_ar2_body.vmat"
+								to = "models/weapons/ar2/materials/v_ar2_body.vmat"
+							},
+							{
+								from = "materials/models/weapons/v_ar2_new/v_ar2_glass.vmat"
+								to = "models/weapons/ar2/materials/v_ar2_glass.vmat"
+							},
+							{
+								from = "materials/models/weapons/v_ar2_new/v_ar2_pulse.vmat"
+								to = "models/weapons/ar2/materials/v_ar2_pulse.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = ""
+					},
+				]
+			},
+			{
+				_class = "AttachmentList"
+				children = 
+				[
+					{
+						_class = "Attachment"
+						name = "muzzle"
+						parent_bone = "ar2_weapon"
+						relative_origin = [ 20.200001, -1.2, 0.2 ]
+						relative_angles = [ -0.0, 0.0, 90.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "1"
+						parent_bone = "ar2_weapon"
+						relative_origin = [ 11.299999, -1.0, 0.0 ]
+						relative_angles = [ 65.000015, 180.0, -39.999992 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "secondary"
+						parent_bone = "ar2_weapon"
+						relative_origin = [ 22.0, 2.5, -0.2 ]
+						relative_angles = [ -0.0, 0.0, 90.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "punch"
+						parent_bone = "ar2_weapon"
+						relative_origin = [ 11.9, -1.2, 0.25 ]
+						relative_angles = [ -0.0, 0.0, 90.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+				]
+			},
+			{
+				_class = "HitboxSetList"
+				children = 
+				[
+					{
+						_class = "HitboxSet"
+						name = "default"
+						children = 
+						[
+							{
+								_class = "Hitbox"
+								parent_bone = "ar2_weapon"
+								hitbox_mins = [ -12.81376, -4.298744, -1.427715 ]
+								hitbox_maxs = [ 21.902704, 6.139962, 1.406181 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "ar2_mag"
+								hitbox_mins = [ -1.995341, -0.889237, -7.213453 ]
+								hitbox_maxs = [ 12.681937, 1.639881, 4.46573 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_wrist"
+								hitbox_mins = [ -0.409413, -1.357475, -2.261817 ]
+								hitbox_maxs = [ 4.730932, 1.597521, 1.84359 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_thumb_low"
+								hitbox_mins = [ -1.541701, -1.606236, -1.241963 ]
+								hitbox_maxs = [ 2.222906, 1.19254, 1.598378 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_thumb_mid"
+								hitbox_mins = [ -1.147356, -2.256185, -0.994811 ]
+								hitbox_maxs = [ 1.621819, 0.534214, 0.753756 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_index_low"
+								hitbox_mins = [ -0.54417, -0.643988, -0.751277 ]
+								hitbox_maxs = [ 2.767048, 0.957242, 0.793078 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_middle_low"
+								hitbox_mins = [ -0.327188, -0.905643, -1.343824 ]
+								hitbox_maxs = [ 2.611139, 0.931454, 1.074383 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_ring_low"
+								hitbox_mins = [ -0.497022, -0.746328, -1.240084 ]
+								hitbox_maxs = [ 2.097599, 0.989522, 0.657829 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_pinky_low"
+								hitbox_mins = [ -1.272357, -0.537989, -0.75891 ]
+								hitbox_maxs = [ 1.369391, 1.567904, 0.923773 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_upperarm"
+								hitbox_mins = [ 0.0, -2.475179, -3.062224 ]
+								hitbox_maxs = [ 13.121434, 3.730188, 3.03298 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_forearm"
+								hitbox_mins = [ 0.0, -2.687551, -3.038872 ]
+								hitbox_maxs = [ 13.867716, 3.158051, 2.93754 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_wrist"
+								hitbox_mins = [ -0.260235, -1.535419, -2.185644 ]
+								hitbox_maxs = [ 4.777857, 1.390387, 1.856593 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_thumb_low"
+								hitbox_mins = [ -0.843178, -0.867549, -1.501273 ]
+								hitbox_maxs = [ 1.955183, 1.28753, 0.931411 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_thumb_mid"
+								hitbox_mins = [ -1.381135, -1.58954, -0.601439 ]
+								hitbox_maxs = [ 1.666804, 0.675822, 1.205029 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_index_low"
+								hitbox_mins = [ -0.544661, -0.787895, -0.704525 ]
+								hitbox_maxs = [ 2.779322, 0.75255, 1.147406 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_middle_low"
+								hitbox_mins = [ -0.186544, -1.143859, -1.205509 ]
+								hitbox_maxs = [ 2.701475, 0.621265, 0.75948 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_middle_mid"
+								hitbox_mins = [ -0.572088, -0.764101, -0.468858 ]
+								hitbox_maxs = [ 1.912783, 0.425963, 0.624711 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_ring_low"
+								hitbox_mins = [ -0.538353, -1.868363, -0.966684 ]
+								hitbox_maxs = [ 2.182728, 0.6125, 0.497093 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_pinky_low"
+								hitbox_mins = [ -1.152278, -1.671776, -1.024336 ]
+								hitbox_maxs = [ 1.762973, 0.659194, 0.779159 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_upperarm"
+								hitbox_mins = [ 0.0, -2.500104, -3.065758 ]
+								hitbox_maxs = [ 13.229992, 3.711741, 3.045986 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_forearm"
+								hitbox_mins = [ 0.0, -2.675245, -3.119119 ]
+								hitbox_maxs = [ 13.954014, 3.141468, 2.961503 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "ar2_core"
+								hitbox_mins = [ 0.0, -0.643114, -0.605106 ]
+								hitbox_maxs = [ 2.213405, 0.573175, 0.611184 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "ar2_mag_core"
+								hitbox_mins = [ -1.112981, -0.637362, -0.599848 ]
+								hitbox_maxs = [ 0.734634, 0.578929, 0.616441 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "ar2_weapon"
+								hitbox_mins = [ -12.81376, -4.298744, -1.427715 ]
+								hitbox_maxs = [ 21.902704, 6.139962, 1.406181 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "ar2_mag"
+								hitbox_mins = [ -1.995341, -0.889237, -7.213453 ]
+								hitbox_maxs = [ 12.681937, 1.639881, 4.46573 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_wrist"
+								hitbox_mins = [ -0.409413, -1.357475, -2.261817 ]
+								hitbox_maxs = [ 4.730932, 1.597521, 1.84359 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_thumb_low"
+								hitbox_mins = [ -1.541701, -1.606236, -1.241963 ]
+								hitbox_maxs = [ 2.222906, 1.19254, 1.598378 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_thumb_mid"
+								hitbox_mins = [ -1.147356, -2.256185, -0.994811 ]
+								hitbox_maxs = [ 1.621819, 0.534214, 0.753756 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_index_low"
+								hitbox_mins = [ -0.54417, -0.643988, -0.751277 ]
+								hitbox_maxs = [ 2.767048, 0.957242, 0.793078 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_middle_low"
+								hitbox_mins = [ -0.327188, -0.905643, -1.343824 ]
+								hitbox_maxs = [ 2.611139, 0.931454, 1.074383 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_ring_low"
+								hitbox_mins = [ -0.497022, -0.746328, -1.240084 ]
+								hitbox_maxs = [ 2.097599, 0.989522, 0.657829 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_pinky_low"
+								hitbox_mins = [ -1.272357, -0.537989, -0.75891 ]
+								hitbox_maxs = [ 1.369391, 1.567904, 0.923773 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_upperarm"
+								hitbox_mins = [ 0.0, -2.475179, -3.062224 ]
+								hitbox_maxs = [ 13.121434, 3.730188, 3.03298 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_forearm"
+								hitbox_mins = [ 0.0, -2.687551, -3.038872 ]
+								hitbox_maxs = [ 13.867716, 3.158051, 2.93754 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_wrist"
+								hitbox_mins = [ -0.260235, -1.535419, -2.185644 ]
+								hitbox_maxs = [ 4.777857, 1.390387, 1.856593 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_thumb_low"
+								hitbox_mins = [ -0.843178, -0.867549, -1.501273 ]
+								hitbox_maxs = [ 1.955183, 1.28753, 0.931411 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_thumb_mid"
+								hitbox_mins = [ -1.381135, -1.58954, -0.601439 ]
+								hitbox_maxs = [ 1.666804, 0.675822, 1.205029 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_index_low"
+								hitbox_mins = [ -0.544661, -0.787895, -0.704525 ]
+								hitbox_maxs = [ 2.779322, 0.75255, 1.147406 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_middle_low"
+								hitbox_mins = [ -0.186544, -1.143859, -1.205509 ]
+								hitbox_maxs = [ 2.701475, 0.621265, 0.75948 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_middle_mid"
+								hitbox_mins = [ -0.572088, -0.764101, -0.468858 ]
+								hitbox_maxs = [ 1.912783, 0.425963, 0.624711 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_ring_low"
+								hitbox_mins = [ -0.538353, -1.868363, -0.966684 ]
+								hitbox_maxs = [ 2.182728, 0.6125, 0.497093 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_pinky_low"
+								hitbox_mins = [ -1.152278, -1.671776, -1.024336 ]
+								hitbox_maxs = [ 1.762973, 0.659194, 0.779159 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_upperarm"
+								hitbox_mins = [ 0.0, -2.500104, -3.065758 ]
+								hitbox_maxs = [ 13.229992, 3.711741, 3.045986 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_forearm"
+								hitbox_mins = [ 0.0, -2.675245, -3.119119 ]
+								hitbox_maxs = [ 13.954014, 3.141468, 2.961503 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "ar2_core"
+								hitbox_mins = [ 0.0, -0.643114, -0.605106 ]
+								hitbox_maxs = [ 2.213405, 0.573175, 0.611184 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "ar2_mag_core"
+								hitbox_mins = [ -1.112981, -0.637362, -0.599848 ]
+								hitbox_maxs = [ 0.734634, 0.578929, 0.616441 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "ar2_weapon"
+								hitbox_mins = [ -12.81376, -4.298744, -1.427715 ]
+								hitbox_maxs = [ 21.902704, 6.139962, 1.406181 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "ar2_mag"
+								hitbox_mins = [ -1.995341, -0.889237, -7.213453 ]
+								hitbox_maxs = [ 12.681937, 1.639881, 4.46573 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_wrist"
+								hitbox_mins = [ -0.409413, -1.357475, -2.261817 ]
+								hitbox_maxs = [ 4.730932, 1.597521, 1.84359 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_thumb_low"
+								hitbox_mins = [ -1.541701, -1.606236, -1.241963 ]
+								hitbox_maxs = [ 2.222906, 1.19254, 1.598378 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_thumb_mid"
+								hitbox_mins = [ -1.147356, -2.256185, -0.994811 ]
+								hitbox_maxs = [ 1.621819, 0.534214, 0.753756 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_index_low"
+								hitbox_mins = [ -0.54417, -0.643988, -0.751277 ]
+								hitbox_maxs = [ 2.767048, 0.957242, 0.793078 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_middle_low"
+								hitbox_mins = [ -0.327188, -0.905643, -1.343824 ]
+								hitbox_maxs = [ 2.611139, 0.931454, 1.074383 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_ring_low"
+								hitbox_mins = [ -0.497022, -0.746328, -1.240084 ]
+								hitbox_maxs = [ 2.097599, 0.989522, 0.657829 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_pinky_low"
+								hitbox_mins = [ -1.272357, -0.537989, -0.75891 ]
+								hitbox_maxs = [ 1.369391, 1.567904, 0.923773 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_upperarm"
+								hitbox_mins = [ 0.0, -2.475179, -3.062224 ]
+								hitbox_maxs = [ 13.121434, 3.730188, 3.03298 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_forearm"
+								hitbox_mins = [ 0.0, -2.687551, -3.038872 ]
+								hitbox_maxs = [ 13.867716, 3.158051, 2.93754 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_wrist"
+								hitbox_mins = [ -0.260235, -1.535419, -2.185644 ]
+								hitbox_maxs = [ 4.777857, 1.390387, 1.856593 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_thumb_low"
+								hitbox_mins = [ -0.843178, -0.867549, -1.501273 ]
+								hitbox_maxs = [ 1.955183, 1.28753, 0.931411 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_thumb_mid"
+								hitbox_mins = [ -1.381135, -1.58954, -0.601439 ]
+								hitbox_maxs = [ 1.666804, 0.675822, 1.205029 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_index_low"
+								hitbox_mins = [ -0.544661, -0.787895, -0.704525 ]
+								hitbox_maxs = [ 2.779322, 0.75255, 1.147406 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_middle_low"
+								hitbox_mins = [ -0.186544, -1.143859, -1.205509 ]
+								hitbox_maxs = [ 2.701475, 0.621265, 0.75948 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_middle_mid"
+								hitbox_mins = [ -0.572088, -0.764101, -0.468858 ]
+								hitbox_maxs = [ 1.912783, 0.425963, 0.624711 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_ring_low"
+								hitbox_mins = [ -0.538353, -1.868363, -0.966684 ]
+								hitbox_maxs = [ 2.182728, 0.6125, 0.497093 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_pinky_low"
+								hitbox_mins = [ -1.152278, -1.671776, -1.024336 ]
+								hitbox_maxs = [ 1.762973, 0.659194, 0.779159 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_upperarm"
+								hitbox_mins = [ 0.0, -2.500104, -3.065758 ]
+								hitbox_maxs = [ 13.229992, 3.711741, 3.045986 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_forearm"
+								hitbox_mins = [ 0.0, -2.675245, -3.119119 ]
+								hitbox_maxs = [ 13.954014, 3.141468, 2.961503 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "ar2_core"
+								hitbox_mins = [ 0.0, -0.643114, -0.605106 ]
+								hitbox_maxs = [ 2.213405, 0.573175, 0.611184 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "ar2_mag_core"
+								hitbox_mins = [ -1.112981, -0.637362, -0.599848 ]
+								hitbox_maxs = [ 0.734634, 0.578929, 0.616441 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "ar2_weapon"
+								hitbox_mins = [ -12.81376, -4.298744, -1.427715 ]
+								hitbox_maxs = [ 21.902704, 6.139962, 1.406181 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "ar2_mag"
+								hitbox_mins = [ -1.995341, -0.889237, -7.213453 ]
+								hitbox_maxs = [ 12.681937, 1.639881, 4.46573 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_wrist"
+								hitbox_mins = [ -0.409413, -1.357475, -2.261817 ]
+								hitbox_maxs = [ 4.730932, 1.597521, 1.84359 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_thumb_low"
+								hitbox_mins = [ -1.541701, -1.606236, -1.241963 ]
+								hitbox_maxs = [ 2.222906, 1.19254, 1.598378 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_thumb_mid"
+								hitbox_mins = [ -1.147356, -2.256185, -0.994811 ]
+								hitbox_maxs = [ 1.621819, 0.534214, 0.753756 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_index_low"
+								hitbox_mins = [ -0.54417, -0.643988, -0.751277 ]
+								hitbox_maxs = [ 2.767048, 0.957242, 0.793078 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_middle_low"
+								hitbox_mins = [ -0.327188, -0.905643, -1.343824 ]
+								hitbox_maxs = [ 2.611139, 0.931454, 1.074383 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_ring_low"
+								hitbox_mins = [ -0.497022, -0.746328, -1.240084 ]
+								hitbox_maxs = [ 2.097599, 0.989522, 0.657829 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_pinky_low"
+								hitbox_mins = [ -1.272357, -0.537989, -0.75891 ]
+								hitbox_maxs = [ 1.369391, 1.567904, 0.923773 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_upperarm"
+								hitbox_mins = [ 0.0, -2.475179, -3.062224 ]
+								hitbox_maxs = [ 13.121434, 3.730188, 3.03298 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_forearm"
+								hitbox_mins = [ 0.0, -2.687551, -3.038872 ]
+								hitbox_maxs = [ 13.867716, 3.158051, 2.93754 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_wrist"
+								hitbox_mins = [ -0.260235, -1.535419, -2.185644 ]
+								hitbox_maxs = [ 4.777857, 1.390387, 1.856593 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_thumb_low"
+								hitbox_mins = [ -0.843178, -0.867549, -1.501273 ]
+								hitbox_maxs = [ 1.955183, 1.28753, 0.931411 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_thumb_mid"
+								hitbox_mins = [ -1.381135, -1.58954, -0.601439 ]
+								hitbox_maxs = [ 1.666804, 0.675822, 1.205029 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_index_low"
+								hitbox_mins = [ -0.544661, -0.787895, -0.704525 ]
+								hitbox_maxs = [ 2.779322, 0.75255, 1.147406 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_middle_low"
+								hitbox_mins = [ -0.186544, -1.143859, -1.205509 ]
+								hitbox_maxs = [ 2.701475, 0.621265, 0.75948 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_middle_mid"
+								hitbox_mins = [ -0.572088, -0.764101, -0.468858 ]
+								hitbox_maxs = [ 1.912783, 0.425963, 0.624711 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_ring_low"
+								hitbox_mins = [ -0.538353, -1.868363, -0.966684 ]
+								hitbox_maxs = [ 2.182728, 0.6125, 0.497093 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_pinky_low"
+								hitbox_mins = [ -1.152278, -1.671776, -1.024336 ]
+								hitbox_maxs = [ 1.762973, 0.659194, 0.779159 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_upperarm"
+								hitbox_mins = [ 0.0, -2.500104, -3.065758 ]
+								hitbox_maxs = [ 13.229992, 3.711741, 3.045986 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_forearm"
+								hitbox_mins = [ 0.0, -2.675245, -3.119119 ]
+								hitbox_maxs = [ 13.954014, 3.141468, 2.961503 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "ar2_core"
+								hitbox_mins = [ 0.0, -0.643114, -0.605106 ]
+								hitbox_maxs = [ 2.213405, 0.573175, 0.611184 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "ar2_mag_core"
+								hitbox_mins = [ -1.112981, -0.637362, -0.599848 ]
+								hitbox_maxs = [ 0.734634, 0.578929, 0.616441 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "ar2_weapon"
+								hitbox_mins = [ -12.81376, -4.298744, -1.427715 ]
+								hitbox_maxs = [ 21.902704, 6.139962, 1.406181 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "ar2_mag"
+								hitbox_mins = [ -1.995341, -0.889237, -7.213453 ]
+								hitbox_maxs = [ 12.681937, 1.639881, 4.46573 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_wrist"
+								hitbox_mins = [ -0.409413, -1.357475, -2.261817 ]
+								hitbox_maxs = [ 4.730932, 1.597521, 1.84359 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_thumb_low"
+								hitbox_mins = [ -1.541701, -1.606236, -1.241963 ]
+								hitbox_maxs = [ 2.222906, 1.19254, 1.598378 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_thumb_mid"
+								hitbox_mins = [ -1.147356, -2.256185, -0.994811 ]
+								hitbox_maxs = [ 1.621819, 0.534214, 0.753756 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_index_low"
+								hitbox_mins = [ -0.54417, -0.643988, -0.751277 ]
+								hitbox_maxs = [ 2.767048, 0.957242, 0.793078 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_middle_low"
+								hitbox_mins = [ -0.327188, -0.905643, -1.343824 ]
+								hitbox_maxs = [ 2.611139, 0.931454, 1.074383 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_ring_low"
+								hitbox_mins = [ -0.497022, -0.746328, -1.240084 ]
+								hitbox_maxs = [ 2.097599, 0.989522, 0.657829 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_pinky_low"
+								hitbox_mins = [ -1.272357, -0.537989, -0.75891 ]
+								hitbox_maxs = [ 1.369391, 1.567904, 0.923773 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_upperarm"
+								hitbox_mins = [ 0.0, -2.475179, -3.062224 ]
+								hitbox_maxs = [ 13.121434, 3.730188, 3.03298 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "l_forearm"
+								hitbox_mins = [ 0.0, -2.687551, -3.038872 ]
+								hitbox_maxs = [ 13.867716, 3.158051, 2.93754 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_wrist"
+								hitbox_mins = [ -0.260235, -1.535419, -2.185644 ]
+								hitbox_maxs = [ 4.777857, 1.390387, 1.856593 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_thumb_low"
+								hitbox_mins = [ -0.843178, -0.867549, -1.501273 ]
+								hitbox_maxs = [ 1.955183, 1.28753, 0.931411 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_thumb_mid"
+								hitbox_mins = [ -1.381135, -1.58954, -0.601439 ]
+								hitbox_maxs = [ 1.666804, 0.675822, 1.205029 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_index_low"
+								hitbox_mins = [ -0.544661, -0.787895, -0.704525 ]
+								hitbox_maxs = [ 2.779322, 0.75255, 1.147406 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_middle_low"
+								hitbox_mins = [ -0.186544, -1.143859, -1.205509 ]
+								hitbox_maxs = [ 2.701475, 0.621265, 0.75948 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_middle_mid"
+								hitbox_mins = [ -0.572088, -0.764101, -0.468858 ]
+								hitbox_maxs = [ 1.912783, 0.425963, 0.624711 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_ring_low"
+								hitbox_mins = [ -0.538353, -1.868363, -0.966684 ]
+								hitbox_maxs = [ 2.182728, 0.6125, 0.497093 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_pinky_low"
+								hitbox_mins = [ -1.152278, -1.671776, -1.024336 ]
+								hitbox_maxs = [ 1.762973, 0.659194, 0.779159 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_upperarm"
+								hitbox_mins = [ 0.0, -2.500104, -3.065758 ]
+								hitbox_maxs = [ 13.229992, 3.711741, 3.045986 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "r_forearm"
+								hitbox_mins = [ 0.0, -2.675245, -3.119119 ]
+								hitbox_maxs = [ 13.954014, 3.141468, 2.961503 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "ar2_core"
+								hitbox_mins = [ 0.0, -0.643114, -0.605106 ]
+								hitbox_maxs = [ 2.213405, 0.573175, 0.611184 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "ar2_mag_core"
+								hitbox_mins = [ -1.112981, -0.637362, -0.599848 ]
+								hitbox_maxs = [ 0.734634, 0.578929, 0.616441 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+						]
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						name = "v_irifle_bg_studio_lod0"
+						filename = "models/weapons/ar2/v_irifle_fbx/mesh/v_irifle_bg_studio_lod0.fbx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "v_irifle_bg_hands_lod0"
+						filename = "models/weapons/ar2/v_irifle_fbx/mesh/v_irifle_bg_hands_lod0.fbx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "v_irifle_bg_core_in_barrel_sm0_lod0"
+						filename = "models/weapons/ar2/v_irifle_fbx/mesh/v_irifle_bg_core_in_barrel_sm0_lod0.fbx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "v_irifle_bg_core_in_mag_sm0_lod0"
+						filename = "models/weapons/ar2/v_irifle_fbx/mesh/v_irifle_bg_core_in_mag_sm0_lod0.fbx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "v_irifle_bg_core_in_mag_clone_sm0_lod0"
+						filename = "models/weapons/ar2/v_irifle_fbx/mesh/v_irifle_bg_core_in_mag_clone_sm0_lod0.fbx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+			{
+				_class = "AnimationList"
+				children = 
+				[
+					{
+						_class = "AnimFile"
+						name = "idle"
+						activity_name = "ACT_VM_IDLE"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/ar2/v_irifle_fbx/anim/idle.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 18.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "idle_midempty"
+						activity_name = "ACT_VM_IDLE_MIDEMPTY"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/ar2/v_irifle_fbx/anim/idle_midempty.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 18.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "idle_ironsight"
+						activity_name = "ACT_VM_IDLE_SILENCED"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/ar2/v_irifle_fbx/anim/idle_ironsight.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 4.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "fire_last"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_MUZZLEFLASH"
+								event_frame = 0
+								event_keys = 
+								{
+									weaponType = "COMBINE"
+									attachment = "MUZZLE"
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_EJECTBRASS1"
+								event_frame = 0
+								event_keys = null
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_WEAPON_SMG1_BURST1"
+								event_frame = 0
+								event_keys = null
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_WEAPON_SMG1_BURSTN"
+								event_frame = 5
+								event_keys = null
+							},
+						]
+						activity_name = "ACT_VM_SHOOTLAST"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/ar2/v_irifle_fbx/anim/fire_last.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "fire1"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_EJECTBRASS1"
+								event_frame = 0
+								event_keys = null
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_WEAPON_SMG1_BURST1"
+								event_frame = 0
+								event_keys = null
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_WEAPON_SMG1_BURSTN"
+								event_frame = 5
+								event_keys = null
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 0
+								event_keys = 
+								{
+									name = resource:"particles/weapon_fx/muzzleflash_smg_heavy_fire_light.vpcf"
+									detach_from_owner = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = ""
+									attachment_point = "muzzle"
+									attachment_type = "point_follow"
+									attachment_point_cp1 = ""
+									attachment_type_cp1 = "point_follow"
+								}
+							},
+						]
+						activity_name = "ACT_VM_PRIMARYATTACK"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/ar2/v_irifle_fbx/anim/fire1.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "fire2"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_EJECTBRASS1"
+								event_frame = 0
+								event_keys = null
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_WEAPON_SMG1_BURST1"
+								event_frame = 0
+								event_keys = null
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_WEAPON_SMG1_BURSTN"
+								event_frame = 5
+								event_keys = null
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 0
+								event_keys = 
+								{
+									name = resource:"particles/weapon_fx/muzzleflash_smg_heavy_fire_light.vpcf"
+									detach_from_owner = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = ""
+									attachment_point = "muzzle"
+									attachment_type = "point_follow"
+									attachment_point_cp1 = ""
+									attachment_type_cp1 = "point_follow"
+								}
+							},
+						]
+						activity_name = "ACT_VM_RECOIL1"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/ar2/v_irifle_fbx/anim/fire2.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "fire3"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_EJECTBRASS1"
+								event_frame = 0
+								event_keys = null
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_WEAPON_SMG1_BURST1"
+								event_frame = 0
+								event_keys = null
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_WEAPON_SMG1_BURSTN"
+								event_frame = 5
+								event_keys = null
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 0
+								event_keys = 
+								{
+									name = resource:"particles/weapon_fx/muzzleflash_smg_heavy_fire_light.vpcf"
+									detach_from_owner = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = ""
+									attachment_point = "muzzle"
+									attachment_type = "point_follow"
+									attachment_point_cp1 = ""
+									attachment_type_cp1 = "point_follow"
+								}
+							},
+						]
+						activity_name = "ACT_VM_RECOIL2"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/ar2/v_irifle_fbx/anim/fire3.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "fire4"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_EJECTBRASS1"
+								event_frame = 0
+								event_keys = null
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_WEAPON_SMG1_BURST1"
+								event_frame = 0
+								event_keys = null
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_WEAPON_SMG1_BURSTN"
+								event_frame = 5
+								event_keys = null
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 0
+								event_keys = 
+								{
+									name = resource:"particles/weapon_fx/muzzleflash_smg_heavy_fire_light.vpcf"
+									detach_from_owner = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = ""
+									attachment_point = "muzzle"
+									attachment_type = "point_follow"
+									attachment_point_cp1 = ""
+									attachment_type_cp1 = "point_follow"
+								}
+							},
+						]
+						activity_name = "ACT_VM_RECOIL3"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/ar2/v_irifle_fbx/anim/fire4.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "fire_midempty"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_MUZZLEFLASH"
+								event_frame = 0
+								event_keys = 
+								{
+									weaponType = "COMBINE"
+									attachment = "MUZZLE"
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_EJECTBRASS1"
+								event_frame = 0
+								event_keys = null
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_WEAPON_SMG1_BURST1"
+								event_frame = 0
+								event_keys = null
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_WEAPON_SMG1_BURSTN"
+								event_frame = 5
+								event_keys = null
+							},
+						]
+						activity_name = "ACT_VM_PRIMARYATTACK_MIDEMPTY"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/ar2/v_irifle_fbx/anim/fire_midempty.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "fire_alt"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_MUZZLEFLASH"
+								event_frame = 0
+								event_keys = 
+								{
+									weaponType = "COMBINE"
+									attachment = "MUZZLE"
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 26
+								event_keys = 
+								{
+									name = "Weapon_AR2.BoltPull"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 27
+								event_keys = 
+								{
+									name = "Weapon_AR2.Reload_Push"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 13
+								event_keys = 
+								{
+									name = "Weapon_Generic.Movement3"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 28
+								event_keys = 
+								{
+									name = "Weapon_Generic.Movement2"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+						]
+						activity_name = "ACT_VM_SECONDARYATTACK"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/ar2/v_irifle_fbx/anim/fire_alt.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "reload"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 3
+								event_keys = 
+								{
+									name = "Weapon_AR2.Reload_Rotate"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 10
+								event_keys = 
+								{
+									name = "Weapon_AR2.MagOut"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 39
+								event_keys = 
+								{
+									name = "Weapon_AR2.MagIn"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 40
+								event_keys = 
+								{
+									name = "Weapon_AR2.Reload_Push"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 11
+								event_keys = 
+								{
+									name = "Weapon_Generic.Movement2"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 25
+								event_keys = 
+								{
+									name = "Weapon_Generic.Movement5"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_WEAPON_RELOAD"
+								event_frame = 20
+								event_keys = null
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_WEAPON_SMG1_BURSTN"
+								event_frame = 0
+								event_keys = null
+							},
+						]
+						activity_name = "ACT_VM_RELOAD"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.4
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/ar2/v_irifle_fbx/anim/reload.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "reloadempty"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 3
+								event_keys = 
+								{
+									name = "Weapon_AR2.Reload_Rotate"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 10
+								event_keys = 
+								{
+									name = "Weapon_AR2.MagOut"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 39
+								event_keys = 
+								{
+									name = "Weapon_AR2.MagIn"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 40
+								event_keys = 
+								{
+									name = "Weapon_AR2.Reload_Push"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 11
+								event_keys = 
+								{
+									name = "Weapon_Generic.Movement2"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 25
+								event_keys = 
+								{
+									name = "Weapon_Generic.Movement5"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_WEAPON_RELOAD"
+								event_frame = 20
+								event_keys = null
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_WEAPON_SMG1_BURSTN"
+								event_frame = 0
+								event_keys = null
+							},
+						]
+						activity_name = "ACT_VM_RELOADEMPTY"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/ar2/v_irifle_fbx/anim/reloadempty.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "reload_midempty"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 3
+								event_keys = 
+								{
+									name = "Weapon_AR2.Reload_Rotate"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 10
+								event_keys = 
+								{
+									name = "Weapon_AR2.MagOut"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 39
+								event_keys = 
+								{
+									name = "Weapon_AR2.MagIn"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 40
+								event_keys = 
+								{
+									name = "Weapon_AR2.Reload_Push"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 11
+								event_keys = 
+								{
+									name = "Weapon_Generic.Movement2"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 25
+								event_keys = 
+								{
+									name = "Weapon_Generic.Movement5"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_WEAPON_RELOAD"
+								event_frame = 20
+								event_keys = null
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_WEAPON_SMG1_BURSTN"
+								event_frame = 0
+								event_keys = null
+							},
+						]
+						activity_name = "ACT_VM_RELOADMIDEMPTY"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/ar2/v_irifle_fbx/anim/reload_midempty.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "draw"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 0
+								event_keys = 
+								{
+									name = "Weapon_Irifle.Draw"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 13
+								event_keys = 
+								{
+									name = "Weapon_AR2.FidgetPush"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+						]
+						activity_name = "ACT_VM_DRAW"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.0
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/ar2/v_irifle_fbx/anim/draw.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "draw_empty"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 0
+								event_keys = 
+								{
+									name = "Weapon_Irifle.Draw"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 13
+								event_keys = 
+								{
+									name = "Weapon_AR2.FidgetPush"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+						]
+						activity_name = "ACT_VM_DRAW_EMPTY"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.0
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/ar2/v_irifle_fbx/anim/draw_empty.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "holster"
+						activity_name = "ACT_VM_HOLSTER"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/ar2/v_irifle_fbx/anim/holster.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 45.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "idletolow"
+						activity_name = "ACT_VM_LOWERED_TO_IDLE"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/ar2/v_irifle_fbx/anim/idletolow.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "lowtoidle"
+						activity_name = "ACT_VM_IDLE_TO_LOWERED"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/ar2/v_irifle_fbx/anim/lowtoidle.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "lowidle"
+						activity_name = "ACT_VM_IDLE_LOWERED"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/ar2/v_irifle_fbx/anim/lowidle.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "shake"
+						activity_name = "ACT_VM_FIDGET"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/ar2/v_irifle_fbx/anim/shake.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "Walk"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 1
+								event_keys = 
+								{
+									name = "Weapon_Generic.Walk1"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 13
+								event_keys = 
+								{
+									name = "Weapon_Generic.Walk2"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+						]
+						activity_name = "ACT_VM_WALK"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.4
+						fade_out_time = 0.4
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/ar2/v_irifle_fbx/anim/walk.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "Sprint"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 1
+								event_keys = 
+								{
+									name = "Weapon_Generic.Sprint1"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 16
+								event_keys = 
+								{
+									name = "Weapon_Generic.Sprint2"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+						]
+						activity_name = "ACT_VM_SPRINT"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.4
+						fade_out_time = 0.4
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/ar2/v_irifle_fbx/anim/sprint.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 50.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "Walk_midempty"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 1
+								event_keys = 
+								{
+									name = "Weapon_Generic.Walk1"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 13
+								event_keys = 
+								{
+									name = "Weapon_Generic.Walk2"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+						]
+						activity_name = "ACT_VM_WALK_MIDEMPTY"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.4
+						fade_out_time = 0.4
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/ar2/v_irifle_fbx/anim/walk_midempty.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "Sprint_midempty"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 1
+								event_keys = 
+								{
+									name = "Weapon_Generic.Sprint1"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 16
+								event_keys = 
+								{
+									name = "Weapon_Generic.Sprint2"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+						]
+						activity_name = "ACT_VM_SPRINT_MIDEMPTY"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.4
+						fade_out_time = 0.4
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/ar2/v_irifle_fbx/anim/sprint_midempty.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 50.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "fidget"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 8
+								event_keys = 
+								{
+									name = "Weapon_AR2.FidgetRotate"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 60
+								event_keys = 
+								{
+									name = "Weapon_AR2.FidgetPush"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 1
+								event_keys = 
+								{
+									name = "Weapon_Generic.Movement1"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 55
+								event_keys = 
+								{
+									name = "Weapon_Generic.Movement4"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+						]
+						activity_name = "ACT_VM_INSPECT"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/ar2/v_irifle_fbx/anim/fidget.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "fidget2"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 30
+								event_keys = 
+								{
+									name = "Weapon_AR2.FidgetRotate"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 37
+								event_keys = 
+								{
+									name = "Weapon_AR2.FidgetPush"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 1
+								event_keys = 
+								{
+									name = "Weapon_Generic.Movement2"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 40
+								event_keys = 
+								{
+									name = "Weapon_Generic.Movement3"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+						]
+						activity_name = "ACT_VM_INSPECT_ALT"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/ar2/v_irifle_fbx/anim/fidget2.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+				]
+				default_root_bone_name = ""
+			},
+		]
+		model_archetype = "animated_model"
+		primary_associated_entity = "weapon_ar2"
+		anim_graph_name = ""
+		importer_notes = """
+Imported from compiled VMDL_C
+==Warnings==
+Cannot import non-trivial meshgroup: hands
+
+"""
+	}
+}

@@ -1,0 +1,991 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc28:version{fb63b6ca-f435-4aa0-a2c7-c66ddc651dca} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "HitboxSetList"
+				children = 
+				[
+					{
+						_class = "HitboxSet"
+						name = "default"
+						children = 
+						[
+							{
+								_class = "Hitbox"
+								parent_bone = "grenade"
+								hitbox_mins = [ -2.059555, -1.872782, -4.416133 ]
+								hitbox_maxs = [ 1.862473, 1.745016, 4.361247 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "left_wrist"
+								hitbox_mins = [ 0.0, -1.631489, -0.727292 ]
+								hitbox_maxs = [ 3.773045, 1.261465, 0.574182 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "frame_l_index_low"
+								hitbox_mins = [ -0.513995, -1.347938, -0.652456 ]
+								hitbox_maxs = [ 2.002067, 0.407717, 0.508039 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "frame_l_ring_low"
+								hitbox_mins = [ -0.118396, -1.503594, -0.700277 ]
+								hitbox_maxs = [ 1.984852, 0.37376, 0.503822 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "frame_l_middlelow"
+								hitbox_mins = [ 0.0, -1.240201, -0.738341 ]
+								hitbox_maxs = [ 2.226858, 0.393415, 0.884776 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "frame_l_pinky_low"
+								hitbox_mins = [ -0.433129, -0.920723, -0.613262 ]
+								hitbox_maxs = [ 1.654254, 0.574798, 0.651671 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "frame_l_thumb_low"
+								hitbox_mins = [ -0.265869, -1.731604, -1.366806 ]
+								hitbox_maxs = [ 2.313256, 0.771167, 0.717645 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "frame_l_thumb_mid"
+								hitbox_mins = [ -0.725841, -1.428879, -0.8996 ]
+								hitbox_maxs = [ 1.461938, 0.711857, 0.492111 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "frame_l_thumb_tip"
+								hitbox_mins = [ -1.254807, -0.80474, -0.523572 ]
+								hitbox_maxs = [ 0.694859, 0.888061, 0.533591 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "right_wrist"
+								hitbox_mins = [ 0.0, -1.630608, -0.57946 ]
+								hitbox_maxs = [ 3.773535, 1.261477, 0.727355 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "frame_r_thumb_low"
+								hitbox_mins = [ -0.292739, -1.774185, -0.560072 ]
+								hitbox_maxs = [ 2.157988, 0.797273, 1.653656 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "frame_r_thumb_mid"
+								hitbox_mins = [ -1.6344, -1.04974, -0.47182 ]
+								hitbox_maxs = [ 1.460491, 0.710167, 0.954972 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "frame_r_thumb_tip"
+								hitbox_mins = [ -1.398903, -0.841536, -0.61572 ]
+								hitbox_maxs = [ 0.567064, 0.825429, 0.462572 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "frame_r_index_low"
+								hitbox_mins = [ -0.635809, -1.037502, -0.471277 ]
+								hitbox_maxs = [ 1.902624, 0.558111, 0.750862 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "frame_r_middlelow"
+								hitbox_mins = [ -0.078369, -0.947882, -0.922833 ]
+								hitbox_maxs = [ 2.229606, 0.470399, 0.744448 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "frame_r_ring_low"
+								hitbox_mins = [ -0.242699, -1.225729, -0.541502 ]
+								hitbox_maxs = [ 1.984999, 0.663821, 0.542547 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "frame_r_pinky_low"
+								hitbox_mins = [ -0.617917, -0.654406, -0.739386 ]
+								hitbox_maxs = [ 1.632423, 0.893078, 0.543149 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "frame_main-bone"
+								hitbox_mins = [ -8.498693, -2.613142, -4.573454 ]
+								hitbox_maxs = [ 7.920056, 0.0, 0.0 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "frame_r_upperarm"
+								hitbox_mins = [ -1.196146, -4.663191, -3.786643 ]
+								hitbox_maxs = [ 11.587134, 1.78786, 2.668341 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "frame_r_forearm"
+								hitbox_mins = [ -2.58334, -3.801059, -3.529662 ]
+								hitbox_maxs = [ 14.300879, 2.202962, 2.404502 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "frame_r_wriste"
+								hitbox_mins = [ -2.324123, -2.179149, -1.45504 ]
+								hitbox_maxs = [ 4.62768, 2.03214, 1.764898 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "frame_l_upperarm"
+								hitbox_mins = [ -1.117738, -2.744062, -3.314924 ]
+								hitbox_maxs = [ 11.546636, 3.142478, 2.82929 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "frame_l_forearm"
+								hitbox_mins = [ -2.692619, -2.789547, -2.820459 ]
+								hitbox_maxs = [ 14.288759, 3.061758, 2.934741 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "frame_l_wriste"
+								hitbox_mins = [ -2.351784, -2.258036, -1.730604 ]
+								hitbox_maxs = [ 4.79044, 2.066104, 1.512808 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "grenade"
+								hitbox_mins = [ -2.059555, -1.872782, -4.416133 ]
+								hitbox_maxs = [ 1.862473, 1.745016, 4.361247 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "left_wrist"
+								hitbox_mins = [ 0.0, -1.631489, -0.727292 ]
+								hitbox_maxs = [ 3.773045, 1.261465, 0.574182 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "frame_l_index_low"
+								hitbox_mins = [ -0.513995, -1.347938, -0.652456 ]
+								hitbox_maxs = [ 2.002067, 0.407717, 0.508039 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "frame_l_ring_low"
+								hitbox_mins = [ -0.118396, -1.503594, -0.700277 ]
+								hitbox_maxs = [ 1.984852, 0.37376, 0.503822 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "frame_l_middlelow"
+								hitbox_mins = [ 0.0, -1.240201, -0.738341 ]
+								hitbox_maxs = [ 2.226858, 0.393415, 0.884776 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "frame_l_pinky_low"
+								hitbox_mins = [ -0.433129, -0.920723, -0.613262 ]
+								hitbox_maxs = [ 1.654254, 0.574798, 0.651671 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "frame_l_thumb_low"
+								hitbox_mins = [ -0.265869, -1.731604, -1.366806 ]
+								hitbox_maxs = [ 2.313256, 0.771167, 0.717645 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "frame_l_thumb_mid"
+								hitbox_mins = [ -0.725841, -1.428879, -0.8996 ]
+								hitbox_maxs = [ 1.461938, 0.711857, 0.492111 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "frame_l_thumb_tip"
+								hitbox_mins = [ -1.254807, -0.80474, -0.523572 ]
+								hitbox_maxs = [ 0.694859, 0.888061, 0.533591 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "right_wrist"
+								hitbox_mins = [ 0.0, -1.630608, -0.57946 ]
+								hitbox_maxs = [ 3.773535, 1.261477, 0.727355 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "frame_r_thumb_low"
+								hitbox_mins = [ -0.292739, -1.774185, -0.560072 ]
+								hitbox_maxs = [ 2.157988, 0.797273, 1.653656 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "frame_r_thumb_mid"
+								hitbox_mins = [ -1.6344, -1.04974, -0.47182 ]
+								hitbox_maxs = [ 1.460491, 0.710167, 0.954972 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "frame_r_thumb_tip"
+								hitbox_mins = [ -1.398903, -0.841536, -0.61572 ]
+								hitbox_maxs = [ 0.567064, 0.825429, 0.462572 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "frame_r_index_low"
+								hitbox_mins = [ -0.635809, -1.037502, -0.471277 ]
+								hitbox_maxs = [ 1.902624, 0.558111, 0.750862 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "frame_r_middlelow"
+								hitbox_mins = [ -0.078369, -0.947882, -0.922833 ]
+								hitbox_maxs = [ 2.229606, 0.470399, 0.744448 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "frame_r_ring_low"
+								hitbox_mins = [ -0.242699, -1.225729, -0.541502 ]
+								hitbox_maxs = [ 1.984999, 0.663821, 0.542547 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "frame_r_pinky_low"
+								hitbox_mins = [ -0.617917, -0.654406, -0.739386 ]
+								hitbox_maxs = [ 1.632423, 0.893078, 0.543149 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "frame_main-bone"
+								hitbox_mins = [ -8.498693, -2.613142, -4.573454 ]
+								hitbox_maxs = [ 7.920056, 0.0, 0.0 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "frame_r_upperarm"
+								hitbox_mins = [ -1.196146, -4.663191, -3.786643 ]
+								hitbox_maxs = [ 11.587134, 1.78786, 2.668341 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "frame_r_forearm"
+								hitbox_mins = [ -2.58334, -3.801059, -3.529662 ]
+								hitbox_maxs = [ 14.300879, 2.202962, 2.404502 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "frame_r_wriste"
+								hitbox_mins = [ -2.324123, -2.179149, -1.45504 ]
+								hitbox_maxs = [ 4.62768, 2.03214, 1.764898 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "frame_l_upperarm"
+								hitbox_mins = [ -1.117738, -2.744062, -3.314924 ]
+								hitbox_maxs = [ 11.546636, 3.142478, 2.82929 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "frame_l_forearm"
+								hitbox_mins = [ -2.692619, -2.789547, -2.820459 ]
+								hitbox_maxs = [ 14.288759, 3.061758, 2.934741 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "frame_l_wriste"
+								hitbox_mins = [ -2.351784, -2.258036, -1.730604 ]
+								hitbox_maxs = [ 4.79044, 2.066104, 1.512808 ]
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+							},
+						]
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						name = "v_grenade_bg_studio_lod0"
+						filename = "models/weapons/grenade/v_grenade_fbx/mesh/v_grenade_bg_studio_lod0.fbx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "v_grenade_bg_hands_lod0"
+						filename = "models/weapons/grenade/v_grenade_fbx/mesh/v_grenade_bg_hands_lod0.fbx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+			{
+				_class = "AnimationList"
+				children = 
+				[
+					{
+						_class = "AnimFile"
+						name = "idle"
+						activity_name = "ACT_VM_IDLE"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/grenade/v_grenade_fbx/anim/idle.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "drawbackhigh"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 0
+								event_keys = 
+								{
+									name = "Weapon_Grenade.Ready"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_WEAPON_SEQUENCE_FINISHED"
+								event_frame = 6
+								event_keys = null
+							},
+						]
+						activity_name = "ACT_VM_PULLBACK_HIGH"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/grenade/v_grenade_fbx/anim/drawbackhigh.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "drawbacklow"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 0
+								event_keys = 
+								{
+									name = "Weapon_Grenade.Ready"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_WEAPON_SEQUENCE_FINISHED"
+								event_frame = 6
+								event_keys = null
+							},
+						]
+						activity_name = "ACT_VM_PULLBACK_LOW"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/grenade/v_grenade_fbx/anim/drawbacklow.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "throw"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 0
+								event_keys = 
+								{
+									name = "Weapon_Grenade.Throw"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_WEAPON_THROW"
+								event_frame = 2
+								event_keys = null
+							},
+						]
+						activity_name = "ACT_VM_THROW"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/grenade/v_grenade_fbx/anim/throw.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "roll"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_WEAPON_THROW2"
+								event_frame = 4
+								event_keys = null
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 0
+								event_keys = 
+								{
+									name = "Weapon_Grenade.Roll"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+						]
+						activity_name = "ACT_VM_SECONDARYATTACK"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/grenade/v_grenade_fbx/anim/roll.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "lob"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_WEAPON_THROW3"
+								event_frame = 4
+								event_keys = null
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 0
+								event_keys = 
+								{
+									name = "Weapon_Grenade.Roll"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+						]
+						activity_name = "ACT_VM_HAULBACK"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/grenade/v_grenade_fbx/anim/lob.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "draw"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 0
+								event_keys = 
+								{
+									name = "Weapon_Grenade.Draw"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 16
+								event_keys = 
+								{
+									name = "Weapon_Grenade.Pull"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 12
+								event_keys = 
+								{
+									name = "Weapon_Generic.Movement4"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 1
+								event_keys = 
+								{
+									name = "Weapon_Generic.Movement2"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+						]
+						activity_name = "ACT_VM_DRAW"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.0
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/grenade/v_grenade_fbx/anim/draw.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "walk"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 1
+								event_keys = 
+								{
+									name = "Weapon_Generic.Walk1"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 13
+								event_keys = 
+								{
+									name = "Weapon_Generic.Walk2"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+						]
+						activity_name = "ACT_VM_WALK"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.35
+						fade_out_time = 0.35
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/grenade/v_grenade_fbx/anim/walk.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "sprint"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 2
+								event_keys = 
+								{
+									name = "Weapon_Generic.Sprint1"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 11
+								event_keys = 
+								{
+									name = "Weapon_Generic.Sprint2"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+						]
+						activity_name = "ACT_VM_SPRINT"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/grenade/v_grenade_fbx/anim/sprint.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "holster"
+						activity_name = "ACT_VM_HOLSTER"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/grenade/v_grenade_fbx/anim/holster.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "idletolow"
+						activity_name = "ACT_VM_LOWERED_TO_IDLE"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.65
+						fade_out_time = 0.65
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/grenade/v_grenade_fbx/anim/idletolow.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "lowtoidle"
+						activity_name = "ACT_VM_IDLE_TO_LOWERED"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.65
+						fade_out_time = 0.65
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/grenade/v_grenade_fbx/anim/lowtoidle.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "lowidle"
+						activity_name = "ACT_VM_IDLE_LOWERED"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.65
+						fade_out_time = 0.65
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/grenade/v_grenade_fbx/anim/lowidle.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 3.0
+						reverse = false
+					},
+				]
+				default_root_bone_name = ""
+			},
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = 
+						[
+							{
+								from = "materials/models/weapons/v_grenade_new/v_hand_sheet.vmat"
+								to = "models/weapons/hands/materials/v_hand_sheet.vmat"
+							},
+							{
+								from = "materials/models/weapons/v_grenade_new/v_grenade_m.vmat"
+								to = "models/weapons/grenade/materials/v_grenade_m.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = ""
+					},
+				]
+			},
+		]
+		model_archetype = "animated_model"
+		primary_associated_entity = "weapon_frag"
+		anim_graph_name = ""
+		importer_notes = """
+Imported from compiled VMDL_C
+==Warnings==
+Cannot import non-trivial meshgroup: hands
+
+"""
+	}
+}

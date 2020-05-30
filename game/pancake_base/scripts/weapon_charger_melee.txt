@@ -1,0 +1,27 @@
+// stunstick
+
+GameFileWeaponInfo_t
+{
+	// Weapon data is loaded by both the Game and Client DLLs.
+	"printname"				"ChargerMelee"
+	"viewmodel"				"models/weapons/v_shotgun.vmdl"
+	//"playermodel"			"models/weapons/vr_shotgun/vr_shotgun.vmdl"
+	"playermodel"			"models/weapons/w_ipistol/ipistol_wm.vmdl"	
+
+	"clip_size"				"-1"
+	"primary_ammo"			"None"
+	"secondary_ammo"		"None"
+
+	"weight"				"0"
+	"item_flags"			"0"
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+
+		"single_shot"		"Weapon_StunStick.Swing"
+		"melee_miss"		"Weapon_StunStick.Melee_Miss"
+		"melee_hit"			"Weapon_StunStick.Melee_Hit"
+		"melee_hit_world"	"Weapon_StunStick.Melee_HitWorld"
+	}
+}

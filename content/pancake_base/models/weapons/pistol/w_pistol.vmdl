@@ -1,0 +1,232 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc28:version{fb63b6ca-f435-4aa0-a2c7-c66ddc651dca} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = 
+						[
+							{
+								from = "materials/models/weapons/v_pistol_new/v_pistol_body.vmat"
+								to = "models/weapons/pistol/materials/v_pistol_body.vmat"
+							},
+							{
+								from = "materials/models/weapons/v_pistol_new/v_pistol_brass.vmat"
+								to = "models/weapons/pistol/materials/v_pistol_brass.vmat"
+							},
+							{
+								from = "materials/models/weapons/v_pistol_new/v_pistol_chrome.vmat"
+								to = "models/weapons/pistol/materials/v_pistol_chrome.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = ""
+					},
+				]
+			},
+			{
+				_class = "PhysicsBodyMarkupList"
+				children = 
+				[
+					{
+						_class = "PhysicsBodyMarkup"
+						target_body = "w_pistol_physics"
+						mass_override = 2.0
+						inertia_scale = 1.0
+						linear_damping = 0.0
+						angular_damping = 0.0
+						use_mass_center_override = false
+						mass_center_override = [ 0.0, 0.0, 0.0 ]
+					},
+				]
+			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsHullFile"
+						name = "w_pistol_physics_0_mesh"
+						parent_bone = "w_pistol_physics"
+						surface_prop = "default"
+						collision_prop = "default"
+						recenter_on_parent_bone = true
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/weapons/pistol/w_pistol_fbx/physics/physmesh.dmx"
+						import_scale = 1.0
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "SingleHull"
+						optimization_algorithm = "QEM"
+						import_filter = 
+						{
+							exclude_by_default = true
+							exception_list = 
+							[
+								"w_pistol_physics_0_mesh",
+							]
+						}
+					},
+				]
+			},
+			{
+				_class = "AttachmentList"
+				children = 
+				[
+					{
+						_class = "Attachment"
+						name = "muzzle"
+						parent_bone = "weapon_bone"
+						relative_origin = [ 6.650001, -0.75, 0.48 ]
+						relative_angles = [ 4.0, -1.0, -99.000008 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "1"
+						parent_bone = "weapon_bone"
+						relative_origin = [ -1.06, 0.18, 0.72 ]
+						relative_angles = [ 8.999999, 89.999992, -84.999985 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+				]
+			},
+			{
+				_class = "HitboxSetList"
+				children = 
+				[
+					{
+						_class = "HitboxSet"
+						name = "default"
+						children = 
+						[
+							{
+								_class = "Hitbox"
+								parent_bone = "bip01_r_hand"
+								hitbox_mins = [ 0.0, -1.5, -5.0 ]
+								hitbox_maxs = [ 5.0, 0.0, 0.0 ]
+								surface_property = "weapon"
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "weapon_bone"
+								hitbox_mins = [ -4.573612, -1.476303, -0.183094 ]
+								hitbox_maxs = [ 6.636281, 0.634723, 7.252571 ]
+								surface_property = "weapon"
+								translation_only = false
+								group_id = 0
+							},
+						]
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						name = "w_pistol_bg_studio_lod0"
+						filename = "models/weapons/pistol/w_pistol_fbx/mesh/w_pistol_bg_studio_lod0.fbx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+			{
+				_class = "AnimationList"
+				children = 
+				[
+					{
+						_class = "AnimFile"
+						name = "idle"
+						activity_name = "ACT_VM_IDLE"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/pistol/w_pistol_fbx/anim/idle.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "attack1"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_WEAPON_PISTOL_FIRE"
+								event_frame = 1
+								event_keys = null
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_NPC_MUZZLEFLASH"
+								event_frame = 0
+								event_keys = 
+								{
+									weaponType = "PISTOL"
+									attachment = "MUZZLE"
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_EJECTBRASS1"
+								event_frame = 0
+								event_keys = null
+							},
+						]
+						activity_name = "ACT_RANGE_ATTACK_PISTOL"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/pistol/w_pistol_fbx/anim/attack1.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+				]
+				default_root_bone_name = ""
+			},
+		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		anim_graph_name = ""
+		importer_notes = """
+Imported from compiled VMDL_C
+"""
+	}
+}
