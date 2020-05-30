@@ -4,6 +4,8 @@ This repo is solely for reporting issues with the Pancake FPS Starter Kit.
 NOTICE: The PFSK is a pre-release project that is not production ready at this time, and may require substantial modification before it may be considered production ready.
 The PFSK's features and content are not final and is subject to change at any time.
 
+Contributions are welcome!
+
 # Credits
 
 Credit to Dyna#9607 (https://twitter.com/KonqiKonqueror) for the rounded HUD corners, weapon scripts, and creating the Pancake FPS Starter Kit.
