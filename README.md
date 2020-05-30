@@ -12,6 +12,13 @@ The Source 2 Pancake FPS Starter Kit is designed to be a shared addon base that 
 
 3. That's it! Simply make an addon (or if you have an existing one, use that), and you can now use the PFSK!
 
+# Tips
+Ideally, one would not use this to make an addon for Half-Life: Alyx that is solely for non-VR. Instead, you could use this to create
+an addon that works in both: non-VR, and VR if one wanted to. For instance:
+
+logic_auto supports two special outputs: OnVREnabled, and OnVRNotEnabled. These two outputs can be used to change the map depending
+on whether or not the player is in VR.
+
 # Credits
 
 Credit to Dyna#9607/Dynacorp/KonqiTheKonqueror (https://twitter.com/KonqiKonqueror) for the rounded HUD corners, weapon scripts, and creating the Pancake FPS Starter Kit.
