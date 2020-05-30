@@ -1,0 +1,4 @@
+*.bin
+stats.txt
+_bakeresourcecache/
+maps/
